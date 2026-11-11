@@ -1,0 +1,171 @@
+---
+title: "Topic 1: Positron"
+format:
+  html:
+    embed-resources: true
+---
+
+## Overview
+
+In this session, we will work with data from the National Pollutant Release Inventory. We will load a large environmental dataset into R, clean the column names, select variables of interest, filter the data, summarize releases by province and year, and create some simple visualizations.
+
+## Install packages
+
+Packages add tools to R. You only need to install a package once on your computer. After that, you can load it whenever you need it.
+
+```{r}
+#| eval: false
+
+install.packages("tidyverse")
+install.packages("janitor")
+```
+
+## Load packages
+
+At the start of each R session, we need to load the packages we want to use. The `tidyverse` package includes tools for working with data and making plots. The `janitor` package includes tools for cleaning messy datasets.
+
+```{r}
+library(tidyverse) # tools for data manipulation and visualization
+library(janitor)   # tools for cleaning messy datasets
+```
+
+## Check working directory
+
+The working directory is the folder where R is currently looking for files. This is useful to check before loading data.
+
+```{r}
+getwd() #Check working directory
+```
+
+## Load the data
+
+We will load the NPRI releases dataset using `read_csv()`. We will also use `clean_names()` to make the column names easier to work with in R.
+
+```{r}
+## Load without cleaning names
+npri_releases <- read_csv("NPRI-INRP_ReleasesRejets_1993-present.csv")
+
+## Load and clean names (janitor package)
+npri_releases <- read_csv("NPRI-INRP_ReleasesRejets_1993-present.csv") |>
+  clean_names()
+```
+
+## Inspect the dataset
+
+Before working with the data, it is important to inspect it. The `glimpse()` function gives a quick overview of the dataset, including the column names, data types, and example values.
+
+```{r}
+glimpse(npri_releases)
+```
+
+The `names()` function shows all column names in the dataset.
+
+```{r}
+names(npri_releases)
+```
+
+## Select and filter the data
+
+The full NPRI dataset contains many years, substances, and variables. For this activity, we will create a smaller dataset focused on Total particulate matter releases from 2015 onward.
+
+The pipe symbol, `|>`, allows us to build a workflow one step at a time.
+
+```{r}
+npri_tpm <- npri_releases |>
+  select(npri_id_no_inrp,
+         reporting_year_annee,
+         substance_name_english_nom_de_substance_anglais,
+         province,
+         quantity_quantite) |>
+  filter(reporting_year_annee >= 2015,
+         substance_name_english_nom_de_substance_anglais == "Total particulate matter") |>
+  rename(quantity = quantity_quantite,
+    year = reporting_year_annee,
+    substance = substance_name_english_nom_de_substance_anglais)
+```
+
+## Inspect the filtered data
+
+Now that we have created a smaller dataset, we can inspect it again.
+
+```{r}
+glimpse(npri_tpm)
+```
+
+The head function allows us to see the first 10 rows be default.
+
+```{r}
+head(npri_tpm)
+```
+
+## Summarize data
+
+Next, we will calculate the total quantity of Total particulate matter released in each province for each year. The `group_by()` function defines the groups, and `summarize()` calculates a summary value for each group.
+
+```{r}
+province_tpm <- npri_tpm |>
+  group_by(year, province) |>
+  summarize(sum_tpm = sum(quantity, na.rm = TRUE)) |>
+  filter(complete.cases(province)) ## removes any missing data frmo the province column.
+```
+
+We can also change the function we want to summarize by.
+```{r}
+province_tpm <- npri_tpm |>
+  group_by(year, province) |>
+  summarize(sum_tpm = max(quantity, na.rm = TRUE)) |>
+  filter(complete.cases(province)) ## removes any missing data frmo the province column.
+```
+
+Or take the count of the number of facilities for each year and province.
+
+```{r}
+province_tpm <- npri_tpm |>
+  group_by(year, province) |>
+  summarize(count = n(), na.rm = TRUE)) |>
+  filter(complete.cases(province)) ## removes any missing data frmo the province column.
+```
+
+
+## Inspect the summarized data
+
+```{r}
+glimpse(province_tpm)
+```
+
+```{r}
+head(province_tpm)
+```
+
+## Visualize releases over time
+
+We will now create a plot showing Total particulate matter releases by province over time.
+
+```{r}
+ggplot(data = province_tpm, aes(x = year, y = sum_tpm, colour = province)) +
+  geom_point() +
+  geom_line() +
+  theme_bw() +
+  facet_wrap(~ province) +
+  labs(x = "Year",
+    y = "Total TPM",
+    title = "Total particulate matter releases in Canada from 2015 onward",
+    colour = "Province")
+
+```
+
+## Save the figure
+
+The `ggsave()` function saves the most recent plot as an image file.
+
+```{r}
+ggsave("province_tpm_plot.png", width = 15, height = 10, units = "cm")
+```
+
+## Save the summarized data
+
+We can also save the summarized dataset as a new CSV file. This file could be opened later in Excel, QGIS, or another analysis tool. This can be a nice way to transfer data between R and Excel and QGIS.
+
+```{r}
+write_csv(province_tpm, "province_tpm.csv")
+```

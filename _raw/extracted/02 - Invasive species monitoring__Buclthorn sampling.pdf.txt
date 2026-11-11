@@ -1,0 +1,81 @@
+         Buckthorn (and honeysuckle) sampling
+
+Background information
+Today, we are going out into the field to sample invasive species that are affecting woodlands
+around Western’s campus. Below, you can see the area we will be sampling (from the university
+bridge to Western Alumni field). Our primary goals will be to (1) systematically sample the area
+for the presence of buckthorn and honeysuckle and (2) identify areas where large buckthorn
+trees are growing to prioritize their removal (haphazard sampling).
+
+
+
+
+Health and Safety
+We are going to be working off-trail in a woodland area near the river. Please watch your step,
+be careful of overhanging branches and thorns, and be mindful of uneven and slippery terrain.
+Some of the areas we will be working in will be damp and wet so make sure you have solid
+footing. Do not approach or go into the river, the fast-moving waters can be dangerous. Keep at
+least a 5 m buffer away from any moving water while you are sampling. If you are unable to
+safely sample one of your plots, please inform the instructor. Do not conduct any sampling in
+areas that may be unsafe. If you are injured, please let the instructor know immediately.
+Phase I: Systematic sampling
+Objective: Estimate buckthorn and honeysuckle densities and determine their correlation with environmental variables
+We are going to systematically sampling the wooded areas behind the soccer fields for both buckthorn and honeysuckle. These
+invasive species are out-competing native species in the area and taken over the riparian habitat around campus. The QR codes
+below link to documents that will help you identify both species in the field.
+
+
+
+
+                         Buckthorn ID                                                    Honeysuckle ID
+Sampling design
+
+
+Systematic sampling is a type of sampling technique that surveys regularly-spaced plots across environmental gradients. Below is
+the systematic sampling design we will be using today.
+Measurements
+In each of your plots you will be working to measure different characteristics of the environment
+and the invasive species you find. Below is a list the measurements you need to record.
+
+                Measure                                             Description
+ Geolocation (Latitude-longitude)            The easiest way to get your location is to use the
+                                             GPS on your phone. Write down the GPS
+                                             coordinates for the northwest corner of your 5m2
+                                             plots.
+ Distance from river                         Use your transect tape to measure the distance to
+                                             the river from your location (you can determine
+                                             this after you are done measuring other
+                                             variables).
+ Distance to closest trail                   Determine how far away from the walking trail
+                                             your plot is by measuring the distance from the
+                                             centre of the plot.
+ Canopy cover                                From the centre of your plot, look straight up and
+                                             determine how much of the area is covered by the
+                                             overlying canopy. For example, if you can see the
+                                             sky in 60% of the area directly above your plot,
+                                             your canopy cover would be 40%.
+ % Bare soil                                 How much of your plot is covered by bare soil?
+ % Herbaceous cover                          How much of your plot is covered by herbaceous
+                                             (non-woody) plants?
+ Species richness                            Count the number of different plant species you
+                                             see in each of the plots. You don’t necessarily
+                                             have to identify which species it is as long as you
+                                             can tell that it is a different plant.
+ Buckthorn %                                 What percentage of the plot is covered in
+                                             buckthorn?
+ Honeysuckle %                               What percentage of the plot is covered in
+                                             honeysuckle?
+ Stem circumference of buckthorn and         If buckthorn or honeysuckle is present in your
+ honeysuckle                                 plot, measure the largest
+Phase II: Identifying high seed producers
+Background information:
+Buckthorn has an incredibly high rate of seed germination and the largest seed producers can
+substantially contribute to the expansion of an invasion. Therefore, identifying the largest
+producers for removal can have a disproportionate effect on invasive species spread.
+Haphazard sampling is a form of sampling where we move along an area and search for our
+item of interest without any randomization or systematic plan. We will be moving through the
+wooded area together trying to identify any areas where there are large buckthorn tees, which
+we will classify as trees that are greater than 25 cm in circumference at the standard height of
+1.4 metres. We will then be recording the GPS coordinates of each tree that reaches that
+threshold as we move along.
+

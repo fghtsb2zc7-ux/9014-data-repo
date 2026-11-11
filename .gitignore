@@ -1,0 +1,15 @@
+.DS_Store
+agent/.venv/
+__pycache__/
+_to_delete/
+_raw/_to_delete/
+_raw/frames/
+sources/videos/
+# files over 50 MB (GitHub limit is 100 MB)
+/sources/files/wetlandu.zip
+/sources/files/TPM practice exam.zip
+/sources/files/Topic 7.zip
+/sources/files/Topic 5.zip
+/sources/files/woodarea.zip
+/sources/files/Class 2/Class 2.zip
+/sources/files/08 - Lesson 8/Case study/OntarioLandCoverComp-v2.zip

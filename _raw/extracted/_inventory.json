@@ -1,0 +1,652 @@
+[
+ {
+  "path": "sources/files/20241220_122301.jpg",
+  "bytes": 4606859,
+  "ext": "jpg"
+ },
+ {
+  "path": "sources/files/02 - Topic 2.pdf",
+  "bytes": 2323025,
+  "ext": "pdf",
+  "extract": "02 - Topic 2.pdf.txt",
+  "chars": 844,
+  "pages": "12"
+ },
+ {
+  "path": "sources/files/Western Presentation - EN NPRI 101-201_2024 AP_2 - Copy.pdf",
+  "bytes": 2198961,
+  "ext": "pdf",
+  "extract": "Western Presentation - EN NPRI 101-201_2024 AP_2 - Copy.pdf.txt",
+  "chars": 24237,
+  "pages": "39"
+ },
+ {
+  "path": "sources/files/buckthorn_updated.csv",
+  "bytes": 22583,
+  "ext": "csv",
+  "extract": "buckthorn_updated.csv.schema.md",
+  "rows": 53,
+  "columns": [
+   "OBJECTID",
+   "GlobalID",
+   "CreationDate",
+   "Creator",
+   "EditDate",
+   "Editor",
+   "Section",
+   "Group members",
+   "Transect ID",
+   "Quadrat ID",
+   "Distance along transect",
+   "Buckthorn Percent",
+   "Sapling Percent",
+   "Bare Soil Percent",
+   "Adult Percent",
+   "Non-buckthorn Vegetation Percent",
+   "Canopy Cover",
+   "Reproducing Buckthorn",
+   "Notes",
+   "Honeysuckle Percent",
+   "x",
+   "y",
+   "OBJECTID_2",
+   "Theme",
+   "Layer",
+   "FeatureCod",
+   "WaterEdgeT",
+   "LastEditDa",
+   "ShapeSTLen",
+   "n",
+   "distance",
+   "feature_x",
+   "feature_y",
+   "nearest_x",
+   "nearest_y",
+   "elevation1"
+  ]
+ },
+ {
+  "path": "sources/files/wetlandu.zip",
+  "bytes": 1036939810,
+  "ext": "zip",
+  "extract": "wetlandu.zip.contents.md",
+  "entries": 14
+ },
+ {
+  "path": "sources/files/tidy.png",
+  "bytes": 637385,
+  "ext": "png"
+ },
+ {
+  "path": "sources/files/pic0_20260929130000851.jpg",
+  "bytes": 665120,
+  "ext": "jpg"
+ },
+ {
+  "path": "sources/files/Topic 7.R",
+  "bytes": 4763,
+  "ext": "r",
+  "extract": null,
+  "text": true
+ },
+ {
+  "path": "sources/files/Buckthorn observations_0.csv",
+  "bytes": 12102,
+  "ext": "csv",
+  "extract": "Buckthorn observations_0.csv.schema.md",
+  "rows": 53,
+  "columns": [
+   "OBJECTID",
+   "GlobalID",
+   "CreationDate",
+   "Creator",
+   "EditDate",
+   "Editor",
+   "Section",
+   "Group members",
+   "Transect ID",
+   "Quadrat ID",
+   "Distance along transect",
+   "Buckthorn Percent",
+   "Sapling Percent",
+   "Bare Soil Percent",
+   "Adult Percent",
+   "Non-buckthorn Vegetation Percent",
+   "Canopy Cover",
+   "Reproducing Buckthorn",
+   "Notes",
+   "Honeysuckle Percent",
+   "x",
+   "y"
+  ]
+ },
+ {
+  "path": "sources/files/Lyme-Disease-Spring-Brochure-3Fold-EN-WEB.pdf",
+  "bytes": 1958383,
+  "ext": "pdf",
+  "extract": "Lyme-Disease-Spring-Brochure-3Fold-EN-WEB.pdf.txt",
+  "chars": 9121,
+  "pages": "2"
+ },
+ {
+  "path": "sources/files/Picture2 - lobster.jpg",
+  "bytes": 277614,
+  "ext": "jpg"
+ },
+ {
+  "path": "sources/files/image_20260813164244727.png",
+  "bytes": 69516,
+  "ext": "png"
+ },
+ {
+  "path": "sources/files/test1.png",
+  "bytes": 5351651,
+  "ext": "png"
+ },
+ {
+  "path": "sources/files/PWQMN_data_2024.csv",
+  "bytes": 11266830,
+  "ext": "csv",
+  "extract": "PWQMN_data_2024.csv.schema.md",
+  "rows": 112392,
+  "columns": [
+   "_id",
+   "Year",
+   "Collection Site",
+   "Analyte",
+   "Collected",
+   "Collection_Time",
+   "Lab Workorder ID",
+   "Lab Sample ID",
+   "Results",
+   "Units",
+   "Result Call",
+   "Detection Limit",
+   "Method",
+   "Value Qualifier",
+   "Remark Code"
+  ]
+ },
+ {
+  "path": "sources/files/ENVRSUST 9014 COURSE OUTLINE 2026.pdf",
+  "bytes": 506312,
+  "ext": "pdf",
+  "extract": "ENVRSUST 9014 COURSE OUTLINE 2026.pdf.txt",
+  "chars": 32553,
+  "pages": "16"
+ },
+ {
+  "path": "sources/files/TPM practice exam.zip",
+  "bytes": 73941715,
+  "ext": "zip",
+  "extract": "TPM practice exam.zip.contents.md",
+  "entries": 9
+ },
+ {
+  "path": "sources/files/Topic 7.zip",
+  "bytes": 179263667,
+  "ext": "zip",
+  "extract": "Topic 7.zip.contents.md",
+  "entries": 40
+ },
+ {
+  "path": "sources/files/Releases_Germany_2007_2024.xlsx",
+  "bytes": 11682965,
+  "ext": "xlsx",
+  "extract": "Releases_Germany_2007_2024.xlsx.schema.md",
+  "sheets": [
+   "Releases_Germany_2007_2024"
+  ]
+ },
+ {
+  "path": "sources/files/R Skills Review.R",
+  "bytes": 22930,
+  "ext": "r",
+  "extract": null,
+  "text": true
+ },
+ {
+  "path": "sources/files/Topic 5.zip",
+  "bytes": 160576701,
+  "ext": "zip",
+  "extract": "Topic 5.zip.contents.md",
+  "entries": 46
+ },
+ {
+  "path": "sources/files/woodarea.zip",
+  "bytes": 956901304,
+  "ext": "zip",
+  "extract": "woodarea.zip.contents.md",
+  "entries": 9
+ },
+ {
+  "path": "sources/files/PWQMN_Stations.csv",
+  "bytes": 228661,
+  "ext": "csv",
+  "extract": "PWQMN_Stations.csv.schema.md",
+  "rows": 2198,
+  "columns": [
+   "STATION",
+   "NAME",
+   "DESCRIPTION",
+   "LATITUDE",
+   "LONGITUDE",
+   "STATUS",
+   "FIRST_YEAR",
+   "LAST_YEAR",
+   "TOTAL_YEARS",
+   "MISS_YEARS"
+  ]
+ },
+ {
+  "path": "sources/files/Map_jul20241.png",
+  "bytes": 210958,
+  "ext": "png"
+ },
+ {
+  "path": "sources/files/MES Team Charter Template .docx",
+  "bytes": 31196,
+  "ext": "docx",
+  "extract": "MES Team Charter Template .docx.txt"
+ },
+ {
+  "path": "sources/files/Combined R Scripts.R",
+  "bytes": 20992,
+  "ext": "r",
+  "extract": null,
+  "text": true
+ },
+ {
+  "path": "sources/files/Topic5.R",
+  "bytes": 3473,
+  "ext": "r",
+  "extract": null,
+  "text": true
+ },
+ {
+  "path": "sources/files/Topic 1 - Case study.qmd",
+  "bytes": 5893,
+  "ext": "qmd",
+  "extract": null,
+  "text": true
+ },
+ {
+  "path": "sources/files/Topic 5 in-class script.R",
+  "bytes": 1117,
+  "ext": "r",
+  "extract": null,
+  "text": true
+ },
+ {
+  "path": "sources/files/ENVRSUST 9014 - Practice Exam - Particulate Matter 2026 updated.pdf",
+  "bytes": 634448,
+  "ext": "pdf",
+  "extract": "ENVRSUST 9014 - Practice Exam - Particulate Matter 2026 updated.pdf.txt",
+  "chars": 1962,
+  "pages": "4"
+ },
+ {
+  "path": "sources/files/Practice Questions/ferry.png",
+  "bytes": 70337,
+  "ext": "png"
+ },
+ {
+  "path": "sources/files/Practice Questions/pca-human-wildlife-coexistence-incidents-detailed-records-2010-2023.csv",
+  "bytes": 14031720,
+  "ext": "csv",
+  "extract": "Practice Questions__pca-human-wildlife-coexistence-incidents-detailed-records-2010-2023.csv.schema.md",
+  "rows": 87789,
+  "columns": [
+   "Incident Number",
+   "Incident Date",
+   "Field Unit",
+   "Protected Heritage Area",
+   "Public Latitude",
+   "Public Longitude",
+   "In Park",
+   "Incident Type",
+   "Sum of Total Staff Involved",
+   "Sum of Total Staff Hours"
+  ]
+ },
+ {
+  "path": "sources/files/Practice Questions/grand_mana.png",
+  "bytes": 4053504,
+  "ext": "png"
+ },
+ {
+  "path": "sources/files/Practice Questions/ENVRSUST 9014 R Practice Exam.pdf",
+  "bytes": 621598,
+  "ext": "pdf",
+  "extract": "Practice Questions__ENVRSUST 9014 R Practice Exam.pdf.txt",
+  "chars": 2702,
+  "pages": "4"
+ },
+ {
+  "path": "sources/files/Practice Questions/pca-human-wildlife-coexistence-animals-involved-detailed-records-2010-2023.csv",
+  "bytes": 17961433,
+  "ext": "csv",
+  "extract": "Practice Questions__pca-human-wildlife-coexistence-animals-involved-detailed-records-2010-2023.csv.schema.md",
+  "rows": 103310,
+  "columns": [
+   "Incident Number",
+   "Incident Date",
+   "Field Unit",
+   "Protected Heritage Area",
+   "Incident Type",
+   "Species Common Name",
+   "Sum of Number of Animals",
+   "Animal Health Status",
+   "Cause of Animal Health Status",
+   "Animal Behaviour",
+   "Reason for Animal Behaviour",
+   "Animal Attractant",
+   "Deterrents Used",
+   "Animal Response to Deterrents"
+  ]
+ },
+ {
+  "path": "sources/files/Topic 2/OBIS - North Atlantic Right Whale reduced.csv",
+  "bytes": 1313368,
+  "ext": "csv",
+  "extract": "Topic 2__OBIS - North Atlantic Right Whale reduced.csv.schema.md",
+  "rows": 8793,
+  "columns": [
+   "id",
+   "areas",
+   "bathymetry",
+   "behavior",
+   "decimalLatitude",
+   "decimalLongitude",
+   "eventDate",
+   "eventDate_standard",
+   "month",
+   "year",
+   "identifiedBy",
+   "identifiedByID",
+   "individualCount",
+   "institutionCode",
+   "institutionID",
+   "species"
+  ]
+ },
+ {
+  "path": "sources/files/Topic 2/Ciona intestinalis.tif",
+  "bytes": 414223,
+  "ext": "tif"
+ },
+ {
+  "path": "sources/files/Topic 2/Carcinus maenas.tif",
+  "bytes": 293426,
+  "ext": "tif"
+ },
+ {
+  "path": "sources/files/Class 2/Irish_Marine_Sports_Fish_Tagging_Programme_Dataset_Full.csv",
+  "bytes": 5800518,
+  "ext": "csv",
+  "extract": "Class 2__Irish_Marine_Sports_Fish_Tagging_Programme_Dataset_Full.csv.schema.md",
+  "rows": 47086,
+  "columns": [
+   "OBJECTID_1",
+   "Tag Event ID",
+   "TagType Num",
+   "Tag Type",
+   "Common Name",
+   "Species Code",
+   "Latin name",
+   "Tag Date",
+   "Tag Year",
+   "Tagger ID",
+   "ICES Statistical SubRectangles",
+   "x",
+   "y"
+  ]
+ },
+ {
+  "path": "sources/files/Class 2/Class 2.zip",
+  "bytes": 76774420,
+  "ext": "zip",
+  "extract": "Class 2__Class 2.zip.contents.md",
+  "entries": 8
+ },
+ {
+  "path": "sources/files/shared/HTML-Template-Library/HTML-Templates-V3-western/_assets/img/logo.png",
+  "bytes": 14170,
+  "ext": "png"
+ },
+ {
+  "path": "sources/files/Infographics/august complex infographic.pdf",
+  "bytes": 12250129,
+  "ext": "pdf",
+  "extract": "Infographics__august complex infographic.pdf.txt",
+  "chars": 2319,
+  "pages": "1"
+ },
+ {
+  "path": "sources/files/Infographics/Climate infographic.png",
+  "bytes": 670955,
+  "ext": "png"
+ },
+ {
+  "path": "sources/files/Infographics/Bird_infographic.png",
+  "bytes": 3673643,
+  "ext": "png"
+ },
+ {
+  "path": "sources/files/02 - Invasive species monitoring/Buckthorn-Fact.Sheet (1).pdf",
+  "bytes": 605908,
+  "ext": "pdf",
+  "extract": "02 - Invasive species monitoring__Buckthorn-Fact.Sheet (1).pdf.txt",
+  "chars": 8878,
+  "pages": "2"
+ },
+ {
+  "path": "sources/files/02 - Invasive species monitoring/Buclthorn sampling.pdf",
+  "bytes": 395813,
+  "ext": "pdf",
+  "extract": "02 - Invasive species monitoring__Buclthorn sampling.pdf.txt",
+  "chars": 5510,
+  "pages": "5"
+ },
+ {
+  "path": "sources/files/06 - Ecosystem services/SOLRIS 3.0.zip",
+  "bytes": 7916643,
+  "ext": "zip",
+  "extract": "06 - Ecosystem services__SOLRIS 3.0.zip.contents.md",
+  "entries": 7
+ },
+ {
+  "path": "sources/files/08 - Lesson 8/Case study/Parcels.zip",
+  "bytes": 11296932,
+  "ext": "zip",
+  "extract": "08 - Lesson 8__Case study__Parcels.zip.contents.md",
+  "entries": 6
+ },
+ {
+  "path": "sources/files/08 - Lesson 8/Case study/TTLT_Area 1 (2).zip",
+  "bytes": 421082,
+  "ext": "zip",
+  "extract": "08 - Lesson 8__Case study__TTLT_Area 1 (2).zip.contents.md",
+  "entries": 8
+ },
+ {
+  "path": "sources/files/08 - Lesson 8/Case study/Ontario Land Cover Compilation - Data Specification Version.pdf",
+  "bytes": 759762,
+  "ext": "pdf",
+  "extract": "08 - Lesson 8__Case study__Ontario Land Cover Compilation - Data Specification Version.pdf.txt",
+  "chars": 45453,
+  "pages": "19"
+ },
+ {
+  "path": "sources/files/08 - Lesson 8/Case study/OntarioLandCoverComp-v2.zip",
+  "bytes": 1064901243,
+  "ext": "zip",
+  "extract": "08 - Lesson 8__Case study__OntarioLandCoverComp-v2.zip.contents.md",
+  "entries": 84
+ },
+ {
+  "path": "sources/files/Practice sets/OBIS - North Atlantic Right Whale reduced.csv",
+  "bytes": 1294859,
+  "ext": "csv",
+  "extract": "Practice sets__OBIS - North Atlantic Right Whale reduced.csv.schema.md",
+  "rows": 8793,
+  "columns": [
+   "id",
+   "areas",
+   "bathymetry",
+   "behavior",
+   "decimalLatitude",
+   "decimalLongitude",
+   "eventDate",
+   "eventDate_standard",
+   "year",
+   "identifiedBy",
+   "identifiedByID",
+   "individualCount",
+   "institutionCode",
+   "institutionID",
+   "species"
+  ]
+ },
+ {
+  "path": "sources/files/Practice sets/Vessel_Traffic_Routes.zip",
+  "bytes": 1056241,
+  "ext": "zip",
+  "extract": "Practice sets__Vessel_Traffic_Routes.zip.contents.md",
+  "entries": 61
+ },
+ {
+  "path": "sources/files/Practice sets/Practice set #2/Information_stations.csv",
+  "bytes": 303470,
+  "ext": "csv",
+  "extract": "Practice sets__Practice set #2__Information_stations.csv.schema.md",
+  "rows": 2012,
+  "columns": [
+   "st",
+   "tr",
+   "an",
+   "bat",
+   "date",
+   "long.ddec",
+   "lat.ddec",
+   "long.fdec",
+   "lat.fdec",
+   "dist",
+   "heure.d",
+   "heure.f",
+   "prof.m",
+   "vit.nd",
+   "cable.m",
+   "comm.entete",
+   "comm_heading_EN",
+   "moy.t3t10",
+   "moy.t1tn",
+   "comm.ouverture",
+   "comm_opening_EN",
+   "surf",
+   "Strate"
+  ]
+ },
+ {
+  "path": "sources/files/Practice sets/Practice set #2/crab_counts.png",
+  "bytes": 212237,
+  "ext": "png"
+ },
+ {
+  "path": "sources/files/Practice sets/Practice set #2/Nombre_crabe_crab_number.csv",
+  "bytes": 103016,
+  "ext": "csv",
+  "extract": "Practice sets__Practice set #2__Nombre_crabe_crab_number.csv.schema.md",
+  "rows": 1755,
+  "columns": [
+   "date",
+   "st",
+   "tr",
+   "bat",
+   "com",
+   "non.com",
+   "m50",
+   "m.tot",
+   "f",
+   "f50",
+   "f.tot",
+   "ind",
+   "ind50",
+   "n.tot",
+   "comm",
+   "comm_EN"
+  ]
+ },
+ {
+  "path": "sources/files/04 - Lesson 4/Pre-class work/Power_Plants.csv",
+  "bytes": 3550796,
+  "ext": "csv",
+  "extract": "04 - Lesson 4__Pre-class work__Power_Plants.csv.schema.md",
+  "rows": 12008,
+  "columns": [
+   "X",
+   "Y",
+   "OBJECTID",
+   "Plant_Code",
+   "Plant_Name",
+   "Utility_ID",
+   "Utility_Name",
+   "sector_name",
+   "Street_Address",
+   "City",
+   "County",
+   "State",
+   "Zip",
+   "PrimSource",
+   "source_desc",
+   "tech_desc",
+   "Install_MW",
+   "Total_MW",
+   "Bat_MW",
+   "Bio_MW",
+   "Coal_MW",
+   "Geo_MW",
+   "Hydro_MW",
+   "HydroPS_MW",
+   "NG_MW",
+   "Nuclear_MW",
+   "Crude_MW",
+   "Solar_MW",
+   "Wind_MW",
+   "Other_MW",
+   "Source",
+   "Period",
+   "Longitude",
+   "Latitude"
+  ]
+ },
+ {
+  "path": "sources/files/04 - Lesson 4/Pre-class work/caadmin.zip",
+  "bytes": 9008875,
+  "ext": "zip",
+  "extract": "04 - Lesson 4__Pre-class work__caadmin.zip.contents.md",
+  "entries": 7
+ },
+ {
+  "path": "sources/files/Class 1/NPRI data.zip",
+  "bytes": 39747332,
+  "ext": "zip",
+  "extract": "Class 1__NPRI data.zip.contents.md",
+  "entries": 5
+ },
+ {
+  "path": "sources/files/Class 1/Class 1 slides.pdf",
+  "bytes": 1149483,
+  "ext": "pdf",
+  "extract": "Class 1__Class 1 slides.pdf.txt",
+  "chars": 993,
+  "pages": "10"
+ },
+ {
+  "path": "sources/files/Class 1/Class 1 case study.zip",
+  "bytes": 2500431,
+  "ext": "zip",
+  "extract": "Class 1__Class 1 case study.zip.contents.md",
+  "entries": 4
+ }
+]

@@ -1,0 +1,135 @@
+---
+title: "Topic 1: North Atlantic Right Whale"
+format: docx
+editor: visual
+---
+
+The North Atlantic Right Whale (*Eubalaena glacialis*) is a critically endangered marine mammal that is found on Atlantic coast of Canada. Sightings data has been used to help develop conservation measures such as boat lane restrictions. 
+
+::: {style="background-color: #f2f2f2; padding: 1em; border-left: 4px solid #999; border-radius: 6px;"}
+**Instructions for using Quarto**
+
+Below, you will find categories for Excel, QGIS and R (Positron). I have provided prompts for you to follow and questions to answer. Depending upon the question, you may have to:
+
+- Type out answers in the visual editor
+
+- Take screenshots or copy images of your work in Excel and QGIS
+
+- Write executable R code within the Quarto document
+
+I have highlighted places where you need to provide inputs. Please note, you may need to complete quality control measures as you work through the questions below. Some of the steps may not be explicitly labeled; in some cases, you may need to infer the steps you need to take from the final deliverable.
+:::
+
+## Excel
+
+1.  Open the 'OBIS - North Atlantic Right Whale full.csv' in Excel in Table format. This is the full dataset. Explore the the column names and try to understand what has been included for each of the sightings.
+
+::: {style="background-color: #e6f4ea; padding: 1em; border-left: 4px solid #6aa56f; border-radius: 6px;"}
+Question: In your opinion, what are some of the useful characteristics of each individual sighting in the dataset?
+:::
+
+2.  Open the 'OBIS - North Atlantic Right Whale reduced.csv' and create a basic metadata sheet. Metadata files are often provided with openly available datasets to help the reader interpret data columns and units. Create a new worksheet in Excel workbook and name it ‘metadata’. To get started, copy the column titles from the OBIS data table and right click to transpose paste them in the new workbook. Create brief descriptions, as best you can, for the columns titles across the dataset. Take a screenshot of your metadata sheet and upload it below.
+
+3.  Create a Pivot Chart that shows the total number of whales over each YEAR of the dataset (copy the Pivot chart below).
+
+4.  Create a Pivot Chart that shows the total number of whales over each MONTH of the dataset (copy the Pivot chart below).
+
+::: {style="background-color: #e6f4ea; padding: 1em; border-left: 4px solid #6aa56f; border-radius: 6px;"}
+Question: How have sightings changed over time?
+:::
+
+5.  Create a Pivot table that shows the total number of whales seen per institution.
+
+::: {style="background-color: #e6f4ea; padding: 1em; border-left: 4px solid #6aa56f; border-radius: 6px;"}
+Question: What are some potential data entry errors in the institution code field that might need to be updated?
+:::
+
+6.  First, identify the top three institutions based on the number of sighting records. Then, create a Pivot Chart that shows the total number of whales seen by those three institutions. Note that the “top three” should be based on number of sightings, not on total whales seen and you can use the value field setting in the Pivot table interface to select count (copy the Pivot Chart below).
+
+7.  Create a Pivot Chart that shows the sighting with the highest number of individuals for each month of the dataset.
+
+::: {style="background-color: #e6f4ea; padding: 1em; border-left: 4px solid #6aa56f; border-radius: 6px;"}
+Question: What are some potential data entry errors in the institution code field that might need to be updated?
+:::
+
+## QGIS
+
+1.  Load the Open the 'OBIS - North Atlantic Right Whale reduced.csv' into QGIS and add a relevant base map for exploration (paste a screenshot of your QGIS screen below)
+
+::: {style="background-color: #e6f4ea; padding: 1em; border-left: 4px solid #6aa56f; border-radius: 6px;"}
+Question: Briefly describe the common locations of sightings in Atlantic Canada.
+:::
+
+2.  Change the colour of the points to a dark blue (copy a screenshot below).
+
+3.  Change the colour of the points to represent the month of the sighting (copy a screenshot below)
+
+4.  Change the colour of the points so the colour scale represents the number of individuals seen during that sighting (copy a screenshot below).
+
+5.  Load all of the shapefiles for the different vessel routes around Canada. Focus on the Bay of Fundy area we covered in the data introduction.
+
+::: {style="background-color: #e6f4ea; padding: 1em; border-left: 4px solid #6aa56f; border-radius: 6px;"}
+Question: What do you notice about the vessel traffic routes and the distribution of sightings around them?
+:::
+
+5.  Identify specific sightings (i.e. features) that are within the vessel routes.
+
+::: {style="background-color: #e6f4ea; padding: 1em; border-left: 4px solid #6aa56f; border-radius: 6px;"}
+Question: Can you infer anything about the timing of sightings that might help identify vulnerable periods to ship strike?
+:::
+
+## R
+
+1.  Load your appropriate packages and upload the full OBIS data data into Positron.
+
+```{r}
+
+
+
+```
+
+2.  Create a new dataset the retains only the columns found in the reduced dataset csv using R code.
+
+```{r}
+
+
+```
+
+3.  Create a summarized dataset that shows the total number of animals seen for each institution in each year.
+
+```{r}
+
+
+```
+
+3.  Create a summarized dataset that shows the total number of SIGHTINGS for each year and month.
+
+```{r}
+
+
+```
+
+4.  Create a simple column plot that visualizes that data from question 3 above. Ensure the axis titles and labels are accurate.
+
+```{r}
+
+
+```
+
+5.  Export a PNG of the plot you've made in step 4.
+
+```{r}
+
+
+```
+
+6.  Save a CSV of the dataset you made in step 3.
+
+```{r}
+
+
+```
+
+Export your QMD file to a Word document by pasting the following code into the terminal (second tab below) by copying and right clicking once.
+
+quarto render "Topic 1 - Case study.qmd"

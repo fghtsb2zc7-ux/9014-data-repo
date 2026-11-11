@@ -1,0 +1,587 @@
+1
+Table of Contents
+Course information .......................................................................................................... 3
+Course description........................................................................................................... 4
+Course Structure ............................................................................................................. 5
+   Course timetable .......................................................................................................... 6
+Course materials ............................................................................................................. 8
+   Software requirements ................................................................................................. 8
+   Pre-class work ............................................................................................................. 9
+Methods of Evaluation ................................................................................................... 10
+      Exams (40%) .......................................................................................................... 10
+      National Pollutant Release Inventory Assignment (20%) ....................................... 12
+      Presentation (5%)................................................................................................... 13
+      Independent Project StoryMap (30%) .................................................................... 11
+      Presentation (5%)................................................................................................... 12
+Additional Statements.................................................................................................... 14
+   Class norms ............................................................................................................... 14
+   Use of Generative Artificial Intelligence ..................................................................... 14
+   Statement on Gender-Based and Sexual Violence .................................................... 14
+   Academic Offences .................................................................................................... 14
+   Plagiarism .................................................................................................................. 15
+   Health and Wellness Services ................................................................................... 15
+   Accommodation and Accessibility .............................................................................. 15
+   Religious Accommodation ......................................................................................... 16
+   Accessible Education (AE) ......................................................................................... 16
+   Accommodation Policies ............................................................................................ 16
+
+
+
+
+                                                                                                                                 2
+Course information
+
+
+Instructor: Dr. Paul Mensink, North Campus Building 208, paul.mensink@uwo.ca
+
+Course site: OWL Brightspace: https://westernu.brightspace.com/d2l/home/198357
+
+Delivery format: In person. Required course activities include hands-on technical work,
+field-based activities, project studios, presentations, and group-based applied work.
+
+Enrollment restriction: Enrollment in this course is restricted to graduate students in
+the Master of Environment and Sustainability program
+
+
+
+
+                                                                                          3
+Course description
+
+In Environmental Data Analysis and Data Visualization, we will focus on the sourcing,
+scrutiny, and critical evaluation of environmental data. A major emphasis will be placed
+on developing transferable and technical skills in data management, visualization,
+statistical analysis, and interpretation. By working with datasets connected to real-world
+environmental issues, students will build the skills needed to identify patterns, evaluate
+evidence, communicate findings, and develop a deeper understanding of critical
+environmental challenges.
+
+This fast-paced course is designed to challenge your problem-solving and analytical
+skills through a mix of individual and group assessments. Before each class, you will
+complete short technical exercises designed to build your confidence with
+environmental datasets and analytical workflows. In class, we will focus on applying
+these skills to real-world environmental problems, with an emphasis on hands-on
+practice, data interpretation, and clear communication.
+
+Creativity will be encouraged throughout the course, particularly through an
+independent assignment that will challenge students to use their acquired technical
+expertise to create a final StoryMap and presentation on a current environmental issue.
+Students will be expected to source, analyze, visualize, and interpret data in a way that
+is both technically sound and accessible to a broader audience.
+
+Through our exploration of environmental data, we will cover a broad range of
+environmental topics, including biodiversity loss, invasive species, air and water
+pollution, land use change, climate change, and environmental monitoring. Across
+these topics, the focus will remain on how data can be used to understand complex
+environmental challenges, evaluate uncertainty, and communicate meaningful insights.
+
+Learning outcomes
+By the end of the course, students will be able to:
+
+   •   Apply interdisciplinary data analysis approaches to investigate complex
+       environmental problems by integrating field, statistical, geospatial, and open-
+       source datasets to interpret patterns, evaluate evidence, and communicate
+       findings.
+
+   •   Develop problem-solving, decision-making, and critical analysis skills within the
+       context of working with and presenting environmental data.
+
+   •   Conduct environmental field data collection and integrate field observations with
+       statistical, geospatial, and open-source datasets to support environmental
+       assessment and decision-making.
+
+
+
+
+                                                                                           4
+Course Structure
+
+This course is organized into two complementary units. In Unit 1, we focus on
+developing a broad suite of data analysis skills across multiple software platforms. Skills
+are introduced incrementally, emphasizing common analytical concepts and workflows
+across tools (e.g., joins in Excel and R alongside spatial joins in QGIS). This approach
+allows us to build technical proficiency efficiently while developing a versatile toolkit for
+data analysis. Unit 1 concludes with a series of examinations at the end of October to
+assess your core competencies and technical skills. In Unit 2, students apply their
+acquired skills through two major projects:
+   •   Independent Project StoryMap – students conduct an extensive exploratory
+       data analysis by sourcing openly available datasets, organizing them, and
+       analyzing them to generate evidence-based insights into their focal
+       environmental area.
+   •   National Pollutant Release Inventory (NPRI) Challenge – our class will work in
+       partnership with the NPRI team at Environment and Climate Change Canada to
+       answer pressing questions about releases across the country.
+
+
+
+
+                                                                                            5
+Course timetable
+
+       Field work                     Assessments                     Project studio workshops
+ No.                                                                 Topic                                                                  Date
+
+                                                           UNIT 1 – TECHNICAL SKILLS
+
+  1          Topic 1: Loading, Cleaning and Exploring Data           Beneath the Surface: Measuring Animal Abundance in the Ocean          Sept 8th
+
+                                                                                  Animal Movement Across Seascapes:
+  2            Topic 2: Transforming and Wrangling Data
+                                                                                      Tracking Marine Megafauna
+                                                                                                                                        September 14th
+
+
+         Topic 3: Conditional logic, conditional calculations, and                                                                      September 15th
+  3                                                                   Food for Thought: Fisheries data and management in Canada
+                         deterministic modelling
+
+
+                                                                               Biodiversity and Invasive Species Monitoring             September 21st
+  4                   Topic 4: Field Data Collection
+                                                                                 Field data collection (Assigned sections)
+
+
+         Topic 5: Connecting Data - Joins, merges, and spatial                                                                          September 28th
+  5                          relationships
+                                                                     Troubled Waters: The provincial water quality monitoring network
+
+
+       Topic 6: Exploratory Data Analysis - Finding Patterns and Pollution Pathways: Tracking Canada’s Environmental Releases September 29
+                                                                                                                                           th
+
+  6
+                                Trends
+
+
+        Topic 7: Statistical Analysis - Testing Relationships and     Forecasting Footprints: Canada’s GHG Emissions and Climate         October 5th
+  7
+                          Interpreting Evidence                                                  Action
+
+
+       Topic 8: Large-scale Geospatial Analysis - Scaling Patterns Landscapes in Motion: Measuring the Cost of Land Use Changes
+  8                        Across Landscapes                                          and Habitat Degradation
+                                                                                                                                         October 6th
+
+
+
+
+                                                                                                                                                      6
+                                 Buckthorn Bust! Invasive Species Removal
+                                                                                                            Friday, October
+9                                 Evidence-based buckthorn intervention
+                                                                                                                   9th
+                                           (All sections together)
+
+10                                   Core skills technical exam (Day 1)                                      October 26th
+                                           (All sections together)                                              9–12
+
+11                                   Core skills technical exam (Day 2)                                      October 27th
+                                           (All sections together)                                              9–12
+
+                                       UNIT 2 – APPLIED PROJECT STUDIO
+
+12                     Data to Decisions: Communicating Insights from your Data                             November 9th
+               Visual storytelling, knowledge mobilization, and evidence-based communication
+
+13                                      Independent Project Workshop
+                                                                                                            November 10th
+        Students will refine their project scope, data sources, analytical approach, and visualizations.
+     Lightning talks: Students will provide brief presentations of project concepts and progress updates.
+
+14                                     Individual presentations (Day 1)
+                                                                                                            November 23rd
+                                              (Assigned sections)
+
+15                                     Individual presentations (Day 2)
+                                                                                                            November 24th
+                                              (Assigned sections)
+
+16                                        NPRI Final Presentations
+                                                                                                            December 2nd
+         NPRI groups will present to representatives from Environment and Climate Change Canada
+
+
+
+
+                                                                                                                       7
+                                          Course materials
+
+Software requirements
+
+
+In this course, we will be using freely available and/or open-source software1. Prior to
+the beginning of the course, you will be required to download the following programs:
+
+
+                      Microsoft Excel - All of you have access to Office 365 through your
+                      Western accounts and can download its desktop applications. You
+                      can log into your account with your Western credentials
+                      (https://portal.office.com/) and then click on “Install apps” in the top
+                      right corner to install Excel on your desktop.
+
+                      R is a program for statistical computing and data visualization. You
+                      can download R here: https://cran.r-project.org/
+
+                      Positron is an integrated development environment (IDE) that acts
+                      as a code editor for R. It makes working with R more intuitive and
+                      provides helpful functions for viewing data and previewing figures.
+                      Although you will download R, Positron is the main program we will
+                      use to access R. You can download Positron here: Download
+                      Positron – Positron
+
+
+
+
+                      QGIS is an open-source geographic information system (GIS). This
+                      program is compatible with both Macs and PCs. You can download
+                      QGIS here: https://qgis.org/en/site/
+
+                      Please be aware that if you are a Mac user, you will need to ensure
+                      that your operating system is updated to the latest version, and you
+                      may need to approve the app download in your security settings.
+                      The MacOS instructions are on the download page.
+
+
+
+
+1 Most of the software we use is open-source. I believe using open-source software is beneficial for you
+
+because institutional licenses for proprietary software often stop when you leave the university, which
+means you won’t be able to access those programs after you graduate.
+
+                                                                                                           8
+Pre-class work
+
+Our class uses a partially flipped format. In a flipped classroom, you complete
+preparatory work before arriving, which helps make class time more engaging and
+effective. For each session, you will be expected to complete pre-class work before the
+lesson begins. Once you arrive to class, you will answer a short quiz on the pre-class
+work to assess your understanding and then we will use our in-person time to reinforce
+key concepts and focus on hands-on, practical application.
+
+
+Before each class, you will complete work under the following categories:
+
+
+   •   Video tutorials (found under Course topics and training): In each class, we will
+       develop a set of practical technical skills used in environmental data analysis.
+       Before arriving to class, you will work through a group of topic videos that guide
+       you step by step through the tools and techniques we will use that day. In class,
+       you will apply these skills to new datasets, using them to explore practical
+       questions and draw insights from environmental data.
+
+   •   Readings (located in pre-class work under each class): In each class, we will be
+       working through a real dataset. To help you understand the dataset we will be
+       using, you may be assigned a short selection of readings on that topic. These will
+       include scientific articles, government reports, and news stories, providing
+       background and real-world context for our in-class discussions. The readings are
+       designed to help you engage with key issues and provide context for our in-class
+       data analysis.
+
+
+
+
+                                                                                            9
+                                 Methods of Evaluation
+
+The course assessments are designed to develop your practical and cognitive skills. In
+addition to summative assessments, students will also be expected to make meaningful
+contributions to class discussions.
+
+          Category                  Type           Deadline/Date            Weighting
+                       Core Concepts and Technical Skills (40%)
+ Exams                           Individual       October 26th/27th            40%
+                                 Applied Projects (60%)
+                                                   November 23rd
+ Final presentation              Individual                                     5%
+                                                   November 24th
+ NPRI Presentation                 Group            December 2nd                5%
+ Independent Project
+ StoryMap                        Individual        December 11th               30%
+
+ NPRI assignment report            Group           December 16th               20%
+
+*Attendance is a course requirement and failure to attend a sufficient number of classes
+may result in failure of the course.*
+
+         Core Concepts and Technical Skills (40% of overall mark)
+
+Exams (40%)
+
+Open-Book Format
+
+You will have two days of exams that will ask you to apply the knowledge and technical
+skills you have learned over Unit 1 of the course. The exams will assess the
+development of your technical skills (e.g., data manipulation and visualization). The
+exams will be cumulative and cover the entire range of the course material before the
+exam across Excel, QGIS and R. This open-book exam will assess your proficiency in
+Excel, R, and QGIS focusing on skills in data manipulation, analysis and visualization.
+
+*Generative AI tools (e.g., ChatGPT, Copilot, Gemini) will be permitted for use in the all
+of the exams for the course. *
+
+
+
+
+                                                                                        10
+                               Applied Projects (60%)
+
+
+
+Independent Project StoryMap (30%)
+
+The major project for this course is an independent exploratory data analysis
+assignment where you will study a topic of your choice. This project is intentionally
+open-ended, offering you the flexibility to define a reasonable scope, source relevant
+datasets, and conduct meaningful analyses. It challenges you to thoughtfully plan and
+execute your data exploration from start to finish. A defining aspect of this project is the
+sourcing of data from open-source databases and repositories. You'll take the lead in
+combining and analyzing datasets to uncover meaningful relationships and answer the
+key questions you have identified for your project. You will select a broad environmental
+issue and evaluate it through the exploration of temporal, spatial, and other relevant
+environmental data.
+
+The final deliverable for your project is a comprehensive ArcGIS storymap that
+highlights the results of your analysis and provides interpretation by effectively
+integrating text, figures, maps, and tables into one flowing document. We have
+scheduled an elective ArcGIS storymaps and dashboards workshop for you on
+November 6th and unless you feel very confident using storymaps and dashboards
+already, I would strongly recommend that you attend that workshop. Storymaps are a
+fun and interactive way to share data visualizations (we’ll review examples throughout
+the course) and this project will give you (1) practice on how to best use storymaps and
+dashboards and (2) a final deliverable you can share with potential co-op employers.
+
+For your storymap, you will be asked to include the following:
+
+    •   Infographic - You will create a `social media ready` infographic that provides an
+        overview and summary of your analysis for the public.
+    •   Figures – You will need 10 figures created using R
+    •   Maps - 10 maps created in QGIS (with at least two interactive maps)
+    •   Dashboard - at least one dashboard
+    •   Written summary - A written interpretation to accompany your data
+        visualizations and analysis that summarizes your key findings. Make sure to cite
+        all figures and maps that you include. When interpreting your results, incorporate
+        references from academic literature to provide context; however, the emphasis
+        should be primarily on your own analysis and interpretation of the open-source
+        data you have gathered.
+    •   A list of data sources - Provide a list of data sources you used for your project
+        with weblinks to each of them.
+
+
+
+                                                                                         11
+    •   References section - include any academic references you have cited in your
+        assignment. Use APA 7th edition for your reference format.
+
+All figures, graphs, or maps should be created (by you) from data you have collected
+from various open sources. Please note, you will also submit your R scripts as part of
+your final submission.
+
+
+Indepdent Project Presentation (5%)
+
+On November 23rd or November 24th, you will present to the class covering your main
+findings. You will have an opportunity to take on feedback from this session before
+submitting your final StoryMap. Your presentation will be about 10 minutes, with time for
+questions afterwards. You will use a slide deck to take us through your work rather than
+presenting directly from your StoryMap, and you should ensure it includes the
+following:
+
+   •    Title slide – A title for your project and your name
+   •    Introduction slides (one or two) – Provide some basic background information
+        about the topic.
+            o What was the issue you explored?
+            o Why did you explore that issue?
+            o What is currently understood about it?
+            o Where did you find the data for your project?
+   •    Content slides – A range of slides showing some of your most compelling figures
+        and maps. You should explain each of the figures and the interpretation within
+        the context of your overall project. Please note, you do not have to share all your
+        figures or maps and should focus on the figures that you find most impactful.
+
+
+National Pollutant Release Inventory (NPRI) Assignment (20%)
+
+We are collaborating with Environment and Climate Change Canada (ECCC) to answer
+pressing research questions about Canada’s non-GHG emissions by using data from
+the National Pollutant Release Inventory. You will work in pre-assigned groups of five to
+six students to create a report for ECCC on various pre-defined topics.
+
+You will submit a written report to your ECCC mentor for review that includes figures,
+maps and tables and a write-up on your findings. You can find more detailed guidance
+and past examples of reports on our NPRI Group Assignment page on OWL
+Brightspace.
+
+Note: You will receive feedback from your ECCC mentor and your team will be
+responsible for responding to that feedback and submitting the final copy back to
+
+
+                                                                                         12
+ECCC. You will submit this finalized copy with track changes for a portion of your
+assignment grade.
+
+NPRI Presentation (5%)
+
+You will also give a virtual presentation to the ECCC mentors at the beginning of class
+on December 2nd. Each group will present detailed findings from their NPRI analysis,
+focusing on their assigned topic area and the key patterns, trends, or concerns
+identified through their data work. The presentation should translate your analysis into
+clear, evidence-based insights for the ECCC team and should highlight the figures,
+maps, tables, or other visualizations that best support your interpretation.
+
+Where appropriate, groups should also identify potential recommendations that emerge
+from their findings. These may include suggestions for improved monitoring (e.g.,
+changes in monitoring thresholds), areas where further investigation may be warranted,
+or priority areas that could help guide future analysis and decision-making. The goal is
+to present your work in a professional format that is useful to an applied audience and
+demonstrates how NPRI data can support environmental monitoring and policy-relevant
+decision-making.
+
+
+
+
+                                                                                       13
+                                 Additional Statements
+
+Class norms
+
+Attendance at all sessions in this course is mandatory, and it is your responsibility to
+advise the instructor and seek assistance if you are unable to contribute to class
+discussions. Circumstances may arise that make it impossible for you to attend,
+including health-related reasons. If you are unable to meet a course requirement due to
+illness or other serious circumstances, please contact the instructor.
+
+Under University regulations, I can determine at what point absenteeism has become
+excessive and thus may prevent you from passing the course. Any student who has not
+attended enough sessions to fully master the material may not be permitted to receive
+credit for the course.
+
+Use of Generative Artificial Intelligence
+
+Generative AI tools may be used in this course to support learning, coding,
+troubleshooting, data analysis, and communication. Students remain responsible for
+verifying the accuracy of all outputs and for ensuring that submitted work reflects their
+own understanding. Specific guidance regarding permitted and prohibited uses of AI will
+be provided for individual assessments.
+Statement on Gender-Based and Sexual Violence
+
+Western is committed to reducing incidents of gender-based and sexual violence
+(GBSV) and providing compassionate support to anyone who is going through or has
+gone through these traumatic events. If you are experiencing or have experienced
+GBSV (either recently or in the past), you will find information about support services for
+survivors, including emergency contacts on the Wellness and Wellbeing website. To
+connect with a case manager or set up an appointment, please contact
+support@uwo.ca.
+Academic Offences
+
+Scholastic offences are taken seriously and students are directed to read the Scholastic
+Offences policy, specifically, the definition of what constitutes a Scholastic Offence.
+
+
+Scholastic offences are taken seriously, and students are expected to read the
+appropriate policies.
+
+      •        The Code of Student Conduct:
+       http://www.uwo.ca/univsec/pdf/board/code.pdf
+
+
+
+
+                                                                                        14
+       Scholastic Discipline for Graduate Students:
+       http://www.uwo.ca/univsec/pdf/academic_policies/appeals/scholastic_discipline_
+       grad.pdf
+   •   The Non-Discrimination/Harassment Policy:
+       http://www.uwo.ca/univsec/mapp/section1/mapp135.pdf
+   •   The Code of Behavior for Use of Computer Resources and Corporate Data:
+       http://www.uwo.ca/univsec/mapp/section1/mapp113.pdf
+   •   Graduate Student Academic Appeals:
+       http://www.uwo.ca/univsec/pdf/academic_policies/appeals/appealsgrad.pdf
+
+
+Plagiarism
+
+Students must write their essays and assignments in their own words. Whenever
+students take an idea, or a passage from another author, they must acknowledge their
+debt both by using quotation marks where appropriate and by proper referencing such
+as footnotes or citations. Plagiarism is a major academic offence (see Scholastic
+Discipline for Graduate Students in the Western Academic Calendar).
+
+All required papers may be subject to submission for textual similarity review to the
+commercial plagiarism detection software under license to the University for the
+detection of plagiarism. All papers submitted will be included as source documents in
+the reference database for the purpose of detecting plagiarism of papers subsequently
+submitted to the system. Use of the service is subject to the licensing agreement,
+currently between Western University and Turnitin.com (hyperlink www.turnitin.com).
+
+Health and Wellness Services
+
+
+As part of a successful graduate student experience at Western, we encourage
+students to make their health and wellness a priority. Western provides several on
+campus health-related services to help you achieve optimum health and engage in
+healthy living while pursuing your graduate degree. Students seeking help regarding
+mental health concerns are advised to speak to someone they feel comfortable
+confiding in, such as a faculty member, the Program Chair, or the MES Coordinator.
+Students who are in emotional/mental distress should refer to Mental Health@Western
+(https://uwo.ca/health/) for a complete list of options about how to obtain help.
+
+
+
+
+Accommodation and Accessibility
+
+
+Please contact the course instructor if you require lecture or printed material in an
+alternate format or if any other arrangements would make this course more accessible
+to you. You may also wish to contact Accessible Education at
+
+                                                                                    15
+http://academicsupport.uwo.ca/accessible_education/index.html if you have any
+questions regarding accommodations.
+
+
+Religious Accommodation
+
+When a course requirement conflicts with a religious holiday that requires an absence
+from the University or prohibits certain activities, students should request
+accommodation for their absence in writing at least two weeks prior to the holiday to the
+course instructor and/or the Academic Counselling office of their Faculty of Registration.
+Please consult University's list of recognized religious holidays (updated annually) at
+   https://multiculturalcalendar.com/ecal/index.php?s=c-univwo.
+
+
+
+Accessible Education (AE)
+
+
+
+Western is committed to achieving barrier-free accessibility for all its members,
+including graduate students. As part of this commitment, Western provides a variety of
+services devoted to promoting, advocating, and accommodating persons with
+disabilities in their respective graduate program. Graduate students with disabilities (for
+example, chronic illnesses, mental health conditions, mobility impairments) are strongly
+encouraged to register with Accessible Education (AE), a confidential service designed
+to support graduate and undergraduate students through their academic program. With
+the appropriate documentation, the student will work with both AE and their graduate
+programs (normally their Graduate Chair and/or Course instructor) to ensure that
+appropriate academic accommodations to program requirements are arranged. These
+accommodations may include individual counselling, alternative formatted literature,
+accessible campus transportation, learning strategy instruction, writing exams and
+assistive technology instruction.
+
+
+Accommodation Policies
+
+Students with disabilities are encouraged to contact Accessible Education, which
+provides recommendations for accommodation based on medical documentation or
+psychological and cognitive testing. The policy on Academic Accommodation for
+Students with Disabilities can be found at:
+   https://www.uwo.ca/univsec/pdf/academic_policies/appeals/Academic
+   Accommodation_disabilities.pdf.
+
+
+
+
+                                                                                         16
+

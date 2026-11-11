@@ -1,0 +1,42 @@
+Environmental Data Analysis and Visualization
+                  Dr Paul Mensink
+      Course goals
+Competent, confident and comfortable
+                                                  9    10
+                      4
+    Data collection                       6
+
+                              2                                   11    12    13
+1
+
+
+
+
+              Data creation
+          5                       3   7       8
+
+
+
+
+                                                  R for Data Science
+                                                  https://r4ds.had.co.nz/index.html
+Course structure and organization
+
+
+
+
+                Course outline
+Data entry & organization    Data manipulation & visualization   Geospatial data analysis & mapping
+
+
+
+
+                            Exploratory Data Analysis
+Data entry & organization   Data manipulation & visualization   Geospatial data analysis & mapping
+
+
+
+
+                                       StoryMaps
+BRIGHTSPACE OVERVIEW
+

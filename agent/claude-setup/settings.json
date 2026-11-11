@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash agent/*)",
+      "Bash(Rscript:*)",
+      "Bash(screencapture:*)",
+      "Bash(unzip:*)",
+      "Bash(ls:*)",
+      "Bash(head:*)",
+      "Bash(wc:*)",
+      "Bash(file:*)",
+      "Bash(iconv:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(python3 agent/*)",
+      "Bash(open -a:*)"
+    ]
+  }
+}

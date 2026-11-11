@@ -1,0 +1,5436 @@
+{
+ "course": {
+  "code": "ENVRSUST 9014",
+  "title": "Environmental Data Analysis and Visualization",
+  "institution": "Western University",
+  "lms": "Brightspace (OWL)",
+  "orgUnitId": 198357,
+  "capturedAt": "2026-10-25T16:38:50.798Z"
+ },
+ "generatedFrom": "Brightspace course 198357 (captured 2026-10-25)",
+ "procedures": [
+  {
+   "id": "excel.build-interactive-summary-sheet-countif-filter",
+   "tool": "excel",
+   "title": "Build an interactive one-industry summary sheet (dropdown + COUNTIF + FILTER + MAX/MIN + SUMIF)",
+   "path": "tools/excel/build-interactive-summary-sheet-countif-filter.md",
+   "keywords": [
+    "interactive worksheet",
+    "summary sheet",
+    "dashboard sheet",
+    "supervisor sheet",
+    "dropdown selector",
+    "industry summary",
+    "years reported",
+    "maximum release",
+    "minimum",
+    "total releases",
+    "countif",
+    "filter",
+    "sumif",
+    "unique",
+    "data validation",
+    "conditional formatting",
+    "NPRI air releases",
+    "worked example"
+   ],
+   "prerequisites": [
+    "excel.enter-formulas-and-cross-sheet-references"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-using-excel-formulas.md"
+   ]
+  },
+  {
+   "id": "excel.check-and-fix-data-types-power-query",
+   "tool": "excel",
+   "title": "Check and fix column data types and type errors in Power Query (keep errors, replace errors)",
+   "path": "tools/excel/check-and-fix-data-types-power-query.md",
+   "keywords": [
+    "data type",
+    "variable type",
+    "change type",
+    "column type",
+    "whole number",
+    "decimal number",
+    "text",
+    "date",
+    "type icon",
+    "changed type",
+    "data type detection",
+    "conversion error",
+    "DataFormat.Error",
+    "couldn't convert to number",
+    "keep errors",
+    "replace errors",
+    "remove errors",
+    "column quality",
+    "column profiling entire data set",
+    "error bar",
+    "fix year column",
+    "npri 2024 errors",
+    "table.replaceerrorvalues",
+    "table.selectrowswitherrors"
+   ],
+   "prerequisites": [
+    "excel.import-csv-as-table-power-query",
+    "excel.power-query-editor-basics"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_DataDonnées_2024.csv)"
+   ],
+   "source_pages": [
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-data-and-variable-types.md"
+   ]
+  },
+  {
+   "id": "excel.choose-and-remove-columns-power-query",
+   "tool": "excel",
+   "title": "Keep only selected columns or remove columns in Power Query (Choose Columns / Remove Columns)",
+   "path": "tools/excel/choose-and-remove-columns-power-query.md",
+   "keywords": [
+    "choose columns",
+    "remove columns",
+    "select columns",
+    "keep columns",
+    "drop columns",
+    "delete column",
+    "remove other columns",
+    "reduce columns",
+    "subset columns",
+    "manage columns",
+    "table.selectcolumns",
+    "table.removecolumns",
+    "condense dataset"
+   ],
+   "prerequisites": [
+    "excel.import-csv-as-table-power-query",
+    "excel.power-query-editor-basics"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_DataDonnées_2024.csv)"
+   ],
+   "source_pages": [
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-selecting-and-removing-columns-and-rows.md"
+   ]
+  },
+  {
+   "id": "excel.conditional-formatting-color-scale",
+   "tool": "excel",
+   "title": "Colour cells by value with a Conditional Formatting colour scale",
+   "path": "tools/excel/conditional-formatting-color-scale.md",
+   "keywords": [
+    "conditional formatting",
+    "color scale",
+    "colour scale",
+    "heat map cells",
+    "red high green low",
+    "highlight values",
+    "data bars",
+    "icon sets",
+    "highlight cells rules",
+    "top bottom rules"
+   ],
+   "prerequisites": [
+    "excel.import-csv-as-table-power-query"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-using-excel-formulas.md"
+   ]
+  },
+  {
+   "id": "excel.countif-sumif-max-min-formulas",
+   "tool": "excel",
+   "title": "Count, sum, and find max/min with COUNTIF, SUMIF, MAX and MIN (conditional calculations across sheets)",
+   "path": "tools/excel/countif-sumif-max-min-formulas.md",
+   "keywords": [
+    "countif",
+    "sumif",
+    "count if",
+    "sum if",
+    "conditional count",
+    "conditional sum",
+    "max",
+    "min",
+    "maximum",
+    "minimum",
+    "how many rows match",
+    "years reported",
+    "total releases for one category",
+    "criteria",
+    "range",
+    "sum_range",
+    "cross-sheet calculation",
+    "maxifs",
+    "sumifs"
+   ],
+   "prerequisites": [
+    "excel.enter-formulas-and-cross-sheet-references"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-using-excel-formulas.md"
+   ]
+  },
+  {
+   "id": "excel.create-pivotchart-from-pivottable",
+   "tool": "excel",
+   "title": "Create a PivotChart from a PivotTable",
+   "path": "tools/excel/create-pivotchart-from-pivottable.md",
+   "keywords": [
+    "pivot chart",
+    "pivotchart",
+    "chart from pivot table",
+    "column chart",
+    "quick chart",
+    "visualize pivot",
+    "releases over time",
+    "trend by year",
+    "pivotchart fields",
+    "axis categories",
+    "legend series",
+    "field buttons",
+    "insert chart"
+   ],
+   "prerequisites": [
+    "excel.create-pivottable-summarize-filter-sort"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv)"
+   ],
+   "source_pages": [
+    "course-pages/topic-1-loading-cleaning-and-exploring-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-pivot-tables-and-charts.md"
+   ]
+  },
+  {
+   "id": "excel.create-pivottable-summarize-filter-sort",
+   "tool": "excel",
+   "title": "Create a PivotTable to summarize data, then filter and sort it",
+   "path": "tools/excel/create-pivottable-summarize-filter-sort.md",
+   "keywords": [
+    "pivot table",
+    "pivottable",
+    "summarize",
+    "aggregate",
+    "group by",
+    "sum by year",
+    "total by industry",
+    "pivottable fields",
+    "rows",
+    "values",
+    "filters",
+    "columns",
+    "sum of",
+    "sort pivot",
+    "sort by value",
+    "largest",
+    "filter pivot",
+    "label filters",
+    "value filters",
+    "more sort options",
+    "insert pivottable",
+    "new worksheet"
+   ],
+   "prerequisites": [
+    "excel.import-csv-as-table-power-query"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv)"
+   ],
+   "source_pages": [
+    "course-pages/topic-1-loading-cleaning-and-exploring-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-pivot-tables-and-charts.md"
+   ]
+  },
+  {
+   "id": "excel.customize-ribbon-developer-power-pivot-tabs",
+   "tool": "excel",
+   "title": "Add the Developer and Power Pivot tabs to the ribbon (and reorder tabs)",
+   "path": "tools/excel/customize-ribbon-developer-power-pivot-tabs.md",
+   "keywords": [
+    "customize ribbon",
+    "developer tab",
+    "power pivot tab",
+    "show developer",
+    "add tab",
+    "enable power pivot",
+    "reorder ribbon tabs",
+    "excel options",
+    "macros tab",
+    "data model tab",
+    "ribbon setup"
+   ],
+   "prerequisites": [],
+   "datasets_used": [],
+   "source_pages": [
+    "course-pages/topic-1-loading-cleaning-and-exploring-data.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-intro-to-excel.md"
+   ]
+  },
+  {
+   "id": "excel.data-validation-dropdown-list",
+   "tool": "excel",
+   "title": "Add a dropdown list to a cell with Data Validation (List)",
+   "path": "tools/excel/data-validation-dropdown-list.md",
+   "keywords": [
+    "data validation",
+    "dropdown",
+    "drop-down list",
+    "in-cell dropdown",
+    "pick list",
+    "restrict input",
+    "validation list source",
+    "prevent typos",
+    "data tools",
+    "interactive worksheet",
+    "selector cell"
+   ],
+   "prerequisites": [
+    "excel.unique-distinct-values-formula"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-using-excel-formulas.md"
+   ]
+  },
+  {
+   "id": "excel.enable-data-analysis-toolpak",
+   "tool": "excel",
+   "title": "Enable the Analysis ToolPak and open the Data Analysis tools",
+   "path": "tools/excel/enable-data-analysis-toolpak.md",
+   "keywords": [
+    "analysis toolpak",
+    "data analysis toolpak",
+    "data analysis button",
+    "add-in",
+    "excel add-ins",
+    "regression",
+    "descriptive statistics",
+    "anova",
+    "correlation",
+    "t-test",
+    "histogram",
+    "statistics in excel",
+    "enable add-in"
+   ],
+   "prerequisites": [
+    "excel.customize-ribbon-developer-power-pivot-tabs"
+   ],
+   "datasets_used": [],
+   "source_pages": [
+    "course-pages/topic-1-loading-cleaning-and-exploring-data.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-intro-to-excel.md"
+   ]
+  },
+  {
+   "id": "excel.enter-formulas-and-cross-sheet-references",
+   "tool": "excel",
+   "title": "Enter worksheet formulas, use the Function Library, and reference cells on other sheets",
+   "path": "tools/excel/enter-formulas-and-cross-sheet-references.md",
+   "keywords": [
+    "formula",
+    "function",
+    "equals sign",
+    "formula bar",
+    "function library",
+    "insert function",
+    "autocomplete",
+    "tooltip arguments",
+    "SUM",
+    "cell reference",
+    "range",
+    "whole column reference",
+    "A:A",
+    "cross-sheet reference",
+    "sheet name in quotes",
+    "relative reference",
+    "absolute reference",
+    "dollar sign",
+    "structured reference",
+    "table column",
+    "rename sheet",
+    "add sheet",
+    "formulas tab"
+   ],
+   "prerequisites": [
+    "excel.import-csv-as-table-power-query"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-if-statements.md",
+    "transcripts/excel/excel-using-excel-formulas.md"
+   ]
+  },
+  {
+   "id": "excel.extract-date-parts-power-query",
+   "tool": "excel",
+   "title": "Extract year, month, quarter, week or day from a date column in Power Query",
+   "path": "tools/excel/extract-date-parts-power-query.md",
+   "keywords": [
+    "extract year",
+    "extract month",
+    "week of year",
+    "quarter",
+    "day",
+    "name of month",
+    "date parts",
+    "add column date",
+    "Date.Year",
+    "Date.WeekOfYear",
+    "Date.Month",
+    "eventDate_standard",
+    "OBIS",
+    "right whale",
+    "power query",
+    "new column from date"
+   ],
+   "prerequisites": [
+    "excel.import-csv-as-table-power-query",
+    "excel.power-query-editor-basics",
+    "excel.parse-inconsistent-dates-power-query"
+   ],
+   "datasets_used": [
+    "sources/files/Topic 2/OBIS - North Atlantic Right Whale reduced.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-extracting-date-information.md"
+   ]
+  },
+  {
+   "id": "excel.filter-function-return-matching-rows",
+   "tool": "excel",
+   "title": "Return all rows that match a condition with the FILTER() function",
+   "path": "tools/excel/filter-function-return-matching-rows.md",
+   "keywords": [
+    "FILTER function",
+    "subset rows",
+    "extract matching rows",
+    "dynamic filter",
+    "slice of data",
+    "rows where column equals",
+    "spill",
+    "array include",
+    "if_empty",
+    "interactive view",
+    "return records for one category"
+   ],
+   "prerequisites": [
+    "excel.enter-formulas-and-cross-sheet-references",
+    "excel.data-validation-dropdown-list"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-using-excel-formulas.md"
+   ]
+  },
+  {
+   "id": "excel.filter-rows-power-query",
+   "tool": "excel",
+   "title": "Filter rows in the Power Query Editor (keep one year, or selected categories)",
+   "path": "tools/excel/filter-rows-power-query.md",
+   "keywords": [
+    "filter",
+    "filter rows",
+    "subset",
+    "power query filter",
+    "keep year",
+    "select year",
+    "2024 only",
+    "filter by category",
+    "filter industry",
+    "table.selectrows",
+    "filtered rows",
+    "select all",
+    "load more",
+    "list may be incomplete",
+    "number filters",
+    "text filters",
+    "remove filter",
+    "basic filtering"
+   ],
+   "prerequisites": [
+    "excel.import-csv-as-table-power-query",
+    "excel.power-query-editor-basics"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv)"
+   ],
+   "source_pages": [
+    "course-pages/topic-1-loading-cleaning-and-exploring-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-basic-filtering.md"
+   ]
+  },
+  {
+   "id": "excel.if-classify-rows-new-column",
+   "tool": "excel",
+   "title": "Create a category column with IF (true/false classification) in an Excel table",
+   "path": "tools/excel/if-classify-rows-new-column.md",
+   "keywords": [
+    "IF",
+    "if statement",
+    "conditional logic",
+    "classify",
+    "recode",
+    "new column",
+    "category column",
+    "true false",
+    "value_if_true",
+    "value_if_false",
+    "calculated column",
+    "structured reference",
+    "coal mining vs non-mining",
+    "ifelse equivalent",
+    "nested if"
+   ],
+   "prerequisites": [
+    "excel.import-csv-as-table-power-query",
+    "excel.enter-formulas-and-cross-sheet-references"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-if-statements.md"
+   ]
+  },
+  {
+   "id": "excel.if-or-multiple-conditions",
+   "tool": "excel",
+   "title": "Classify rows that match any of several values with IF + OR (and IF + AND)",
+   "path": "tools/excel/if-or-multiple-conditions.md",
+   "keywords": [
+    "IF OR",
+    "IF AND",
+    "OR function",
+    "AND function",
+    "multiple conditions",
+    "any of several values",
+    "group categories",
+    "combine categories",
+    "nested function",
+    "logical operators",
+    "mining and foundries",
+    "recode several values into one group"
+   ],
+   "prerequisites": [
+    "excel.if-classify-rows-new-column"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-if-statements.md"
+   ]
+  },
+  {
+   "id": "excel.ifs-categorize-numeric-thresholds",
+   "tool": "excel",
+   "title": "Break a numeric column into Low/Medium/High classes with IFS",
+   "path": "tools/excel/ifs-categorize-numeric-thresholds.md",
+   "keywords": [
+    "IFS",
+    "multiple conditions",
+    "thresholds",
+    "cutoffs",
+    "bins",
+    "classes",
+    "categorize continuous variable",
+    "low medium high",
+    "facility thresholds",
+    "nested if alternative",
+    "case when",
+    "greater than or equal"
+   ],
+   "prerequisites": [
+    "excel.if-classify-rows-new-column"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-if-statements.md"
+   ]
+  },
+  {
+   "id": "excel.import-csv-as-table-power-query",
+   "tool": "excel",
+   "title": "Import a CSV into Excel as a table (Data > From Text/CSV, Load or Transform Data)",
+   "path": "tools/excel/import-csv-as-table-power-query.md",
+   "keywords": [
+    "import csv",
+    "load csv",
+    "open csv",
+    "from text/csv",
+    "get data",
+    "text csv",
+    "get and transform",
+    "power query import",
+    "load to table",
+    "excel table",
+    "transform data",
+    "close and load",
+    "npri csv",
+    "bring data in",
+    "all files",
+    "double click csv",
+    "open file"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv)",
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_DataDonnées_2024.csv)"
+   ],
+   "source_pages": [
+    "course-pages/topic-1-loading-cleaning-and-exploring-data.md",
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/the-npri-dataset.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-data-and-variable-types.md",
+    "transcripts/excel/excel-loading-data-into-excel.md"
+   ]
+  },
+  {
+   "id": "excel.merge-queries-left-outer-join-power-query",
+   "tool": "excel",
+   "title": "Merge two tables with Power Query (Merge Queries, Left Outer join) and expand the matched columns",
+   "path": "tools/excel/merge-queries-left-outer-join-power-query.md",
+   "keywords": [
+    "merge queries",
+    "join",
+    "left outer join",
+    "lookup",
+    "combine tables",
+    "add station coordinates",
+    "key column",
+    "Table.NestedJoin",
+    "Table.ExpandTableColumn",
+    "JoinKind.LeftOuter",
+    "expand column",
+    "join kind",
+    "fuzzy matching",
+    "PWQMN",
+    "water quality stations",
+    "vlookup alternative",
+    "power query"
+   ],
+   "prerequisites": [
+    "excel.import-csv-as-table-power-query",
+    "excel.power-query-editor-basics"
+   ],
+   "datasets_used": [
+    "sources/files/PWQMN_Stations.csv",
+    "sources/files/PWQMN_data_2024.csv",
+    "sources/files/Topic 5.zip > Topic 5/PWQMN_Stations.csv",
+    "Topic 5/PWQMN_data_2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-merging-data.md"
+   ]
+  },
+  {
+   "id": "excel.parse-inconsistent-dates-power-query",
+   "tool": "excel",
+   "title": "Convert inconsistent date text into a proper date column with Date > Parse in Power Query",
+   "path": "tools/excel/parse-inconsistent-dates-power-query.md",
+   "keywords": [
+    "parse date",
+    "fix dates",
+    "date stored as text",
+    "mixed date formats",
+    "slashes and dashes",
+    "month-year only",
+    "date time",
+    "clean dates",
+    "Date.From",
+    "DateTimeZone.From",
+    "inserted parsed date",
+    "eventDate",
+    "OBIS",
+    "date not recognized",
+    "locale",
+    "power query"
+   ],
+   "prerequisites": [
+    "excel.import-csv-as-table-power-query",
+    "excel.power-query-editor-basics"
+   ],
+   "datasets_used": [
+    "sources/files/Topic 2/OBIS - North Atlantic Right Whale reduced.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-cleaning-up-date-data.md"
+   ]
+  },
+  {
+   "id": "excel.pivot-unpivot-columns-power-query",
+   "tool": "excel",
+   "title": "Reshape data between long and wide format with Pivot Column / Unpivot Columns in Power Query",
+   "path": "tools/excel/pivot-unpivot-columns-power-query.md",
+   "keywords": [
+    "pivot column",
+    "unpivot columns",
+    "unpivot other columns",
+    "unpivot only selected columns",
+    "long format",
+    "wide format",
+    "reshape",
+    "transpose years to columns",
+    "years across the top",
+    "pivot_wider",
+    "pivot_longer",
+    "Table.Pivot",
+    "Table.UnpivotOtherColumns",
+    "values column",
+    "attribute value",
+    "power query",
+    "NPRI"
+   ],
+   "prerequisites": [
+    "excel.import-csv-as-table-power-query",
+    "excel.power-query-editor-basics"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-pivoting-columns.md"
+   ]
+  },
+  {
+   "id": "excel.power-query-editor-basics",
+   "tool": "excel",
+   "title": "Open and navigate the Power Query Editor (Applied Steps, formula bar, column profiling, Close & Load)",
+   "path": "tools/excel/power-query-editor-basics.md",
+   "keywords": [
+    "power query editor",
+    "open power query",
+    "launch power query editor",
+    "edit query",
+    "applied steps",
+    "query settings",
+    "delete step",
+    "undo step",
+    "formula bar",
+    "M code",
+    "M formula",
+    "column profiling",
+    "entire data set",
+    "close and load",
+    "queries and connections",
+    "refresh",
+    "power query ribbon",
+    "promoted headers",
+    "changed type",
+    "source step"
+   ],
+   "prerequisites": [
+    "excel.import-csv-as-table-power-query"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv)",
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_DataDonnées_2024.csv)"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/topic-1-loading-cleaning-and-exploring-data.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-basic-filtering.md",
+    "transcripts/excel/excel-data-and-variable-types.md",
+    "transcripts/excel/excel-loading-data-into-excel.md"
+   ]
+  },
+  {
+   "id": "excel.remove-rows-blanks-duplicates-power-query",
+   "tool": "excel",
+   "title": "Remove top/bottom rows, blank rows, duplicates and errors in Power Query (Remove Rows)",
+   "path": "tools/excel/remove-rows-blanks-duplicates-power-query.md",
+   "keywords": [
+    "remove rows",
+    "remove blank rows",
+    "remove blanks",
+    "delete empty rows",
+    "remove bottom rows",
+    "remove top rows",
+    "metadata rows",
+    "footer rows",
+    "header junk",
+    "remove duplicates",
+    "duplicate rows",
+    "remove errors",
+    "remove alternate rows",
+    "keep rows",
+    "reduce rows",
+    "missing data",
+    "table.selectrows",
+    "use first row as headers"
+   ],
+   "prerequisites": [
+    "excel.import-csv-as-table-power-query",
+    "excel.power-query-editor-basics"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_DataDonnées_2024.csv)"
+   ],
+   "source_pages": [
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-data-and-variable-types.md",
+    "transcripts/excel/excel-selecting-and-removing-columns-and-rows.md"
+   ]
+  },
+  {
+   "id": "excel.split-column-power-query",
+   "tool": "excel",
+   "title": "Split one column into several in Power Query (by number of characters or by delimiter)",
+   "path": "tools/excel/split-column-power-query.md",
+   "keywords": [
+    "split column",
+    "split by delimiter",
+    "split by number of characters",
+    "split by positions",
+    "separate column",
+    "extract first digits",
+    "NAICS 4 from NAICS 6",
+    "first 4 characters",
+    "duplicate column",
+    "copy column",
+    "hierarchy code",
+    "comma separated",
+    "digit to non-digit",
+    "split column by position",
+    "text to columns alternative"
+   ],
+   "prerequisites": [
+    "excel.import-csv-as-table-power-query",
+    "excel.power-query-editor-basics"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_DataDonnées_2024.csv)"
+   ],
+   "source_pages": [
+    "course-pages/topic-2-transforming-and-wrangling-data.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-splitting-columns.md"
+   ]
+  },
+  {
+   "id": "excel.unique-distinct-values-formula",
+   "tool": "excel",
+   "title": "List the distinct values of a column with UNIQUE()",
+   "path": "tools/excel/unique-distinct-values-formula.md",
+   "keywords": [
+    "unique",
+    "distinct values",
+    "list of categories",
+    "remove duplicates formula",
+    "dynamic array",
+    "spill",
+    "how many industries",
+    "count categories",
+    "UNIQUE function",
+    "lookup list for dropdown"
+   ],
+   "prerequisites": [
+    "excel.enter-formulas-and-cross-sheet-references"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-using-excel-formulas.md"
+   ]
+  },
+  {
+   "id": "qgis.add-arcgis-rest-server-layer",
+   "tool": "qgis",
+   "title": "Connect to an ESRI ArcGIS REST server (MapServer) and add its layers",
+   "path": "tools/qgis/add-arcgis-rest-server-layer.md",
+   "keywords": [
+    "ESRI REST",
+    "ArcGIS REST",
+    "REST server",
+    "MapServer",
+    "web service",
+    "new connection",
+    "open data",
+    "open.canada.ca",
+    "DFO",
+    "marine invasive species",
+    "species distribution models",
+    "SO4 deposition",
+    "acid rain",
+    "streaming layer",
+    "rendered map",
+    "browser panel"
+   ],
+   "prerequisites": [
+    "qgis.interface-map"
+   ],
+   "datasets_used": [
+    "DFO 'Updated Species Distribution Models for Marine Invasive Species Hotspot Identification' (https://open.canada.ca/data/en/dataset/1439dcb3-82a6-40fd-a9a4-8f045b20ff5b) — ESRI REST MapServer",
+    "ECCC SO4 wet deposition MapServer (case study 5)"
+   ],
+   "source_pages": [
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/case-study-5.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-esri-rest-servers.md"
+   ]
+  },
+  {
+   "id": "qgis.add-base-map-quickmapservices",
+   "tool": "qgis",
+   "title": "Add a base map (Google Maps, ESRI Satellite, ESRI Ocean) with QuickMapServices",
+   "path": "tools/qgis/add-base-map-quickmapservices.md",
+   "keywords": [
+    "base map",
+    "basemap",
+    "background map",
+    "QuickMapServices",
+    "QMS",
+    "Search QMS",
+    "Google Maps",
+    "ESRI Satellite",
+    "World Imagery",
+    "ESRI Ocean",
+    "bathymetry",
+    "satellite imagery",
+    "XYZ tiles",
+    "context map",
+    "remove layer"
+   ],
+   "prerequisites": [
+    "qgis.install-quickmapservices-plugin"
+   ],
+   "datasets_used": [],
+   "source_pages": [
+    "course-pages/topic-1-loading-cleaning-and-exploring-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-base-maps.md",
+    "transcripts/qgis/qgis-esri-rest-servers.md",
+    "transcripts/qgis/qgis-raster-import.md"
+   ]
+  },
+  {
+   "id": "qgis.add-delimited-text-layer-csv",
+   "tool": "qgis",
+   "title": "Add a CSV with latitude/longitude as a point layer (Add Delimited Text Layer)",
+   "path": "tools/qgis/add-delimited-text-layer-csv.md",
+   "keywords": [
+    "CSV",
+    "delimited text",
+    "add delimited text layer",
+    "import csv",
+    "latitude",
+    "longitude",
+    "X field",
+    "Y field",
+    "point coordinates",
+    "lat long",
+    "geometry CRS",
+    "EPSG:4326",
+    "WGS 84",
+    "NPRI geolocations",
+    "PWQMN stations",
+    "Data Source Manager",
+    "points from table",
+    "XY data"
+   ],
+   "prerequisites": [
+    "qgis.interface-map"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_GeolocationsGeolocalisation_1993-present.csv",
+    "sources/files/PWQMN_Stations.csv (also inside the Topic 7 folder in the video)"
+   ],
+   "source_pages": [
+    "course-pages/topic-1-loading-cleaning-and-exploring-data.md",
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/the-npri-dataset.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-adding-a-delimited-text-layer.md",
+    "transcripts/qgis/qgis-basic-filter-in-qgis.md",
+    "transcripts/qgis/qgis-saving-working-layers-to-geopackages.md"
+   ]
+  },
+  {
+   "id": "qgis.add-geometry-attributes-area-perimeter",
+   "tool": "qgis",
+   "title": "Calculate polygon area and perimeter in metres with Add geometry attributes",
+   "path": "tools/qgis/add-geometry-attributes-area-perimeter.md",
+   "keywords": [
+    "area",
+    "perimeter",
+    "square metres",
+    "geometry attributes",
+    "add geometry attributes",
+    "measure polygon",
+    "size of polygon",
+    "native:exportaddgeometrycolumns",
+    "length",
+    "calculate geometry"
+   ],
+   "prerequisites": [
+    "qgis.reproject-vector-layer"
+   ],
+   "datasets_used": [
+    "sources/files/Topic 5.zip (Topic 5/Parking lot/Parking lot.shp)"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-reprojecting-a-vector-layer.md"
+   ]
+  },
+  {
+   "id": "qgis.add-raster-geotiff-and-style-pseudocolor",
+   "tool": "qgis",
+   "title": "Add a raster (GeoTIFF) and display it with a Singleband pseudocolor ramp",
+   "path": "tools/qgis/add-raster-geotiff-and-style-pseudocolor.md",
+   "keywords": [
+    "raster",
+    "GeoTIFF",
+    "tif",
+    "add raster layer",
+    "import raster",
+    "drag and drop",
+    "species distribution model",
+    "SDM",
+    "probability",
+    "symbology",
+    "singleband pseudocolor",
+    "singleband gray",
+    "color ramp",
+    "pixels",
+    "identify pixel value",
+    "Carcinus maenas",
+    "Ciona intestinalis",
+    "green crab",
+    "sea vase",
+    "marine invasive species"
+   ],
+   "prerequisites": [
+    "qgis.interface-map"
+   ],
+   "datasets_used": [
+    "sources/files/Topic 2/Carcinus maenas.tif",
+    "sources/files/Topic 2/Ciona intestinalis.tif",
+    "QuickMapServices 'ESRI Ocean' base map"
+   ],
+   "source_pages": [
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-raster-import.md"
+   ]
+  },
+  {
+   "id": "qgis.add-shapefile-drag-and-drop",
+   "tool": "qgis",
+   "title": "Add an ESRI Shapefile (.shp) to QGIS",
+   "path": "tools/qgis/add-shapefile-drag-and-drop.md",
+   "keywords": [
+    "shapefile",
+    "shp",
+    "add vector layer",
+    "load shapefile",
+    "drag and drop",
+    "browser panel",
+    "dbf",
+    "shx",
+    "prj",
+    "cpg",
+    "vector data",
+    "points lines polygons",
+    "ESRI Shapefile",
+    "open shapefile"
+   ],
+   "prerequisites": [
+    "qgis.interface-map"
+   ],
+   "datasets_used": [
+    "Geolocations shapefile (instructor-made export of the NPRI geolocations CSV; Geolocations.shp/.shx/.dbf/.prj/.cpg)",
+    "sources/files/Topic 7.zip (e.g. wtrshter/wtrshter.shp)"
+   ],
+   "source_pages": [
+    "course-pages/topic-1-loading-cleaning-and-exploring-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-adding-a-delimited-text-layer.md",
+    "transcripts/qgis/qgis-adding-a-shapefile.md"
+   ]
+  },
+  {
+   "id": "qgis.buffer-points-fixed-distance",
+   "tool": "qgis",
+   "title": "Create fixed-distance buffers around vector features",
+   "path": "tools/qgis/buffer-points-fixed-distance.md",
+   "keywords": [
+    "buffer",
+    "buffers",
+    "buffer zone",
+    "radius",
+    "distance around points",
+    "500 m buffer",
+    "catchment",
+    "proximity polygon",
+    "native:buffer",
+    "Vector geometry Buffer",
+    "PWQMN stations buffer"
+   ],
+   "prerequisites": [
+    "qgis.reproject-vector-layer"
+   ],
+   "datasets_used": [
+    "sources/files/PWQMN_Stations.csv",
+    "sources/files/Topic 5.zip (Topic 5/PWQMN_Stations.csv)"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-buffer-creation-and-zonal-histograms.md"
+   ]
+  },
+  {
+   "id": "qgis.clip-vector-layer-to-boundary",
+   "tool": "qgis",
+   "title": "Clip a vector layer to a boundary polygon",
+   "path": "tools/qgis/clip-vector-layer-to-boundary.md",
+   "keywords": [
+    "clip",
+    "clipping",
+    "cut layer to study area",
+    "trim to boundary",
+    "remove water portions",
+    "municipalities clipped to Ontario",
+    "Vector overlay Clip",
+    "native:clip",
+    "overlay layer",
+    "cookie cutter"
+   ],
+   "prerequisites": [
+    "qgis.fix-invalid-geometries"
+   ],
+   "datasets_used": [
+    "sources/files/Topic 7.zip (municlow/municlow.shp — Ontario lower/single-tier municipal boundaries",
+    "EPSG:4269)",
+    "sources/files/Topic 7.zip (lpr_000b16a_f/lpr_000b16a_f.shp — Statistics Canada provinces/territories",
+    "EPSG:3347)"
+   ],
+   "source_pages": [
+    "course-pages/topic-7.md",
+    "course-pages/lesson-7-overview.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-clipping-vector-layers.md",
+    "transcripts/qgis/qgis-counting-points-in-polygons-and-creating-grids.md"
+   ]
+  },
+  {
+   "id": "qgis.count-points-in-polygon",
+   "tool": "qgis",
+   "title": "Count points in each polygon",
+   "path": "tools/qgis/count-points-in-polygon.md",
+   "keywords": [
+    "count points in polygon",
+    "point count per province",
+    "NUMPOINTS",
+    "facilities per region",
+    "density by polygon",
+    "native:countpointsinpolygon",
+    "Vector analysis",
+    "NPRI facilities count",
+    "weight field",
+    "class field"
+   ],
+   "prerequisites": [
+    "qgis.filter-vector-multiple-conditions"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_GeolocationsGeolocalisation_1993-present.csv)",
+    "sources/files/Topic 7.zip (lpr_000b16a_f/lpr_000b16a_f.shp)"
+   ],
+   "source_pages": [
+    "course-pages/topic-7.md",
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/exam-practice.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-counting-points-in-polygons-and-creating-grids.md"
+   ]
+  },
+  {
+   "id": "qgis.create-grid-and-count-point-density",
+   "tool": "qgis",
+   "title": "Create a 100 km grid and map point density per cell",
+   "path": "tools/qgis/create-grid-and-count-point-density.md",
+   "keywords": [
+    "create grid",
+    "fishnet",
+    "vector grid",
+    "hexagon grid",
+    "100 km grid",
+    "grid cells",
+    "point density",
+    "density map",
+    "count points per grid cell",
+    "native:creategrid",
+    "Vector creation",
+    "Pretty Breaks"
+   ],
+   "prerequisites": [
+    "qgis.count-points-in-polygon",
+    "qgis.clip-vector-layer-to-boundary"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_GeolocationsGeolocalisation_1993-present.csv)",
+    "sources/files/Topic 7.zip (lpr_000b16a_f/lpr_000b16a_f.shp)"
+   ],
+   "source_pages": [
+    "course-pages/topic-7.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-counting-points-in-polygons-and-creating-grids.md"
+   ]
+  },
+  {
+   "id": "qgis.create-shapefile-layer-and-digitize-polygon",
+   "tool": "qgis",
+   "title": "Create a new polygon shapefile layer and draw (digitize) features",
+   "path": "tools/qgis/create-shapefile-layer-and-digitize-polygon.md",
+   "keywords": [
+    "create layer",
+    "new shapefile layer",
+    "new vector layer",
+    "digitize",
+    "draw polygon",
+    "toggle editing",
+    "add polygon feature",
+    "study area",
+    "sampling area",
+    "trace satellite imagery",
+    "geometry type",
+    "edit mode",
+    "save edits"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "sources/files/Buckthorn observations_0.csv (Topic 5.zip > Topic 5/Buckthorn observations_0.csv)",
+    "Topic 5.zip > Topic 5/Sampling area/Sampling area.shp",
+    "Topic 5.zip > Topic 5/Parking lot/Parking lot.shp"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-creating-a-new-layer.md"
+   ]
+  },
+  {
+   "id": "qgis.create-spatial-index",
+   "tool": "qgis",
+   "title": "Speed up processing of a large vector layer with Create spatial index",
+   "path": "tools/qgis/create-spatial-index.md",
+   "keywords": [
+    "spatial index",
+    "create spatial index",
+    "performance",
+    "slow processing",
+    "large dataset",
+    "qix",
+    "index",
+    "native:createspatialindex",
+    "speed up",
+    "roads network",
+    "No spatial index exists for input layer"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "sources/files/Topic 7.zip (lpr_000b16a_f/lpr_000b16a_f.shp - Statistics Canada 2016 provincial/territorial boundaries",
+    "EPSG:3347)",
+    "Ontario Road Network (case study 5)"
+   ],
+   "source_pages": [
+    "course-pages/topic-7.md",
+    "course-pages/case-study-5.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-creating-a-spatial-index.md"
+   ]
+  },
+  {
+   "id": "qgis.explore-layer-identify-attribute-table-properties",
+   "tool": "qgis",
+   "title": "Explore a layer with Identify Features, the attribute table and Layer Properties",
+   "path": "tools/qgis/explore-layer-identify-attribute-table-properties.md",
+   "keywords": [
+    "identify",
+    "identify features",
+    "info button",
+    "attribute table",
+    "open attribute table",
+    "F6",
+    "layer properties",
+    "symbology",
+    "labels",
+    "inspect features",
+    "feature values",
+    "pixel value",
+    "zoom to layer",
+    "explore data",
+    "world map",
+    "layer context menu"
+   ],
+   "prerequisites": [
+    "qgis.interface-map"
+   ],
+   "datasets_used": [
+    "QGIS built-in 'World Map' layer",
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_GeolocationsGeolocalisation_1993-present.csv",
+    "sources/files/Topic 2/Carcinus maenas.tif"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-adding-a-delimited-text-layer.md",
+    "transcripts/qgis/qgis-introduction-to-qgis.md",
+    "transcripts/qgis/qgis-raster-import.md"
+   ]
+  },
+  {
+   "id": "qgis.export-layer-to-csv-or-shapefile",
+   "tool": "qgis",
+   "title": "Export a layer's attribute table to CSV or save it as a permanent shapefile",
+   "path": "tools/qgis/export-layer-to-csv-or-shapefile.md",
+   "keywords": [
+    "export",
+    "save features as",
+    "attribute table to csv",
+    "csv export",
+    "shapefile export",
+    "make permanent",
+    "temporary layer",
+    "scratch layer",
+    "save vector layer as",
+    "geopackage",
+    "xlsx",
+    "share with Excel or R"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "Topic 5 buckthorn workflow output layer 'Sampled",
+    "Topic 5.zip > Topic 5/buckthorn_updated.csv",
+    "Topic 5.zip > Topic 5/buckthorn_updated/buckthorn_updated.shp"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-exporting-attribute-table-to-csv.md"
+   ]
+  },
+  {
+   "id": "qgis.field-calculator-case-when",
+   "tool": "qgis",
+   "title": "Classify a field into several categories with CASE WHEN in the Field Calculator",
+   "path": "tools/qgis/field-calculator-case-when.md",
+   "keywords": [
+    "case when",
+    "CASE",
+    "WHEN",
+    "THEN",
+    "ELSE",
+    "END",
+    "multiple conditions",
+    "bins",
+    "thresholds",
+    "classify continuous variable",
+    "categories",
+    "field calculator",
+    "conditionals"
+   ],
+   "prerequisites": [
+    "qgis.field-calculator-if-statement"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_GeolocationsGeolocalisation_1993-present.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-case-when-for-multiple-conditions.md"
+   ]
+  },
+  {
+   "id": "qgis.field-calculator-change-column-type",
+   "tool": "qgis",
+   "title": "Convert a text field to numeric with the Field Calculator",
+   "path": "tools/qgis/field-calculator-change-column-type.md",
+   "keywords": [
+    "change column type",
+    "data type",
+    "text to number",
+    "string to decimal",
+    "convert field",
+    "numeric",
+    "double",
+    "field calculator",
+    "graduated symbology",
+    "PWQMN",
+    "phosphate",
+    "BDL",
+    "below detection limit"
+   ],
+   "prerequisites": [
+    "qgis.field-calculator-if-statement"
+   ],
+   "datasets_used": [
+    "sources/files/PWQMN_Stations.csv",
+    "sources/files/PWQMN_data_2024.csv",
+    "sources/files/Topic 5.zip"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-changing-column-types.md"
+   ]
+  },
+  {
+   "id": "qgis.field-calculator-if-statement",
+   "tool": "qgis",
+   "title": "Create a new classified field with an if() expression in the Field Calculator",
+   "path": "tools/qgis/field-calculator-if-statement.md",
+   "keywords": [
+    "field calculator",
+    "new field",
+    "new column",
+    "if statement",
+    "conditional",
+    "classify",
+    "categorize",
+    "virtual field",
+    "attribute table",
+    "expression",
+    "North South",
+    "latitude"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_GeolocationsGeolocalisation_1993-present.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-case-when-for-multiple-conditions.md",
+    "transcripts/qgis/qgis-field-calculator.md"
+   ]
+  },
+  {
+   "id": "qgis.filter-vector-multiple-conditions",
+   "tool": "qgis",
+   "title": "Filter a vector layer on multiple conditions (AND, IN, !=) in the Query Builder",
+   "path": "tools/qgis/filter-vector-multiple-conditions.md",
+   "keywords": [
+    "filter",
+    "query builder",
+    "provider filter",
+    "multiple conditions",
+    "AND",
+    "OR",
+    "IN",
+    "NOT IN",
+    "not equal",
+    "subset",
+    "where clause",
+    "NPRI",
+    "province",
+    "NAICS",
+    "breweries",
+    "layer filter"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_GeolocationsGeolocalisation_1993-present.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-filter-vector-data-for-multiple-conditions.md"
+   ]
+  },
+  {
+   "id": "qgis.filter-vector-single-condition-query-builder",
+   "tool": "qgis",
+   "title": "Filter a vector layer on one condition with the Query Builder (basic filter)",
+   "path": "tools/qgis/filter-vector-single-condition-query-builder.md",
+   "keywords": [
+    "filter",
+    "basic filter",
+    "query builder",
+    "provider filter",
+    "single condition",
+    "equals",
+    "greater than",
+    "year",
+    "NPRI",
+    "year of last filed report",
+    "subset",
+    "where",
+    "layer filter",
+    "Filter...",
+    "Ctrl+F"
+   ],
+   "prerequisites": [
+    "qgis.add-delimited-text-layer-csv"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_GeolocationsGeolocalisation_1993-present.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-1-loading-cleaning-and-exploring-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-basic-filter-in-qgis.md"
+   ]
+  },
+  {
+   "id": "qgis.fix-invalid-geometries",
+   "tool": "qgis",
+   "title": "Fix invalid geometries before geoprocessing",
+   "path": "tools/qgis/fix-invalid-geometries.md",
+   "keywords": [
+    "fix geometries",
+    "invalid geometry",
+    "has invalid geometry error",
+    "Invalid features filtering",
+    "repair polygons",
+    "native:fixgeometries",
+    "Structure repair method",
+    "clip failed"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "sources/files/Topic 7.zip (municlow/municlow.shp)"
+   ],
+   "source_pages": [
+    "course-pages/topic-7.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-clipping-vector-layers.md"
+   ]
+  },
+  {
+   "id": "qgis.install-quickmapservices-plugin",
+   "tool": "qgis",
+   "title": "Install the QuickMapServices (QMS) plugin",
+   "path": "tools/qgis/install-quickmapservices-plugin.md",
+   "keywords": [
+    "plugin",
+    "install plugin",
+    "QuickMapServices",
+    "QMS",
+    "NextGIS",
+    "base map plugin",
+    "Plugins menu",
+    "Manage and Install Plugins",
+    "web map services"
+   ],
+   "prerequisites": [
+    "qgis.interface-map"
+   ],
+   "datasets_used": [],
+   "source_pages": [
+    "course-pages/topic-1-loading-cleaning-and-exploring-data.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-introduction-to-qgis.md"
+   ]
+  },
+  {
+   "id": "qgis.inverted-polygon-mask-symbology",
+   "tool": "qgis",
+   "title": "Highlight a study area with an outline and an inverted-polygon mask",
+   "path": "tools/qgis/inverted-polygon-mask-symbology.md",
+   "keywords": [
+    "inverted polygons",
+    "mask outside polygon",
+    "fade surroundings",
+    "highlight study area",
+    "transparent fill",
+    "outline only",
+    "stroke width",
+    "watershed highlight",
+    "base map context",
+    "symbology trick"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "thames_river_watershed.gpkg (Topic 7 folder; layers pwqmn_station_thames",
+    "thames_river",
+    "thames_river_watershed",
+    "wtrshter — created in the GeoPackage video)",
+    "ESRI Satellite base map"
+   ],
+   "source_pages": [
+    "course-pages/topic-7.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-print-layout.md"
+   ]
+  },
+  {
+   "id": "qgis.join-attributes-by-location",
+   "tool": "qgis",
+   "title": "Add polygon attributes to points that fall inside them with Join attributes by location",
+   "path": "tools/qgis/join-attributes-by-location.md",
+   "keywords": [
+    "join attributes by location",
+    "spatial join",
+    "point in polygon",
+    "intersects",
+    "within",
+    "contains",
+    "geometric predicate",
+    "one-to-many",
+    "one-to-one",
+    "ecodistrict",
+    "ecoregion",
+    "native:joinattributesbylocation",
+    "discard records",
+    "joined field prefix",
+    "overlay attributes"
+   ],
+   "prerequisites": [
+    "qgis.join-table-to-layer-by-attribute"
+   ],
+   "datasets_used": [
+    "sources/files/PWQMN_Stations.csv",
+    "sources/files/Topic 5.zip (Topic 5/EcoDistrict/EcoDistrict.shp",
+    "Ontario ecodistricts",
+    "EPSG:4269)"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-join-attributes-by-location.md"
+   ]
+  },
+  {
+   "id": "qgis.join-attributes-by-nearest",
+   "tool": "qgis",
+   "title": "Add distance-to-nearest-feature and nearest-feature attributes with Join attributes by nearest",
+   "path": "tools/qgis/join-attributes-by-nearest.md",
+   "keywords": [
+    "join attributes by nearest",
+    "nearest neighbour",
+    "nearest neighbor",
+    "distance to nearest",
+    "distance to water",
+    "proximity join",
+    "spatial join nearest",
+    "native:joinbynearest",
+    "n",
+    "distance",
+    "feature_x",
+    "nearest_x",
+    "max distance",
+    "prefix"
+   ],
+   "prerequisites": [
+    "qgis.reproject-vector-layer"
+   ],
+   "datasets_used": [
+    "sources/files/Buckthorn observations_0.csv (reprojected to EPSG:26917)",
+    "sources/files/Topic 5.zip (Topic 5/Water_Edges/Water_Edges.shp)",
+    "sources/files/buckthorn_updated.csv (final result of the Topic 5 joins)"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-join-attributes-by-nearest.md"
+   ]
+  },
+  {
+   "id": "qgis.join-table-to-layer-by-attribute",
+   "tool": "qgis",
+   "title": "Join a non-spatial table to a point layer by a shared ID (Layer Properties > Joins)",
+   "path": "tools/qgis/join-table-to-layer-by-attribute.md",
+   "keywords": [
+    "attribute join",
+    "table join",
+    "join by field",
+    "vector join",
+    "Add Vector Join",
+    "Layer Properties Joins",
+    "join CSV to layer",
+    "no geometry",
+    "attribute only table",
+    "spatial join (course term)",
+    "PWQMN",
+    "STATION",
+    "Collection Site",
+    "join field",
+    "target field",
+    "one-to-one",
+    "Join attributes by field value"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "sources/files/PWQMN_Stations.csv",
+    "sources/files/PWQMN_data_2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/case-study-8.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-spatial-joins.md"
+   ]
+  },
+  {
+   "id": "qgis.measure-distance-shortest-line-between-features",
+   "tool": "qgis",
+   "title": "Draw and measure the shortest line from points to the nearest feature of another layer",
+   "path": "tools/qgis/measure-distance-shortest-line-between-features.md",
+   "keywords": [
+    "distance",
+    "shortest line",
+    "nearest",
+    "distance to river",
+    "distance to water",
+    "proximity",
+    "measure distance",
+    "lines between layers",
+    "Shortest line between features",
+    "native:shortestline",
+    "delete features",
+    "edit layer",
+    "toggle editing"
+   ],
+   "prerequisites": [
+    "qgis.reproject-vector-layer"
+   ],
+   "datasets_used": [
+    "sources/files/Buckthorn observations_0.csv (reprojected to EPSG:26917)",
+    "sources/files/Topic 5.zip (Topic 5/Water_Edges/Water_Edges.shp",
+    "City of London Open Data 'Water Edges')"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-join-attributes-by-nearest.md"
+   ]
+  },
+  {
+   "id": "qgis.merge-selected-features",
+   "tool": "qgis",
+   "title": "Merge selected polygons within one layer into a single feature (Merge Selected Features)",
+   "path": "tools/qgis/merge-selected-features.md",
+   "keywords": [
+    "merge features",
+    "merge selected features",
+    "dissolve selected",
+    "combine polygons",
+    "join polygons",
+    "edit mode",
+    "toggle editing",
+    "watershed",
+    "Upper Thames",
+    "Lower Thames",
+    "advanced digitizing",
+    "Merge Features dialog",
+    "manual value"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "sources/files/Topic 7.zip (wtrshter/wtrshter.shp - Ontario tertiary watersheds",
+    "EPSG:4269)"
+   ],
+   "source_pages": [
+    "course-pages/topic-7.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-merging-vector-layers-and-features.md"
+   ]
+  },
+  {
+   "id": "qgis.merge-vector-layers",
+   "tool": "qgis",
+   "title": "Combine several vector layers into one layer with Merge vector layers",
+   "path": "tools/qgis/merge-vector-layers.md",
+   "keywords": [
+    "merge vector layers",
+    "combine layers",
+    "append layers",
+    "union of layers",
+    "stack layers",
+    "merge shapefiles",
+    "municipalities",
+    "First Nation reserves",
+    "native:mergevectorlayers",
+    "add source layer information",
+    "layer path fields"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "sources/files/Topic 7.zip (municlow/municlow.shp - Ontario municipalities; indianre/indianre.shp - First Nation reserves; both EPSG:4269)"
+   ],
+   "source_pages": [
+    "course-pages/topic-7.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-merging-vector-layers-and-features.md"
+   ]
+  },
+  {
+   "id": "qgis.print-layout-map-export",
+   "tool": "qgis",
+   "title": "Build a print layout (map, scale bar, north arrow, grid, legend, title) and export a PNG",
+   "path": "tools/qgis/print-layout-map-export.md",
+   "keywords": [
+    "print layout",
+    "layout manager",
+    "new print layout",
+    "map composition",
+    "add map",
+    "scale bar",
+    "north arrow",
+    "legend",
+    "map grid",
+    "graticule",
+    "coordinates",
+    "title label",
+    "export image",
+    "PNG",
+    "300 dpi",
+    "final map",
+    "story map figure"
+   ],
+   "prerequisites": [
+    "qgis.inverted-polygon-mask-symbology"
+   ],
+   "datasets_used": [
+    "thames_river_watershed.gpkg (Topic 7 folder)",
+    "ESRI Satellite base map"
+   ],
+   "source_pages": [
+    "course-pages/topic-7.md",
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/final-submission-arcgis-story-map.md",
+    "course-pages/exam-practice.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-print-layout.md"
+   ]
+  },
+  {
+   "id": "qgis.raster-calculator-combine-two-rasters",
+   "tool": "qgis",
+   "title": "Combine two rasters with conditions (AND / +) in the Raster Calculator",
+   "path": "tools/qgis/raster-calculator-combine-two-rasters.md",
+   "keywords": [
+    "raster calculator",
+    "two rasters",
+    "overlay",
+    "combine layers",
+    "AND",
+    "add rasters",
+    "co-occurrence",
+    "hotspot",
+    "invasive species",
+    "map algebra",
+    "count of layers above threshold"
+   ],
+   "prerequisites": [
+    "qgis.raster-calculator-threshold-filter",
+    "qgis.raster-set-value-transparent"
+   ],
+   "datasets_used": [
+    "sources/files/Topic 2/Carcinus maenas.tif",
+    "sources/files/Topic 2/Ciona intestinalis.tif"
+   ],
+   "source_pages": [
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md",
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-raster-calculator-with-two-raster-layers.md"
+   ]
+  },
+  {
+   "id": "qgis.raster-calculator-threshold-filter",
+   "tool": "qgis",
+   "title": "Filter a raster to cells above a threshold with the Raster Calculator",
+   "path": "tools/qgis/raster-calculator-threshold-filter.md",
+   "keywords": [
+    "raster calculator",
+    "threshold",
+    "cutoff",
+    "filter pixels",
+    "reclassify",
+    "binary raster",
+    "mask",
+    "keep values above",
+    "probability",
+    "species distribution model",
+    "on-the-fly raster",
+    "GeoTIFF"
+   ],
+   "prerequisites": [
+    "qgis.raster-set-value-transparent"
+   ],
+   "datasets_used": [
+    "sources/files/Topic 2/Carcinus maenas.tif",
+    "sources/files/Topic 2/Ciona intestinalis.tif"
+   ],
+   "source_pages": [
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-raster-calculator-with-two-raster-layers.md",
+    "transcripts/qgis/qgis-raster-calculator.md"
+   ]
+  },
+  {
+   "id": "qgis.raster-set-value-transparent",
+   "tool": "qgis",
+   "title": "Make zero (or any single value) transparent in a pseudocolour raster",
+   "path": "tools/qgis/raster-set-value-transparent.md",
+   "keywords": [
+    "raster transparency",
+    "hide zeros",
+    "opacity",
+    "no data look",
+    "singleband pseudocolor",
+    "colour ramp",
+    "viridis",
+    "symbology",
+    "select color"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "Raster Calculator outputs from Carcinus maenas.tif / Ciona intestinalis.tif"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-raster-calculator-with-two-raster-layers.md",
+    "transcripts/qgis/qgis-raster-calculator.md"
+   ]
+  },
+  {
+   "id": "qgis.reproject-raster-warp",
+   "tool": "qgis",
+   "title": "Reproject a raster layer with Warp (reproject)",
+   "path": "tools/qgis/reproject-raster-warp.md",
+   "keywords": [
+    "warp",
+    "gdalwarp",
+    "reproject raster",
+    "raster CRS",
+    "change raster projection",
+    "align raster and vector",
+    "EPSG:26917",
+    "UTM zone 17N",
+    "GDAL Raster projections",
+    "aci crop inventory"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "sources/files/Topic 5.zip (Topic 5/aci_2018_on_v3/aci_2018_on_v3.tif",
+    "Annual Crop Inventory 2018 Ontario)"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-buffer-creation-and-zonal-histograms.md"
+   ]
+  },
+  {
+   "id": "qgis.reproject-vector-layer",
+   "tool": "qgis",
+   "title": "Reproject a vector layer to a metre-based CRS (Reproject Layer)",
+   "path": "tools/qgis/reproject-vector-layer.md",
+   "keywords": [
+    "reproject",
+    "reprojection",
+    "transform",
+    "change CRS",
+    "coordinate reference system",
+    "projection",
+    "EPSG",
+    "4326",
+    "3162",
+    "26917",
+    "UTM zone 17N",
+    "Ontario MNR Lambert",
+    "metres",
+    "meters",
+    "project CRS",
+    "Reproject Layer",
+    "native:reprojectlayer",
+    "NAD83"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "sources/files/Topic 5.zip (Topic 5/Parking lot/Parking lot.shp)",
+    "sources/files/Buckthorn observations_0.csv (also in Topic 5.zip)"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-join-attributes-by-nearest.md",
+    "transcripts/qgis/qgis-reprojecting-a-vector-layer.md"
+   ]
+  },
+  {
+   "id": "qgis.sample-raster-values-at-points",
+   "tool": "qgis",
+   "title": "Add raster values (e.g. DEM elevation) to point features with Sample raster values",
+   "path": "tools/qgis/sample-raster-values-at-points.md",
+   "keywords": [
+    "sample raster values",
+    "raster to points",
+    "extract raster values",
+    "elevation at points",
+    "DEM",
+    "digital elevation model",
+    "pixel value",
+    "point sampling",
+    "native:rastersampling",
+    "output column prefix",
+    "SWOOP",
+    "identify raster value"
+   ],
+   "prerequisites": [
+    "qgis.join-attributes-by-nearest"
+   ],
+   "datasets_used": [
+    "sources/files/Topic 5.zip (Topic 5/1km17477047610SWOOP2015.img - SWOOP 2015 DEM tile)",
+    "Joined layer (buckthorn plots with distance",
+    "from join-attributes-by-nearest)"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-sample-raster-values.md"
+   ]
+  },
+  {
+   "id": "qgis.save-layers-to-geopackage",
+   "tool": "qgis",
+   "title": "Save selected features or working layers into one GeoPackage (.gpkg) and reload them",
+   "path": "tools/qgis/save-layers-to-geopackage.md",
+   "keywords": [
+    "geopackage",
+    "gpkg",
+    "save features as",
+    "save selected features as",
+    "export layer",
+    "save vector layer as",
+    "multiple layers one file",
+    "make permanent",
+    "temporary layer",
+    "scratch layer",
+    "select features",
+    "Thames River watershed",
+    "PWQMN stations",
+    "add layers from geopackage"
+   ],
+   "prerequisites": [
+    "qgis.interface-map"
+   ],
+   "datasets_used": [
+    "sources/files/Topic 7.zip > wtrshter/wtrshter.shp (Ontario tertiary watersheds; Upper+Lower Thames merged in the merging video)",
+    "sources/files/PWQMN_Stations.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-7.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-introduction-to-qgis.md",
+    "transcripts/qgis/qgis-saving-working-layers-to-geopackages.md"
+   ]
+  },
+  {
+   "id": "qgis.save-project-file",
+   "tool": "qgis",
+   "title": "Save and reopen a QGIS project file (.qgz)",
+   "path": "tools/qgis/save-project-file.md",
+   "keywords": [
+    "save project",
+    "project file",
+    "qgz",
+    "qgs",
+    "save as",
+    "open recent",
+    "reopen project",
+    "symbology saved",
+    "layer paths",
+    "recent projects",
+    "Project menu"
+   ],
+   "prerequisites": [
+    "qgis.interface-map"
+   ],
+   "datasets_used": [
+    "thames_river_watershed.gpkg (built in the geopackage video)",
+    "ESRI Satellite base map"
+   ],
+   "source_pages": [
+    "course-pages/topic-7.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-introduction-to-qgis.md",
+    "transcripts/qgis/qgis-saving-a-project-file.md"
+   ]
+  },
+  {
+   "id": "qgis.set-project-crs",
+   "tool": "qgis",
+   "title": "Check and change the project coordinate reference system (CRS)",
+   "path": "tools/qgis/set-project-crs.md",
+   "keywords": [
+    "CRS",
+    "coordinate reference system",
+    "projection",
+    "project CRS",
+    "EPSG",
+    "EPSG:4326",
+    "WGS 84",
+    "EPSG:3857",
+    "Pseudo-Mercator",
+    "EPSG:3161",
+    "Ontario MNR Lambert",
+    "NAD83",
+    "datum",
+    "units",
+    "metres",
+    "degrees",
+    "Project Properties",
+    "select transformation",
+    "on-the-fly reprojection",
+    "world map"
+   ],
+   "prerequisites": [
+    "qgis.interface-map"
+   ],
+   "datasets_used": [
+    "QGIS built-in 'World Map' layer (type world in the status-bar Coordinate box)"
+   ],
+   "source_pages": [
+    "course-pages/topic-1-loading-cleaning-and-exploring-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-crs.md",
+    "transcripts/qgis/qgis-introduction-to-qgis.md"
+   ]
+  },
+  {
+   "id": "qgis.zonal-histogram-raster-categories-in-polygons",
+   "tool": "qgis",
+   "title": "Count raster categories inside polygons with Zonal histogram",
+   "path": "tools/qgis/zonal-histogram-raster-categories-in-polygons.md",
+   "keywords": [
+    "zonal histogram",
+    "zonal statistics categorical",
+    "land cover in buffer",
+    "crop types around station",
+    "pixel count per class",
+    "raster categories in polygons",
+    "native:zonalhistogram",
+    "Annual Crop Inventory",
+    "ACI",
+    "HISTO_ prefix"
+   ],
+   "prerequisites": [
+    "qgis.buffer-points-fixed-distance",
+    "qgis.reproject-raster-warp"
+   ],
+   "datasets_used": [
+    "sources/files/Topic 5.zip (Topic 5/aci_2018_on_v3/aci_2018_on_v3.tif)",
+    "sources/files/Topic 5.zip (Topic 5/aci_2018_on_v3/aci_crop_classifications_iac_classifications_des_cultures.csv)",
+    "sources/files/PWQMN_Stations.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-buffer-creation-and-zonal-histograms.md"
+   ]
+  },
+  {
+   "id": "r-positron.bind-rows",
+   "tool": "r-positron",
+   "title": "Stack datasets with identical columns using bind_rows()",
+   "path": "tools/r-positron/bind-rows.md",
+   "keywords": [
+    "bind_rows",
+    "row bind",
+    "stack",
+    "append",
+    "combine years",
+    "union",
+    "concatenate",
+    "rbind",
+    "merge files",
+    "combine datasets",
+    "same columns",
+    "multiple years"
+   ],
+   "prerequisites": [
+    "r-positron.read-csv-and-clean-column-names",
+    "r-positron.convert-column-types"
+   ],
+   "datasets_used": [
+    "sources/files/Topic 5.zip (PWQMN-2000_2009.csv",
+    "PWQMN-2010_2018.csv)",
+    "Practice question buffer exports 1km_buffer.csv / 2km_buffer.csv (not in sources/files)"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/exam-practice.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/r-row-binds-and-joins2.md"
+   ]
+  },
+  {
+   "id": "r-positron.classify-with-ifelse",
+   "tool": "r-positron",
+   "title": "Classify observations or replace values with ifelse() (R if statement)",
+   "path": "tools/r-positron/classify-with-ifelse.md",
+   "keywords": [
+    "ifelse",
+    "if statement",
+    "if_else",
+    "case_when",
+    "conditional",
+    "classify",
+    "categorize",
+    "yes no",
+    "presence absence",
+    "binary",
+    "replace value",
+    "threshold",
+    "group size",
+    "individual vs group",
+    "conditional logic"
+   ],
+   "prerequisites": [
+    "r-positron.create-columns-with-mutate"
+   ],
+   "datasets_used": [
+    "sources/files/buckthorn_updated.csv",
+    "sources/files/PWQMN_data_2024.csv",
+    "sources/files/Practice sets/OBIS - North Atlantic Right Whale reduced.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md",
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/practice-1-north-atlantic-right-whale.md"
+   ]
+  },
+  {
+   "id": "r-positron.convert-column-types",
+   "tool": "r-positron",
+   "title": "Convert column data types (as.numeric, as.character) and replace text codes with NA",
+   "path": "tools/r-positron/convert-column-types.md",
+   "keywords": [
+    "data types",
+    "convert type",
+    "as.numeric",
+    "as.character",
+    "character",
+    "numeric",
+    "text to number",
+    "ID as text",
+    "below detection limit",
+    "less than values",
+    "NA",
+    "results column",
+    "chr",
+    "dbl",
+    "type mismatch"
+   ],
+   "prerequisites": [
+    "r-positron.read-csv-and-clean-column-names"
+   ],
+   "datasets_used": [
+    "sources/files/PWQMN_data_2024.csv",
+    "sources/files/PWQMN_Stations.csv",
+    "sources/files/Topic 5.zip (PWQMN-2000_2009.csv",
+    "PWQMN-2010_2018.csv)",
+    "sources/files/Class 2/Class 2.zip (data/108916_histos.csv)",
+    "sources/files/buckthorn_updated.csv"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/topic-2-transforming-and-wrangling-data.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/r-row-binds-and-joins2.md"
+   ]
+  },
+  {
+   "id": "r-positron.create-columns-with-mutate",
+   "tool": "r-positron",
+   "title": "Create or modify columns with mutate() (calculations, constants, substrings)",
+   "path": "tools/r-positron/create-columns-with-mutate.md",
+   "keywords": [
+    "mutate",
+    "new column",
+    "calculated column",
+    "formula",
+    "add column",
+    "modify column",
+    "constant label",
+    "substring",
+    "NAICS code",
+    "$ assignment",
+    "total cover",
+    "sum columns",
+    "formulas and functions"
+   ],
+   "prerequisites": [
+    "r-positron.read-csv-and-clean-column-names"
+   ],
+   "datasets_used": [
+    "sources/files/buckthorn_updated.csv",
+    "sources/files/Class 2/Class 2.zip (data/108916_tag.csv)",
+    "sources/files/PWQMN_data_2024.csv",
+    "sources/files/Class 1/NPRI data.zip",
+    "Practice question data (1km_buffer.csv",
+    "2km_buffer.csv — exported from QGIS",
+    "not in sources/files)"
+   ],
+   "source_pages": [
+    "course-pages/lesson-3-overview.md",
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md",
+    "course-pages/exam-practice.md",
+    "course-pages/npri-group-assignment-updated.md"
+   ]
+  },
+  {
+   "id": "r-positron.customize-plot-labels-themes-facets",
+   "tool": "r-positron",
+   "title": "Customize ggplot labels, themes, legend, facets and colours",
+   "path": "tools/r-positron/customize-plot-labels-themes-facets.md",
+   "keywords": [
+    "labs",
+    "title",
+    "subtitle",
+    "axis labels",
+    "legend title",
+    "theme_bw",
+    "theme_classic",
+    "theme",
+    "element_text",
+    "element_blank",
+    "element_line",
+    "legend.position",
+    "hide legend",
+    "rotate axis labels",
+    "facet_wrap",
+    "panels",
+    "small multiples",
+    "scale_colour_manual",
+    "coord_flip",
+    "alpha",
+    "size",
+    "colour vs fill"
+   ],
+   "prerequisites": [
+    "r-positron.plot-column-chart"
+   ],
+   "datasets_used": [
+    "sources/files/PWQMN_data_2024.csv",
+    "sources/files/buckthorn_updated.csv",
+    "sources/files/Class 1/NPRI data.zip"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/practice-1-north-atlantic-right-whale.md",
+    "course-pages/exam-practice.md"
+   ]
+  },
+  {
+   "id": "r-positron.filter-rows",
+   "tool": "r-positron",
+   "title": "Filter rows with filter() using ==, !=, %in%, !, &, >= and missing-value checks",
+   "path": "tools/r-positron/filter-rows.md",
+   "keywords": [
+    "filter",
+    "subset rows",
+    "condition",
+    "multiple conditions",
+    "equals",
+    "not equal",
+    "%in%",
+    "is one of",
+    "exclude",
+    "negate",
+    "and",
+    "complete.cases",
+    "is.na",
+    "remove NA",
+    "missing values",
+    "keep stations",
+    "top list"
+   ],
+   "prerequisites": [
+    "r-positron.read-csv-and-clean-column-names"
+   ],
+   "datasets_used": [
+    "sources/files/Class 2/Class 2.zip (data/108916_histos.csv)",
+    "sources/files/Class 1/NPRI data.zip",
+    "sources/files/PWQMN_data_2024.csv",
+    "sources/files/PWQMN_Stations.csv",
+    "sources/files/buckthorn_updated.csv"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/practice-1-north-atlantic-right-whale.md",
+    "course-pages/exam-practice.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/r-row-binds-and-joins2.md"
+   ]
+  },
+  {
+   "id": "r-positron.find-duplicates-and-keep-distinct",
+   "tool": "r-positron",
+   "title": "Find duplicate keys with count() and remove them with distinct()",
+   "path": "tools/r-positron/find-duplicates-and-keep-distinct.md",
+   "keywords": [
+    "duplicates",
+    "duplicate rows",
+    "count",
+    "n",
+    "distinct",
+    "unique rows",
+    ".keep_all",
+    "deduplicate",
+    "remove duplicates",
+    "many-to-many",
+    "quality check",
+    "unique stations"
+   ],
+   "prerequisites": [
+    "r-positron.read-csv-and-clean-column-names"
+   ],
+   "datasets_used": [
+    "sources/files/PWQMN_Stations.csv",
+    "sources/files/PWQMN_data_2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/r-row-binds-and-joins2.md"
+   ]
+  },
+  {
+   "id": "r-positron.fit-linear-regression",
+   "tool": "r-positron",
+   "title": "Fit and interpret linear models with lm() and summary() (simple, group, additive, interaction)",
+   "path": "tools/r-positron/fit-linear-regression.md",
+   "keywords": [
+    "linear regression",
+    "lm",
+    "summary",
+    "slope",
+    "p-value",
+    "significance",
+    "model",
+    "ANOVA-like",
+    "group comparison",
+    "additive model",
+    "interaction",
+    "residuals",
+    "R squared",
+    "statistics",
+    "y ~ x"
+   ],
+   "prerequisites": [
+    "r-positron.read-csv-and-clean-column-names"
+   ],
+   "datasets_used": [
+    "sources/files/buckthorn_updated.csv",
+    "sources/files/TPM practice exam.zip (particulate_matter_ON.csv)"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/lesson-7-overview.md"
+   ]
+  },
+  {
+   "id": "r-positron.group-and-summarize",
+   "tool": "r-positron",
+   "title": "Summarize data by group with group_by() and summarize() (sum, mean, max, n, n_distinct)",
+   "path": "tools/r-positron/group-and-summarize.md",
+   "keywords": [
+    "group_by",
+    "summarize",
+    "summarise",
+    "aggregate",
+    "pivot table equivalent",
+    "total",
+    "sum",
+    "mean",
+    "average",
+    "max",
+    "count",
+    "n()",
+    "n_distinct",
+    "na.rm",
+    "grouped summary",
+    "per year",
+    "per province",
+    "per station",
+    "count records"
+   ],
+   "prerequisites": [
+    "r-positron.filter-rows"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_ReleasesRejets_1993-present.csv)",
+    "sources/files/Class 2/Class 2.zip (data/108916_histos.csv)",
+    "sources/files/buckthorn_updated.csv",
+    "sources/files/PWQMN_data_2024.csv",
+    "sources/files/Practice sets/OBIS - North Atlantic Right Whale reduced.csv"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/practice-1-north-atlantic-right-whale.md",
+    "course-pages/exam-practice.md"
+   ]
+  },
+  {
+   "id": "r-positron.inspect-a-dataset",
+   "tool": "r-positron",
+   "title": "Inspect a dataset with glimpse(), names(), head(), unique(), nrow() and ncol()",
+   "path": "tools/r-positron/inspect-a-dataset.md",
+   "keywords": [
+    "inspect",
+    "explore",
+    "glimpse",
+    "names",
+    "head",
+    "unique",
+    "distinct values",
+    "nrow",
+    "ncol",
+    "dimensions",
+    "column names",
+    "data types",
+    "structure",
+    "$ operator",
+    "quality check"
+   ],
+   "prerequisites": [
+    "r-positron.read-csv-and-clean-column-names"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip",
+    "sources/files/Class 2/Class 2.zip (data/108916_histos.csv)",
+    "sources/files/PWQMN_data_2024.csv",
+    "sources/files/Topic 5.zip (PWQMN-2000_2009.csv",
+    "PWQMN-2010_2018.csv)",
+    "sources/files/buckthorn_updated.csv"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/practice-1-north-atlantic-right-whale.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/r-row-binds-and-joins2.md"
+   ]
+  },
+  {
+   "id": "r-positron.install-and-load-packages",
+   "tool": "r-positron",
+   "title": "Install and load R packages (tidyverse, janitor)",
+   "path": "tools/r-positron/install-and-load-packages.md",
+   "keywords": [
+    "install.packages",
+    "library",
+    "package",
+    "tidyverse",
+    "janitor",
+    "load package",
+    "Packages pane",
+    "missing packages",
+    "dplyr",
+    "ggplot2",
+    "readr",
+    "lubridate",
+    "tidyr",
+    "CRAN"
+   ],
+   "prerequisites": [
+    "r-positron.install-r-and-positron"
+   ],
+   "datasets_used": [],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/getting-started-with-course-software.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/positron-introduction-and-package-installation.md"
+   ]
+  },
+  {
+   "id": "r-positron.install-r-and-positron",
+   "tool": "r-positron",
+   "title": "Install R and Positron and start an R console session",
+   "path": "tools/r-positron/install-r-and-positron.md",
+   "keywords": [
+    "install",
+    "setup",
+    "download",
+    "Positron",
+    "R",
+    "CRAN",
+    "RStudio alternative",
+    "interpreter",
+    "R version",
+    "start session",
+    "console",
+    "base R",
+    "4.6.1"
+   ],
+   "prerequisites": [],
+   "datasets_used": [],
+   "source_pages": [
+    "course-pages/getting-started-with-course-software.md",
+    "course-pages/videos-organized-by-software.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/positron-introduction-and-package-installation.md"
+   ]
+  },
+  {
+   "id": "r-positron.join-tables",
+   "tool": "r-positron",
+   "title": "Join two tables with left_join(), semi_join() and anti_join() using join_by()",
+   "path": "tools/r-positron/join-tables.md",
+   "keywords": [
+    "join",
+    "left_join",
+    "semi_join",
+    "anti_join",
+    "join_by",
+    "merge",
+    "lookup",
+    "VLOOKUP",
+    "attach columns",
+    "key column",
+    "different column names",
+    "unmatched records",
+    "many-to-many warning",
+    "relationship",
+    "add station coordinates",
+    "quality check"
+   ],
+   "prerequisites": [
+    "r-positron.read-csv-and-clean-column-names",
+    "r-positron.convert-column-types",
+    "r-positron.find-duplicates-and-keep-distinct"
+   ],
+   "datasets_used": [
+    "sources/files/PWQMN_data_2024.csv",
+    "sources/files/PWQMN_Stations.csv",
+    "sources/files/Practice sets/Practice set #2/Information_stations.csv",
+    "sources/files/Practice sets/Practice set #2/Nombre_crabe_crab_number.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/exam-practice.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/r-row-binds-and-joins2.md"
+   ]
+  },
+  {
+   "id": "r-positron.open-folder-and-set-working-directory",
+   "tool": "r-positron",
+   "title": "Open the lesson folder in Positron and check the working directory",
+   "path": "tools/r-positron/open-folder-and-set-working-directory.md",
+   "keywords": [
+    "working directory",
+    "getwd",
+    "open folder",
+    "project",
+    "root folder",
+    "file path",
+    "relative path",
+    "data folder",
+    "trust authors",
+    "setwd",
+    "RStudio project"
+   ],
+   "prerequisites": [
+    "r-positron.install-r-and-positron"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip",
+    "sources/files/Topic 5.zip",
+    "sources/files/Class 2/Class 2.zip"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/positron-introduction-and-package-installation.md",
+    "transcripts/r-positron/r-row-binds-and-joins2.md"
+   ]
+  },
+  {
+   "id": "r-positron.order-categories-with-factor-and-reorder",
+   "tool": "r-positron",
+   "title": "Control category order with factor(levels = ) and reorder()",
+   "path": "tools/r-positron/order-categories-with-factor-and-reorder.md",
+   "keywords": [
+    "factor",
+    "levels",
+    "order categories",
+    "reorder",
+    "sort bars",
+    "category order",
+    "axis order",
+    "factor manipulation",
+    "forcats",
+    "descending bars",
+    "ordered factor"
+   ],
+   "prerequisites": [
+    "r-positron.group-and-summarize"
+   ],
+   "datasets_used": [
+    "sources/files/Class 2/Class 2.zip (data/108916_histos.csv)",
+    "sources/files/buckthorn_updated.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ]
+  },
+  {
+   "id": "r-positron.parse-dates-and-extract-month",
+   "tool": "r-positron",
+   "title": "Parse dates and date-times with lubridate (ymd_hm, mdy) and extract labelled months",
+   "path": "tools/r-positron/parse-dates-and-extract-month.md",
+   "keywords": [
+    "dates",
+    "date-time",
+    "lubridate",
+    "ymd_hm",
+    "mdy",
+    "month",
+    "label = TRUE",
+    "month name",
+    "date formatting",
+    "parse date",
+    "seasonal",
+    "time series",
+    "POSIXct",
+    "extract month"
+   ],
+   "prerequisites": [
+    "r-positron.create-columns-with-mutate"
+   ],
+   "datasets_used": [
+    "sources/files/Class 2/Class 2.zip (data/108916_tag.csv",
+    "data/108916_histos.csv)",
+    "sources/files/PWQMN_data_2024.csv",
+    "sources/files/Practice sets/OBIS - North Atlantic Right Whale reduced.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/practice-1-north-atlantic-right-whale.md",
+    "course-pages/exam-practice.md"
+   ]
+  },
+  {
+   "id": "r-positron.pivot-longer-and-wider",
+   "tool": "r-positron",
+   "title": "Reshape data between wide and long format with pivot_longer() and pivot_wider()",
+   "path": "tools/r-positron/pivot-longer-and-wider.md",
+   "keywords": [
+    "pivot_longer",
+    "pivot_wider",
+    "reshape",
+    "unpivot",
+    "pivot",
+    "wide to long",
+    "long to wide",
+    "tidy data",
+    "gather",
+    "spread",
+    "names_to",
+    "values_to",
+    "names_from",
+    "values_from",
+    "cover type",
+    "temperature range"
+   ],
+   "prerequisites": [
+    "r-positron.select-and-rename-columns"
+   ],
+   "datasets_used": [
+    "sources/files/Class 2/Class 2.zip (data/108916_histos.csv)",
+    "sources/files/buckthorn_updated.csv"
+   ],
+   "source_pages": [
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ]
+  },
+  {
+   "id": "r-positron.plot-column-chart",
+   "tool": "r-positron",
+   "title": "Make column (bar) charts with ggplot2 geom_col(), including stacked and flipped bars",
+   "path": "tools/r-positron/plot-column-chart.md",
+   "keywords": [
+    "ggplot",
+    "geom_col",
+    "bar chart",
+    "column chart",
+    "stacked bar",
+    "fill",
+    "coord_flip",
+    "horizontal bars",
+    "colour columns",
+    "aes",
+    "summary plot",
+    "grouped bars"
+   ],
+   "prerequisites": [
+    "r-positron.group-and-summarize"
+   ],
+   "datasets_used": [
+    "sources/files/Class 2/Class 2.zip (data/108916_histos.csv)",
+    "sources/files/buckthorn_updated.csv",
+    "sources/files/Practice sets/OBIS - North Atlantic Right Whale reduced.csv"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/practice-1-north-atlantic-right-whale.md",
+    "course-pages/exam-practice.md"
+   ]
+  },
+  {
+   "id": "r-positron.plot-heatmap",
+   "tool": "r-positron",
+   "title": "Make a heatmap with geom_tile() and label the tiles with geom_text()",
+   "path": "tools/r-positron/plot-heatmap.md",
+   "keywords": [
+    "heatmap",
+    "heat map",
+    "geom_tile",
+    "geom_text",
+    "tile",
+    "matrix plot",
+    "month by station",
+    "labels on tiles",
+    "round",
+    "scale_fill_gradient",
+    "chloride heatmap",
+    "colour scale"
+   ],
+   "prerequisites": [
+    "r-positron.group-and-summarize",
+    "r-positron.sort-and-keep-top-n",
+    "r-positron.parse-dates-and-extract-month"
+   ],
+   "datasets_used": [
+    "sources/files/PWQMN_data_2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/case-study-8.md"
+   ]
+  },
+  {
+   "id": "r-positron.plot-histogram-and-boxplot",
+   "tool": "r-positron",
+   "title": "Plot distributions with geom_histogram() and compare groups with geom_boxplot()",
+   "path": "tools/r-positron/plot-histogram-and-boxplot.md",
+   "keywords": [
+    "histogram",
+    "geom_histogram",
+    "boxplot",
+    "box plot",
+    "geom_boxplot",
+    "distribution",
+    "compare groups",
+    "sections",
+    "fill by group",
+    "residuals histogram",
+    "hist"
+   ],
+   "prerequisites": [
+    "r-positron.read-csv-and-clean-column-names"
+   ],
+   "datasets_used": [
+    "sources/files/buckthorn_updated.csv"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/lesson-7-overview.md"
+   ]
+  },
+  {
+   "id": "r-positron.plot-line-chart",
+   "tool": "r-positron",
+   "title": "Make line charts (time series, monthly lines) and highlight or label selected points",
+   "path": "tools/r-positron/plot-line-chart.md",
+   "keywords": [
+    "line chart",
+    "line graph",
+    "geom_line",
+    "geom_point",
+    "time series",
+    "trend over time",
+    "datetime axis",
+    "group = 1",
+    "highlight point",
+    "annotate",
+    "label point",
+    "geom_text",
+    "scale_colour_manual",
+    "linewidth",
+    "January peak"
+   ],
+   "prerequisites": [
+    "r-positron.group-and-summarize",
+    "r-positron.parse-dates-and-extract-month"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip",
+    "sources/files/Class 2/Class 2.zip (data/108916_tag.csv)",
+    "sources/files/PWQMN_data_2024.csv",
+    "sources/files/Practice sets/OBIS - North Atlantic Right Whale reduced.csv"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/practice-1-north-atlantic-right-whale.md"
+   ]
+  },
+  {
+   "id": "r-positron.plot-scatter-with-trend-line",
+   "tool": "r-positron",
+   "title": "Make a scatterplot with geom_point() and add a trend line with geom_smooth()",
+   "path": "tools/r-positron/plot-scatter-with-trend-line.md",
+   "keywords": [
+    "scatterplot",
+    "scatter plot",
+    "geom_point",
+    "geom_smooth",
+    "trend line",
+    "regression line",
+    "method lm",
+    "loess",
+    "relationship",
+    "correlation",
+    "alpha",
+    "transparency",
+    "point colour"
+   ],
+   "prerequisites": [
+    "r-positron.read-csv-and-clean-column-names"
+   ],
+   "datasets_used": [
+    "sources/files/buckthorn_updated.csv"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md"
+   ]
+  },
+  {
+   "id": "r-positron.practice-exam-r-workflows",
+   "tool": "r-positron",
+   "title": "Solve the course R practice and exam questions (question-to-procedure map)",
+   "path": "tools/r-positron/practice-exam-r-workflows.md",
+   "keywords": [
+    "exam",
+    "practice exam",
+    "practice set",
+    "recreate figure",
+    "right whale",
+    "ferry buffer",
+    "crab counts",
+    "human wildlife conflict",
+    "particulate matter",
+    "TPM",
+    "case study",
+    "R.1.1",
+    "workflow",
+    "answer key"
+   ],
+   "prerequisites": [
+    "r-positron.install-and-load-packages",
+    "r-positron.read-csv-and-clean-column-names"
+   ],
+   "datasets_used": [
+    "sources/files/Practice sets/OBIS - North Atlantic Right Whale reduced.csv",
+    "sources/files/Practice sets/Practice set #2/Information_stations.csv",
+    "sources/files/Practice sets/Practice set #2/Nombre_crabe_crab_number.csv",
+    "sources/files/Practice Questions/pca-human-wildlife-coexistence-animals-involved-detailed-records-2010-2023.csv",
+    "sources/files/Practice Questions/pca-human-wildlife-coexistence-incidents-detailed-records-2010-2023.csv",
+    "sources/files/TPM practice exam.zip (particulate_matter_ON.csv)"
+   ],
+   "source_pages": [
+    "course-pages/exam-practice.md",
+    "course-pages/practice-1-north-atlantic-right-whale.md"
+   ]
+  },
+  {
+   "id": "r-positron.read-csv-and-clean-column-names",
+   "tool": "r-positron",
+   "title": "Load a CSV into R with read_csv() and clean the column names with clean_names()",
+   "path": "tools/r-positron/read-csv-and-clean-column-names.md",
+   "keywords": [
+    "read_csv",
+    "import",
+    "load data",
+    "CSV",
+    "clean_names",
+    "janitor",
+    "column names",
+    "snake_case",
+    "backticks",
+    "readr",
+    "tibble",
+    "column specification",
+    "load file"
+   ],
+   "prerequisites": [
+    "r-positron.install-and-load-packages",
+    "r-positron.open-folder-and-set-working-directory"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_ReleasesRejets_1993-present.csv)",
+    "sources/files/buckthorn_updated.csv",
+    "sources/files/PWQMN_data_2024.csv",
+    "sources/files/PWQMN_Stations.csv",
+    "sources/files/Topic 5.zip (PWQMN-2000_2009.csv",
+    "PWQMN-2010_2018.csv)",
+    "sources/files/Class 2/Class 2.zip (data/108916_tag.csv",
+    "data/108916_histos.csv)",
+    "sources/files/Practice sets/OBIS - North Atlantic Right Whale reduced.csv"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/practice-1-north-atlantic-right-whale.md",
+    "course-pages/npri-group-assignment-updated.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/positron-introduction-and-package-installation.md",
+    "transcripts/r-positron/r-row-binds-and-joins2.md"
+   ]
+  },
+  {
+   "id": "r-positron.render-quarto-document",
+   "tool": "r-positron",
+   "title": "Complete a Quarto (.qmd) case study in Positron and render it to Word or HTML",
+   "path": "tools/r-positron/render-quarto-document.md",
+   "keywords": [
+    "Quarto",
+    "qmd",
+    "render",
+    "quarto render",
+    "docx",
+    "Word document",
+    "HTML",
+    "embed-resources",
+    "code chunk",
+    "r chunk",
+    "eval false",
+    "case study submission",
+    "terminal",
+    "powershell",
+    "YAML header",
+    "visual editor"
+   ],
+   "prerequisites": [
+    "r-positron.open-folder-and-set-working-directory",
+    "r-positron.install-and-load-packages"
+   ],
+   "datasets_used": [
+    "sources/files/Topic 1 - Case study.qmd",
+    "sources/files/Class 1/Topic 1.qmd",
+    "sources/files/Class 2/Class 2.zip (Topic 2 - Case study.qmd)",
+    "Class 1 case study.zip (Topic 1 - Case study.qmd",
+    "earlier variant)"
+   ],
+   "source_pages": [
+    "course-pages/class-1-overview.md",
+    "course-pages/marine-sportfish-tagging-programme.md"
+   ]
+  },
+  {
+   "id": "r-positron.run-code-and-use-positron-panes",
+   "tool": "r-positron",
+   "title": "Run script code in Positron and read the console, Variables and Plots panes",
+   "path": "tools/r-positron/run-code-and-use-positron-panes.md",
+   "keywords": [
+    "run code",
+    "execute",
+    "run line",
+    "run selection",
+    "console",
+    "script",
+    "editor",
+    "Variables pane",
+    "environment",
+    "Plots pane",
+    "layout",
+    "terminal",
+    "Ctrl+Enter",
+    "objects",
+    "assignment"
+   ],
+   "prerequisites": [
+    "r-positron.install-r-and-positron",
+    "r-positron.open-folder-and-set-working-directory"
+   ],
+   "datasets_used": [
+    "sources/files/PWQMN_Stations.csv",
+    "sources/files/PWQMN_data_2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/getting-started-with-course-software.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/positron-introduction-and-package-installation.md",
+    "transcripts/r-positron/r-row-binds-and-joins2.md"
+   ]
+  },
+  {
+   "id": "r-positron.save-plot-png-and-csv",
+   "tool": "r-positron",
+   "title": "Export a plot as PNG with ggsave() and a data frame as CSV with write_csv()",
+   "path": "tools/r-positron/save-plot-png-and-csv.md",
+   "keywords": [
+    "ggsave",
+    "save plot",
+    "export figure",
+    "PNG",
+    "image",
+    "width height units",
+    "write_csv",
+    "export CSV",
+    "save data",
+    "transfer to Excel",
+    "transfer to QGIS",
+    "output file"
+   ],
+   "prerequisites": [
+    "r-positron.plot-column-chart"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip",
+    "sources/files/Practice sets/OBIS - North Atlantic Right Whale reduced.csv"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/practice-1-north-atlantic-right-whale.md"
+   ]
+  },
+  {
+   "id": "r-positron.select-and-rename-columns",
+   "tool": "r-positron",
+   "title": "Keep, drop and rename columns with select() and rename()",
+   "path": "tools/r-positron/select-and-rename-columns.md",
+   "keywords": [
+    "select",
+    "rename",
+    "keep columns",
+    "drop columns",
+    "remove columns",
+    "column position",
+    "negative select",
+    "backticks",
+    "subset columns",
+    "reduce dataset",
+    "dplyr"
+   ],
+   "prerequisites": [
+    "r-positron.read-csv-and-clean-column-names"
+   ],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip (NPRI-INRP_ReleasesRejets_1993-present.csv)",
+    "sources/files/Class 2/Class 2.zip (data/108916_histos.csv)",
+    "sources/files/buckthorn_updated.csv",
+    "sources/files/Practice sets/OBIS - North Atlantic Right Whale reduced.csv"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/practice-1-north-atlantic-right-whale.md"
+   ]
+  },
+  {
+   "id": "r-positron.sort-and-keep-top-n",
+   "tool": "r-positron",
+   "title": "Sort rows with arrange() and keep the top N groups with head()",
+   "path": "tools/r-positron/sort-and-keep-top-n.md",
+   "keywords": [
+    "arrange",
+    "sort",
+    "order",
+    "descending",
+    "ascending",
+    "minus sign",
+    "top five",
+    "top N",
+    "highest",
+    "ranking",
+    "head",
+    "top stations",
+    "top institutions",
+    "desc"
+   ],
+   "prerequisites": [
+    "r-positron.group-and-summarize"
+   ],
+   "datasets_used": [
+    "sources/files/Topic 5.zip (PWQMN-2000_2009.csv",
+    "PWQMN-2010_2018.csv)",
+    "sources/files/PWQMN_data_2024.csv",
+    "sources/files/Practice sets/OBIS - North Atlantic Right Whale reduced.csv"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/practice-1-north-atlantic-right-whale.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/r-row-binds-and-joins2.md"
+   ]
+  },
+  {
+   "id": "r-positron.view-data-in-data-explorer",
+   "tool": "r-positron",
+   "title": "Open a data frame in the Positron Data Explorer to check columns, types and missing values",
+   "path": "tools/r-positron/view-data-in-data-explorer.md",
+   "keywords": [
+    "Data Explorer",
+    "view data",
+    "table viewer",
+    "spreadsheet view",
+    "missing values",
+    "column summary",
+    "histogram",
+    "data types",
+    "str",
+    "dbl",
+    "View",
+    "inspect",
+    "sort",
+    "filter",
+    "Variables pane",
+    "table icon"
+   ],
+   "prerequisites": [
+    "r-positron.run-code-and-use-positron-panes"
+   ],
+   "datasets_used": [
+    "sources/files/PWQMN_Stations.csv",
+    "sources/files/PWQMN_data_2024.csv",
+    "sources/files/Topic 5.zip (PWQMN-2000_2009.csv",
+    "PWQMN-2010_2018.csv)"
+   ],
+   "source_pages": [
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/r-row-binds-and-joins2.md"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "id": "excel.readme",
+   "tool": "excel",
+   "title": "Excel in ENVRSUST 9014 — overview and procedure index",
+   "path": "tools/excel/README.md",
+   "keywords": [
+    "index",
+    "overview",
+    "Excel",
+    "Power Query",
+    "start here"
+   ]
+  },
+  {
+   "id": "excel.formula-reference",
+   "tool": "excel",
+   "title": "Look up an Excel worksheet function or Power Query transformation used in the course",
+   "path": "tools/excel/formula-reference.md",
+   "keywords": [
+    "function list",
+    "formula reference",
+    "cheat sheet",
+    "syntax",
+    "SUM",
+    "UNIQUE",
+    "COUNTIF",
+    "SUMIF",
+    "MAX",
+    "MIN",
+    "FILTER",
+    "IF",
+    "OR",
+    "IFS",
+    "AND",
+    "YEAR",
+    "DAY",
+    "power query steps",
+    "M code",
+    "Table.Pivot",
+    "Table.UnpivotOtherColumns",
+    "Table.NestedJoin",
+    "Table.ExpandTableColumn",
+    "Date.Year",
+    "Date.WeekOfYear",
+    "Date.From",
+    "Table.SelectRows",
+    "Table.RemoveColumns",
+    "Table.ReorderColumns",
+    "Table.AddColumn",
+    "Table.TransformColumnTypes"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "sources/files/Class 1/NPRI data.zip > NPRI-INRP_IndustryIndustrie_Air_2015-2024.csv",
+    "sources/files/Topic 2/OBIS - North Atlantic Right Whale reduced.csv",
+    "sources/files/PWQMN_Stations.csv",
+    "sources/files/PWQMN_data_2024.csv"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/topic-2-transforming-and-wrangling-data.md",
+    "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md",
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-cleaning-up-date-data.md",
+    "transcripts/excel/excel-extracting-date-information.md",
+    "transcripts/excel/excel-if-statements.md",
+    "transcripts/excel/excel-merging-data.md",
+    "transcripts/excel/excel-pivoting-columns.md",
+    "transcripts/excel/excel-using-excel-formulas.md"
+   ]
+  },
+  {
+   "id": "excel.ribbon-tour-course-features",
+   "tool": "excel",
+   "title": "Find the course's Excel tools on the ribbon (ribbon tour and lookup table)",
+   "path": "tools/excel/ribbon-tour-course-features.md",
+   "keywords": [
+    "ribbon",
+    "tabs",
+    "where is",
+    "ribbon tour",
+    "home tab",
+    "insert tab",
+    "data tab",
+    "formulas tab",
+    "view tab",
+    "review tab",
+    "get data",
+    "from text/csv",
+    "pivottable button",
+    "pivotchart",
+    "slicer",
+    "timeline",
+    "conditional formatting",
+    "format as table",
+    "copilot",
+    "text to columns",
+    "remove duplicates",
+    "freeze panes",
+    "freeze top row",
+    "comments",
+    "macros",
+    "sheets",
+    "csv save warning",
+    "interface"
+   ],
+   "prerequisites": [],
+   "datasets_used": [],
+   "source_pages": [
+    "course-pages/topic-1-loading-cleaning-and-exploring-data.md",
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/excel/excel-intro-to-excel.md",
+    "transcripts/excel/excel-loading-data-into-excel.md"
+   ]
+  },
+  {
+   "id": "qgis.readme",
+   "tool": "qgis",
+   "title": "QGIS in ENVRSUST 9014 — overview and procedure index",
+   "path": "tools/qgis/README.md",
+   "keywords": [
+    "index",
+    "overview",
+    "QGIS",
+    "GIS",
+    "start here"
+   ]
+  },
+  {
+   "id": "qgis.expression-reference",
+   "tool": "qgis",
+   "title": "QGIS expression and Raster Calculator syntax reference (as used in the course)",
+   "path": "tools/qgis/expression-reference.md",
+   "keywords": [
+    "expression",
+    "syntax",
+    "operators",
+    "functions",
+    "quotes",
+    "field name",
+    "if",
+    "CASE WHEN",
+    "IN",
+    "AND",
+    "OR",
+    "!=",
+    "LIKE",
+    "raster calculator syntax",
+    "band reference",
+    "@1",
+    "query builder",
+    "field calculator"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "NPRI-INRP_GeolocationsGeolocalisation_1993-present.csv",
+    "PWQMN_Stations + PWQMN_data_2024",
+    "Carcinus maenas.tif",
+    "Ciona intestinalis.tif"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-case-when-for-multiple-conditions.md",
+    "transcripts/qgis/qgis-changing-column-types.md",
+    "transcripts/qgis/qgis-field-calculator.md",
+    "transcripts/qgis/qgis-filter-vector-data-for-multiple-conditions.md",
+    "transcripts/qgis/qgis-raster-calculator-with-two-raster-layers.md",
+    "transcripts/qgis/qgis-raster-calculator.md"
+   ]
+  },
+  {
+   "id": "qgis.interface-map",
+   "tool": "qgis",
+   "title": "Orient yourself in the QGIS window (panels, toolbars, menus, status bar)",
+   "path": "tools/qgis/interface-map.md",
+   "keywords": [
+    "interface",
+    "layout",
+    "window",
+    "GUI",
+    "menu bar",
+    "toolbar",
+    "browser panel",
+    "layers panel",
+    "map canvas",
+    "status bar",
+    "processing toolbox",
+    "identify results",
+    "panels",
+    "where is",
+    "orientation",
+    "tour",
+    "menus",
+    "coordinate box",
+    "EPSG",
+    "project CRS"
+   ],
+   "prerequisites": [],
+   "datasets_used": [],
+   "source_pages": [
+    "course-pages/getting-started-with-course-software.md",
+    "course-pages/topic-1-loading-cleaning-and-exploring-data.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-adding-a-shapefile.md",
+    "transcripts/qgis/qgis-base-maps.md",
+    "transcripts/qgis/qgis-basic-filter-in-qgis.md",
+    "transcripts/qgis/qgis-crs.md",
+    "transcripts/qgis/qgis-introduction-to-qgis.md",
+    "transcripts/qgis/qgis-saving-a-project-file.md"
+   ]
+  },
+  {
+   "id": "qgis.print-layout-checklist",
+   "tool": "qgis",
+   "title": "Checklist: produce a finished map export from a QGIS print layout",
+   "path": "tools/qgis/print-layout-checklist.md",
+   "keywords": [
+    "print layout checklist",
+    "map checklist",
+    "final map",
+    "export map",
+    "cartographic elements",
+    "scale bar",
+    "north arrow",
+    "legend",
+    "title",
+    "grid",
+    "frame",
+    "300 dpi PNG",
+    "StoryMap map",
+    "NPRI report map"
+   ],
+   "prerequisites": [
+    "qgis.print-layout-map-export"
+   ],
+   "datasets_used": [
+    "any styled QGIS project (course example: thames_river_watershed.gpkg + ESRI Satellite)"
+   ],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/final-submission-arcgis-story-map.md",
+    "course-pages/exam-practice.md",
+    "course-pages/topic-7.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-print-layout.md"
+   ]
+  },
+  {
+   "id": "qgis.processing-algorithms-reference",
+   "tool": "qgis",
+   "title": "Look up Processing Toolbox algorithms used in the course (name, group, parameters)",
+   "path": "tools/qgis/processing-algorithms-reference.md",
+   "keywords": [
+    "processing toolbox",
+    "geoprocessing toolbox",
+    "algorithm",
+    "tool list",
+    "gear icon",
+    "search toolbox",
+    "parameters",
+    "algorithm id",
+    "reference",
+    "lookup"
+   ],
+   "prerequisites": [],
+   "datasets_used": [],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/case-study-5.md"
+   ],
+   "source_videos": [
+    "transcripts/qgis/qgis-creating-a-spatial-index.md",
+    "transcripts/qgis/qgis-join-attributes-by-location.md",
+    "transcripts/qgis/qgis-join-attributes-by-nearest.md",
+    "transcripts/qgis/qgis-merging-vector-layers-and-features.md",
+    "transcripts/qgis/qgis-reprojecting-a-vector-layer.md",
+    "transcripts/qgis/qgis-sample-raster-values.md"
+   ]
+  },
+  {
+   "id": "r-positron.readme",
+   "tool": "r-positron",
+   "title": "Positron / R in ENVRSUST 9014 — overview, setup and procedure index",
+   "path": "tools/r-positron/README.md",
+   "keywords": [
+    "index",
+    "overview",
+    "Positron",
+    "R",
+    "tidyverse",
+    "janitor",
+    "setup",
+    "environment",
+    "procedures",
+    "table of contents",
+    "start here"
+   ],
+   "prerequisites": [],
+   "datasets_used": [],
+   "source_pages": [
+    "course-pages/getting-started-with-course-software.md",
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/videos-organized-by-software.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/positron-introduction-and-package-installation.md",
+    "transcripts/r-positron/r-row-binds-and-joins2.md"
+   ]
+  },
+  {
+   "id": "r-positron.function-reference",
+   "tool": "r-positron",
+   "title": "R function lookup table for ENVRSUST 9014 (function → package, purpose, where used)",
+   "path": "tools/r-positron/function-reference.md",
+   "keywords": [
+    "function reference",
+    "lookup",
+    "R functions",
+    "dplyr",
+    "ggplot2",
+    "tidyr",
+    "lubridate",
+    "readr",
+    "janitor",
+    "base R",
+    "where used",
+    "line numbers",
+    "cheat sheet",
+    "operators",
+    "pipe"
+   ],
+   "prerequisites": [],
+   "datasets_used": [],
+   "source_pages": [
+    "course-pages/technical-skills-checklist.md",
+    "course-pages/practice-1-north-atlantic-right-whale.md",
+    "course-pages/exam-practice.md",
+    "course-pages/npri-group-assignment-updated.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/positron-introduction-and-package-installation.md",
+    "transcripts/r-positron/r-row-binds-and-joins2.md"
+   ]
+  },
+  {
+   "id": "r-positron.scripts-catalog",
+   "tool": "r-positron",
+   "title": "Catalog of every course R / Quarto script",
+   "path": "tools/r-positron/scripts-catalog.md",
+   "keywords": [
+    "scripts",
+    "R script",
+    "qmd",
+    "Quarto",
+    "catalog",
+    "Topic 1",
+    "Topic 2",
+    "Topic 5",
+    "Topic 7",
+    "Combined R Scripts",
+    "R Skills Review",
+    "Topic5.R",
+    "Lesson_1.R",
+    "input files",
+    "outputs",
+    "packages"
+   ],
+   "prerequisites": [],
+   "datasets_used": [
+    "see per-script tables"
+   ],
+   "source_pages": [
+    "course-pages/class-1-overview.md",
+    "course-pages/lesson-2-overview.md",
+    "course-pages/lesson-5-overview.md",
+    "course-pages/lesson-7-overview.md",
+    "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md",
+    "course-pages/case-study-8.md",
+    "course-pages/videos-organized-by-software.md"
+   ],
+   "source_videos": [
+    "transcripts/r-positron/positron-introduction-and-package-installation.md",
+    "transcripts/r-positron/r-row-binds-and-joins2.md"
+   ]
+  }
+ ],
+ "transcripts": [
+  {
+   "contentId": "503cd3d5-4034-42b5-b04a-7add42473f89",
+   "title": "Excel - Basic filtering",
+   "tool": "excel",
+   "durationSec": 128,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/excel/excel-basic-filtering.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=503cd3d5-4034-42b5-b04a-7add42473f89&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/excel/filter-rows-power-query.md",
+    "tools/excel/power-query-editor-basics.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/Excel_-__Basic_filtering.mp4"
+  },
+  {
+   "contentId": "d0fb230a-00f4-4942-9dc2-8f8495c98011",
+   "title": "Excel - Cleaning up date data",
+   "tool": "excel",
+   "durationSec": 239,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 2: Transforming and wrangling data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/excel/excel-cleaning-up-date-data.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=d0fb230a-00f4-4942-9dc2-8f8495c98011&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/excel/parse-inconsistent-dates-power-query.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/Excel_-_Cleaning_up_date_data.mp4"
+  },
+  {
+   "contentId": "8d518f9a-4201-4e2d-9aac-2c2b4e982330",
+   "title": "Excel - Data and variable types",
+   "tool": "excel",
+   "durationSec": 452,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 2: Transforming and wrangling data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/excel/excel-data-and-variable-types.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=8d518f9a-4201-4e2d-9aac-2c2b4e982330&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/excel/check-and-fix-data-types-power-query.md",
+    "tools/excel/import-csv-as-table-power-query.md",
+    "tools/excel/power-query-editor-basics.md",
+    "tools/excel/remove-rows-blanks-duplicates-power-query.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/Excel_-_Data_and_variable_types.mp4"
+  },
+  {
+   "contentId": "d4a64356-7e5b-43b1-af11-b1ac7ff15ef5",
+   "title": "Excel - Extracting date information",
+   "tool": "excel",
+   "durationSec": 243,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 2: Transforming and wrangling data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/excel/excel-extracting-date-information.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=d4a64356-7e5b-43b1-af11-b1ac7ff15ef5&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/excel/extract-date-parts-power-query.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/Excel_-_Extracting_date_information.mp4"
+  },
+  {
+   "contentId": "b8d67d3d-2779-4af4-a0eb-5fe6a4098700",
+   "title": "Excel - IF statements",
+   "tool": "excel",
+   "durationSec": 655,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 3: Conditional logic, conditional calculations, and deterministic modelling"
+   ],
+   "transcriptSource": "whisper-small.en",
+   "path": "transcripts/excel/excel-if-statements.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=b8d67d3d-2779-4af4-a0eb-5fe6a4098700&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/excel/enter-formulas-and-cross-sheet-references.md",
+    "tools/excel/if-classify-rows-new-column.md",
+    "tools/excel/if-or-multiple-conditions.md",
+    "tools/excel/ifs-categorize-numeric-thresholds.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/Excel_-_IF_statements.mp4"
+  },
+  {
+   "contentId": "d1955675-0b0e-42fc-841e-1f143b1f6720",
+   "title": "Excel - Intro to Excel",
+   "tool": "excel",
+   "durationSec": 928,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/excel/excel-intro-to-excel.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=d1955675-0b0e-42fc-841e-1f143b1f6720&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/excel/customize-ribbon-developer-power-pivot-tabs.md",
+    "tools/excel/enable-data-analysis-toolpak.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/Excel_-_Intro_to_Excel.mp4"
+  },
+  {
+   "contentId": "e4e17515-1c14-48a1-ac5b-120f549c203d",
+   "title": "Excel - Loading data into Excel",
+   "tool": "excel",
+   "durationSec": 160,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/excel/excel-loading-data-into-excel.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=e4e17515-1c14-48a1-ac5b-120f549c203d&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/excel/import-csv-as-table-power-query.md",
+    "tools/excel/power-query-editor-basics.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/Excel_-_Loading_data_into_Excel.mp4"
+  },
+  {
+   "contentId": "0e52bc76-f1d8-4a75-9b68-8a877b1765e6",
+   "title": "Excel - Merging data",
+   "tool": "excel",
+   "durationSec": 274,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 5: Connecting Data - Joins, merges, and spatial relationships"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/excel/excel-merging-data.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=0e52bc76-f1d8-4a75-9b68-8a877b1765e6&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/excel/merge-queries-left-outer-join-power-query.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/Excel_-_Merging_data.mp4"
+  },
+  {
+   "contentId": "58ee9260-7675-47e0-bd85-3c6930fe7978",
+   "title": "Excel - Pivot tables and charts",
+   "tool": "excel",
+   "durationSec": 191,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/excel/excel-pivot-tables-and-charts.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=58ee9260-7675-47e0-bd85-3c6930fe7978&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/excel/create-pivotchart-from-pivottable.md",
+    "tools/excel/create-pivottable-summarize-filter-sort.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/Excel_-_Pivot_tables_and_charts.mp4"
+  },
+  {
+   "contentId": "377b231c-4edf-4672-9269-4618103148e2",
+   "title": "Excel - Pivoting columns",
+   "tool": "excel",
+   "durationSec": 462,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 2: Transforming and wrangling data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/excel/excel-pivoting-columns.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=377b231c-4edf-4672-9269-4618103148e2&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/excel/pivot-unpivot-columns-power-query.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/Excel_-_Pivoting_columns.mp4"
+  },
+  {
+   "contentId": "9c51baa5-97e6-4087-8fef-a283c9aa46b1",
+   "title": "Excel - Selecting and removing columns and rows",
+   "tool": "excel",
+   "durationSec": 176,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 2: Transforming and wrangling data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/excel/excel-selecting-and-removing-columns-and-rows.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=9c51baa5-97e6-4087-8fef-a283c9aa46b1&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/excel/choose-and-remove-columns-power-query.md",
+    "tools/excel/remove-rows-blanks-duplicates-power-query.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/Excel_-_Selecting_and_removing_columns_and_rows.mp4"
+  },
+  {
+   "contentId": "d55fd099-23e7-46f2-b4c0-7ed5550c75ae",
+   "title": "Excel - Splitting columns",
+   "tool": "excel",
+   "durationSec": 261,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 2: Transforming and wrangling data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/excel/excel-splitting-columns.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=d55fd099-23e7-46f2-b4c0-7ed5550c75ae&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/excel/split-column-power-query.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/Excel_-_Splitting_columns.mp4"
+  },
+  {
+   "contentId": "b068f205-e763-447f-97ee-b96d261ac420",
+   "title": "Excel - Using Excel Formulas",
+   "tool": "excel",
+   "durationSec": 1384,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 3: Conditional logic, conditional calculations, and deterministic modelling"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/excel/excel-using-excel-formulas.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=b068f205-e763-447f-97ee-b96d261ac420&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/excel/build-interactive-summary-sheet-countif-filter.md",
+    "tools/excel/conditional-formatting-color-scale.md",
+    "tools/excel/countif-sumif-max-min-formulas.md",
+    "tools/excel/data-validation-dropdown-list.md",
+    "tools/excel/enter-formulas-and-cross-sheet-references.md",
+    "tools/excel/filter-function-return-matching-rows.md",
+    "tools/excel/unique-distinct-values-formula.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/Excel_-_Using_Excel_Formulas.mp4"
+  },
+  {
+   "title": "How to use NPRI Excel single year tabular data",
+   "path": "transcripts/external/eccc-npri-excel-single-year-tabular-data.md",
+   "tool": "external",
+   "hasVisualNotes": false,
+   "usedByProcedures": [],
+   "origin": "external-publisher"
+  },
+  {
+   "title": "Overview of The National Pollutant Release Inventory (NPRI)",
+   "path": "transcripts/external/eccc-npri-overview-webinar.md",
+   "tool": "external",
+   "hasVisualNotes": false,
+   "usedByProcedures": [],
+   "origin": "external-publisher"
+  },
+  {
+   "title": "What is GIS, and why use QGIS? (QGIS Demo 1)",
+   "path": "transcripts/external/statcan-qgis-demo-1-what-is-gis-why-qgis.md",
+   "tool": "external",
+   "hasVisualNotes": false,
+   "usedByProcedures": [],
+   "origin": "external-publisher"
+  },
+  {
+   "title": "Categories, Sub-Types and Properties of Spatial Data (QGIS Demo 2)",
+   "path": "transcripts/external/statcan-qgis-demo-2-categories-subtypes-properties-spatial-data.md",
+   "tool": "external",
+   "hasVisualNotes": false,
+   "usedByProcedures": [],
+   "origin": "external-publisher"
+  },
+  {
+   "title": "Loading and Ordering Spatial Data in QGIS (QGIS Demo 3)",
+   "path": "transcripts/external/statcan-qgis-demo-3-loading-ordering-spatial-data.md",
+   "tool": "external",
+   "hasVisualNotes": false,
+   "usedByProcedures": [],
+   "origin": "external-publisher"
+  },
+  {
+   "title": "Interacting with data in the Map Canvas (QGIS Demo 4)",
+   "path": "transcripts/external/statcan-qgis-demo-4-interacting-with-map-canvas.md",
+   "tool": "external",
+   "hasVisualNotes": false,
+   "usedByProcedures": [],
+   "origin": "external-publisher"
+  },
+  {
+   "title": "Exploring the Attribute Table and Layer Properties Box of Vector Data (QGIS Demo 5)",
+   "path": "transcripts/external/statcan-qgis-demo-5-attribute-table-layer-properties.md",
+   "tool": "external",
+   "hasVisualNotes": false,
+   "usedByProcedures": [],
+   "origin": "external-publisher"
+  },
+  {
+   "title": "Visualizing Vector Data (Part 1): Symbology Styles (QGIS Demo 9)",
+   "path": "transcripts/external/statcan-qgis-demo-9-visualizing-vector-data-symbology.md",
+   "tool": "external",
+   "hasVisualNotes": false,
+   "usedByProcedures": [],
+   "origin": "external-publisher"
+  },
+  {
+   "contentId": "81f3f567-2270-4bba-a44e-9727b7423f24",
+   "title": "QGIS - Adding a delimited text layer",
+   "tool": "qgis",
+   "durationSec": 183,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-adding-a-delimited-text-layer.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=81f3f567-2270-4bba-a44e-9727b7423f24&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/add-delimited-text-layer-csv.md",
+    "tools/qgis/add-shapefile-drag-and-drop.md",
+    "tools/qgis/explore-layer-identify-attribute-table-properties.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Adding_a_delimted_text_layer.mp4"
+  },
+  {
+   "contentId": "d76eb579-57fa-4898-bcac-b945e12fcbaf",
+   "title": "QGIS - Adding a shapefile",
+   "tool": "qgis",
+   "durationSec": 87,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-adding-a-shapefile.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=d76eb579-57fa-4898-bcac-b945e12fcbaf&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/add-shapefile-drag-and-drop.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS__-_Adding_a_shapefile.mp4"
+  },
+  {
+   "contentId": "fa1824b8-e200-4540-b7d1-2ef7749112f1",
+   "title": "QGIS - Base maps",
+   "tool": "qgis",
+   "durationSec": 176,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-base-maps.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=fa1824b8-e200-4540-b7d1-2ef7749112f1&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/add-base-map-quickmapservices.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Base_maps.mp4"
+  },
+  {
+   "contentId": "b40f2799-0b65-43fd-87f6-de61428320c5",
+   "title": "QGIS - Basic filter in QGIS",
+   "tool": "qgis",
+   "durationSec": 135,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-basic-filter-in-qgis.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=b40f2799-0b65-43fd-87f6-de61428320c5&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/add-delimited-text-layer-csv.md",
+    "tools/qgis/filter-vector-single-condition-query-builder.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_Basic_filter_in_QGIS.mp4"
+  },
+  {
+   "contentId": "3f9af1b9-f315-49a8-8e5c-2766fe918577",
+   "title": "QGIS - Buffer creation and zonal histograms",
+   "tool": "qgis",
+   "durationSec": 579,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 5: Connecting Data - Joins, merges, and spatial relationships"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-buffer-creation-and-zonal-histograms.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=3f9af1b9-f315-49a8-8e5c-2766fe918577&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/buffer-points-fixed-distance.md",
+    "tools/qgis/reproject-raster-warp.md",
+    "tools/qgis/zonal-histogram-raster-categories-in-polygons.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Buffer_creation_and_zonal_histograms.mp4"
+  },
+  {
+   "contentId": "e34bef19-bc0c-451e-84a5-135fae66e441",
+   "title": "QGIS - Case when for multiple conditions",
+   "tool": "qgis",
+   "durationSec": 250,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 3: Conditional logic, conditional calculations, and deterministic modelling"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-case-when-for-multiple-conditions.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=e34bef19-bc0c-451e-84a5-135fae66e441&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/field-calculator-case-when.md",
+    "tools/qgis/field-calculator-if-statement.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Case_when_for_multiple_conditions.mp4"
+  },
+  {
+   "contentId": "f49207a2-ff4e-4d84-a2a7-85dc41888a6e",
+   "title": "QGIS - Changing column types",
+   "tool": "qgis",
+   "durationSec": 118,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 5: Connecting Data - Joins, merges, and spatial relationships"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-changing-column-types.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=f49207a2-ff4e-4d84-a2a7-85dc41888a6e&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/field-calculator-change-column-type.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Changing_column_types.mp4"
+  },
+  {
+   "contentId": "7c2b4e42-6e54-4e6d-8ee7-3d0195da4fcf",
+   "title": "QGIS - Clipping vector layers",
+   "tool": "qgis",
+   "durationSec": 483,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 7"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-clipping-vector-layers.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=7c2b4e42-6e54-4e6d-8ee7-3d0195da4fcf&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/clip-vector-layer-to-boundary.md",
+    "tools/qgis/fix-invalid-geometries.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Clipping_vector_layers.mp4"
+  },
+  {
+   "contentId": "200a0efd-dbe2-4c7f-928a-cac45a0dfa40",
+   "title": "QGIS - Counting points in polygons and creating grids",
+   "tool": "qgis",
+   "durationSec": 598,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 7"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-counting-points-in-polygons-and-creating-grids.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=200a0efd-dbe2-4c7f-928a-cac45a0dfa40&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/clip-vector-layer-to-boundary.md",
+    "tools/qgis/count-points-in-polygon.md",
+    "tools/qgis/create-grid-and-count-point-density.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Counting_points_in_polygons_and_creating_grids.mp4"
+  },
+  {
+   "contentId": "e9700abb-3cd3-4d8f-ad4c-3c18a7187b9b",
+   "title": "QGIS - Creating a new layer",
+   "tool": "qgis",
+   "durationSec": 305,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 5: Connecting Data - Joins, merges, and spatial relationships"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-creating-a-new-layer.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=e9700abb-3cd3-4d8f-ad4c-3c18a7187b9b&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/create-shapefile-layer-and-digitize-polygon.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Creating_a_new_layer.mp4"
+  },
+  {
+   "contentId": "891486b2-4283-4447-a784-982602ee286a",
+   "title": "QGIS - Creating a spatial index",
+   "tool": "qgis",
+   "durationSec": 114,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 7"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-creating-a-spatial-index.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=891486b2-4283-4447-a784-982602ee286a&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/create-spatial-index.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Creating_a_spatial_index.mp4"
+  },
+  {
+   "contentId": "29e09aa2-416e-4246-afc8-37be86f38343",
+   "title": "QGIS - CRS",
+   "tool": "qgis",
+   "durationSec": 323,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-crs.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=29e09aa2-416e-4246-afc8-37be86f38343&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/set-project-crs.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_CRS.mp4"
+  },
+  {
+   "contentId": "491f044a-3e36-42b5-b812-f8ce2bf91243",
+   "title": "QGIS - ESRI Rest Servers",
+   "tool": "qgis",
+   "durationSec": 322,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 2: Transforming and wrangling data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-esri-rest-servers.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=491f044a-3e36-42b5-b812-f8ce2bf91243&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/add-arcgis-rest-server-layer.md",
+    "tools/qgis/add-base-map-quickmapservices.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_ESRI_Rest_Servers.mp4"
+  },
+  {
+   "contentId": "d1c2843b-d8a8-4ee9-83c4-ee0ffe3a4a06",
+   "title": "QGIS - Exporting attribute table to CSV",
+   "tool": "qgis",
+   "durationSec": 180,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 5: Connecting Data - Joins, merges, and spatial relationships"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-exporting-attribute-table-to-csv.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=d1c2843b-d8a8-4ee9-83c4-ee0ffe3a4a06&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/export-layer-to-csv-or-shapefile.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Exporting_attribute_table_to_CSV.mp4"
+  },
+  {
+   "contentId": "a90949ef-8dd2-4096-be6a-cb03f670b0bb",
+   "title": "QGIS - Field calculator",
+   "tool": "qgis",
+   "durationSec": 414,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 3: Conditional logic, conditional calculations, and deterministic modelling"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-field-calculator.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=a90949ef-8dd2-4096-be6a-cb03f670b0bb&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/field-calculator-if-statement.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Field_calculator.mp4"
+  },
+  {
+   "contentId": "86b95952-6b3d-41b9-8564-fd460b460c3c",
+   "title": "QGIS - Filter vector data for multiple conditions",
+   "tool": "qgis",
+   "durationSec": 360,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 2: Transforming and wrangling data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-filter-vector-data-for-multiple-conditions.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=86b95952-6b3d-41b9-8564-fd460b460c3c&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/filter-vector-multiple-conditions.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Filter_vector_data_for_multiple_conditions.mp4"
+  },
+  {
+   "contentId": "8621ba5f-1d76-4069-bc9d-ab4500fde25e",
+   "title": "QGIS - Introduction to QGIS",
+   "tool": "qgis",
+   "durationSec": 706,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-introduction-to-qgis.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=8621ba5f-1d76-4069-bc9d-ab4500fde25e&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/explore-layer-identify-attribute-table-properties.md",
+    "tools/qgis/install-quickmapservices-plugin.md",
+    "tools/qgis/save-layers-to-geopackage.md",
+    "tools/qgis/save-project-file.md",
+    "tools/qgis/set-project-crs.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Introduction_to_QGIS.mp4"
+  },
+  {
+   "contentId": "09cc36ea-fe95-498b-bdf5-a94f1cafda2a",
+   "title": "QGIS - Join attributes by location",
+   "tool": "qgis",
+   "durationSec": 222,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 5: Connecting Data - Joins, merges, and spatial relationships"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-join-attributes-by-location.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=09cc36ea-fe95-498b-bdf5-a94f1cafda2a&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/join-attributes-by-location.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Join_attributes_by_location.mp4"
+  },
+  {
+   "contentId": "867c6eb9-9684-4b90-b95a-97eb79276bf2",
+   "title": "QGIS - Join attributes by nearest",
+   "tool": "qgis",
+   "durationSec": 665,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 5: Connecting Data - Joins, merges, and spatial relationships"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-join-attributes-by-nearest.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=867c6eb9-9684-4b90-b95a-97eb79276bf2&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/join-attributes-by-nearest.md",
+    "tools/qgis/measure-distance-shortest-line-between-features.md",
+    "tools/qgis/reproject-vector-layer.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Join_attributes_by_nearest.mp4"
+  },
+  {
+   "contentId": "20878b22-2b5a-437b-930e-43e382fa7c61",
+   "title": "QGIS - Merging vector layers and features",
+   "tool": "qgis",
+   "durationSec": 247,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 7"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-merging-vector-layers-and-features.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=20878b22-2b5a-437b-930e-43e382fa7c61&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/merge-selected-features.md",
+    "tools/qgis/merge-vector-layers.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Merging_vector_layers_and_features.mp4"
+  },
+  {
+   "contentId": "819a4662-20df-45d6-be4f-180977a196ca",
+   "title": "QGIS - Print layout",
+   "tool": "qgis",
+   "durationSec": 860,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 7"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-print-layout.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=819a4662-20df-45d6-be4f-180977a196ca&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/inverted-polygon-mask-symbology.md",
+    "tools/qgis/print-layout-map-export.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Print_layout.mp4"
+  },
+  {
+   "contentId": "5aba5079-1a9c-4874-bb5a-511ff5944047",
+   "title": "QGIS - Raster calculator with two raster layers",
+   "tool": "qgis",
+   "durationSec": 518,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 3: Conditional logic, conditional calculations, and deterministic modelling"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-raster-calculator-with-two-raster-layers.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=5aba5079-1a9c-4874-bb5a-511ff5944047&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/raster-calculator-combine-two-rasters.md",
+    "tools/qgis/raster-calculator-threshold-filter.md",
+    "tools/qgis/raster-set-value-transparent.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Raster_calculator_with_two_raster_layers.mp4"
+  },
+  {
+   "contentId": "c0a61d6d-b91c-4f26-8c08-efd71d9fa1d0",
+   "title": "QGIS - Raster calculator",
+   "tool": "qgis",
+   "durationSec": 383,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 2: Transforming and wrangling data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-raster-calculator.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=c0a61d6d-b91c-4f26-8c08-efd71d9fa1d0&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/raster-calculator-threshold-filter.md",
+    "tools/qgis/raster-set-value-transparent.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Raster_calculator.mp4"
+  },
+  {
+   "contentId": "81dd69e3-60d9-4ee7-9697-6c91c784bb95",
+   "title": "QGIS - Raster import",
+   "tool": "qgis",
+   "durationSec": 316,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 2: Transforming and wrangling data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-raster-import.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=81dd69e3-60d9-4ee7-9697-6c91c784bb95&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/add-base-map-quickmapservices.md",
+    "tools/qgis/add-raster-geotiff-and-style-pseudocolor.md",
+    "tools/qgis/explore-layer-identify-attribute-table-properties.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Raster_import.mp4"
+  },
+  {
+   "contentId": "bfc69f9a-69d7-4592-998c-39d66eb9ec93",
+   "title": "QGIS - Reprojecting a vector layer",
+   "tool": "qgis",
+   "durationSec": 245,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 5: Connecting Data - Joins, merges, and spatial relationships"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-reprojecting-a-vector-layer.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=bfc69f9a-69d7-4592-998c-39d66eb9ec93&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/add-geometry-attributes-area-perimeter.md",
+    "tools/qgis/reproject-vector-layer.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Reprojecting_a_vector_layer.mp4"
+  },
+  {
+   "contentId": "547c3825-1c27-4c5e-89ed-4f9bfde50dc4",
+   "title": "QGIS - Sample raster values",
+   "tool": "qgis",
+   "durationSec": 323,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 5: Connecting Data - Joins, merges, and spatial relationships"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-sample-raster-values.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=547c3825-1c27-4c5e-89ed-4f9bfde50dc4&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/sample-raster-values-at-points.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Sample_raster_values.mp4"
+  },
+  {
+   "contentId": "8e345546-9c79-4fc8-9f60-be90a6f53532",
+   "title": "QGIS - Saving a project file",
+   "tool": "qgis",
+   "durationSec": 97,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 7"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-saving-a-project-file.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=8e345546-9c79-4fc8-9f60-be90a6f53532&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/save-project-file.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Saving_a_project_file.mp4"
+  },
+  {
+   "contentId": "dbb0c014-7939-4619-a2bc-0b74665ddea7",
+   "title": "QGIS - Saving working layers to geopackages",
+   "tool": "qgis",
+   "durationSec": 303,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 7"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-saving-working-layers-to-geopackages.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=dbb0c014-7939-4619-a2bc-0b74665ddea7&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/add-delimited-text-layer-csv.md",
+    "tools/qgis/save-layers-to-geopackage.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Saving_working_layers_to_geopackages.mp4"
+  },
+  {
+   "contentId": "6b56236c-92f7-4174-a99d-6db22ad18c17",
+   "title": "QGIS - Spatial joins",
+   "tool": "qgis",
+   "durationSec": 516,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 5: Connecting Data - Joins, merges, and spatial relationships"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/qgis/qgis-spatial-joins.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=6b56236c-92f7-4174-a99d-6db22ad18c17&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/qgis/join-table-to-layer-by-attribute.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/QGIS_-_Spatial_joins.mp4"
+  },
+  {
+   "contentId": "30f8a884-436f-4c75-b025-d2536100ed7d",
+   "title": "Positron - Introduction and package installation",
+   "tool": "r-positron",
+   "durationSec": 457,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/r-positron/positron-introduction-and-package-installation.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=30f8a884-436f-4c75-b025-d2536100ed7d&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/r-positron/install-and-load-packages.md",
+    "tools/r-positron/install-r-and-positron.md",
+    "tools/r-positron/open-folder-and-set-working-directory.md",
+    "tools/r-positron/read-csv-and-clean-column-names.md",
+    "tools/r-positron/run-code-and-use-positron-panes.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/Positron_-_Introduction_and_package_installation.mp4"
+  },
+  {
+   "contentId": "04415c92-df86-4dfc-9d8d-5af8ee2a2b7b",
+   "title": "R - Row binds and joins2",
+   "tool": "r-positron",
+   "durationSec": 1052,
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 5: Connecting Data - Joins, merges, and spatial relationships"
+   ],
+   "transcriptSource": "brightspace-captions",
+   "path": "transcripts/r-positron/r-row-binds-and-joins2.md",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=mediaLibrary&contentId=04415c92-df86-4dfc-9d8d-5af8ee2a2b7b&revisionId=latest",
+   "hasVisualNotes": true,
+   "usedByProcedures": [
+    "tools/r-positron/bind-rows.md",
+    "tools/r-positron/convert-column-types.md",
+    "tools/r-positron/filter-rows.md",
+    "tools/r-positron/find-duplicates-and-keep-distinct.md",
+    "tools/r-positron/inspect-a-dataset.md",
+    "tools/r-positron/join-tables.md",
+    "tools/r-positron/open-folder-and-set-working-directory.md",
+    "tools/r-positron/read-csv-and-clean-column-names.md",
+    "tools/r-positron/run-code-and-use-positron-panes.md",
+    "tools/r-positron/sort-and-keep-top-n.md",
+    "tools/r-positron/view-data-in-data-explorer.md"
+   ],
+   "origin": "brightspace",
+   "localVideo": "sources/videos/R_-_Row_binds_and_joins2.mp4"
+  }
+ ],
+ "datasets": [
+  {
+   "title": "Annual Crop Inventory 2018, Ontario - `aci_2018_on_v3`",
+   "path": "datasets/annual-crop-inventory-2018.md"
+  },
+  {
+   "title": "Buckthorn field survey (Class 4) and Topic 5 support layers",
+   "path": "datasets/buckthorn-survey.md"
+  },
+  {
+   "title": "Class 2 bundle - basking shark satellite tag 108916, GEBCO bathymetry - `Class 2/Class 2.zip`",
+   "path": "datasets/class-2-basking-shark-tag-data.md"
+  },
+  {
+   "title": "Conservation Authority administrative areas - `caadmin.zip`",
+   "path": "datasets/conservation-authority-areas.md"
+  },
+  {
+   "title": "German PRTR releases 2007-2024 - `Releases_Germany_2007_2024.xlsx`",
+   "path": "datasets/germany-prtr-releases.md"
+  },
+  {
+   "title": "Parks Canada human-wildlife coexistence records, 2010-2023",
+   "path": "datasets/human-wildlife-coexistence.md"
+  },
+  {
+   "title": "ID columns with leading zeros (read these as text)",
+   "path": "datasets/id-columns-leading-zeros.md"
+  },
+  {
+   "title": "Irish Marine Sportfish Tagging Programme",
+   "path": "datasets/irish-marine-sportfish-tagging.md"
+  },
+  {
+   "title": "LIO Wooded Area and Wetland Unit layers (Ontario) - `woodarea.zip`, `wetlandu.zip`",
+   "path": "datasets/lio-wooded-area-and-wetland-units.md"
+  },
+  {
+   "title": "City of London parcels and Thames Talbot Land Trust area",
+   "path": "datasets/london-parcels-and-ttlt-area.md"
+  },
+  {
+   "title": "Marine invasive species distribution rasters - green shore crab and sea vase",
+   "path": "datasets/marine-invasive-species-rasters.md"
+  },
+  {
+   "title": "NPRI data.zip — exact file schemas (corrected profiles)",
+   "path": "datasets/npri-file-schemas.md"
+  },
+  {
+   "title": "NPRI data (National Pollutant Release Inventory) - `Class 1/NPRI data.zip`",
+   "path": "datasets/npri.md"
+  },
+  {
+   "title": "OBIS North Atlantic right whale sightings (reduced)",
+   "path": "datasets/obis-north-atlantic-right-whale.md"
+  },
+  {
+   "title": "Ontario ecodistricts - `EcoDistrict` shapefile",
+   "path": "datasets/ontario-ecodistricts.md"
+  },
+  {
+   "title": "Ontario Land Cover Compilation v2 (OLCC) - `OntarioLandCoverComp-v2.zip`",
+   "path": "datasets/ontario-land-cover-compilation.md"
+  },
+  {
+   "title": "PWQMN - Provincial (Stream) Water Quality Monitoring Network, Ontario",
+   "path": "datasets/pwqmn.md"
+  },
+  {
+   "title": "Rock crab trawl survey (Practice set #2 - crab counts)",
+   "path": "datasets/rock-crab-survey.md"
+  },
+  {
+   "title": "SOLRIS 3.0 land-cover change, southern Ontario 2000-2015 - `SOLRIS 3.0.zip`",
+   "path": "datasets/solris-3-land-use-change.md"
+  },
+  {
+   "title": "Topic 7 Ontario boundary layers - `Topic 7.zip`",
+   "path": "datasets/topic-7-ontario-boundary-layers.md"
+  },
+  {
+   "title": "Full practice exam data (particulate matter) - `TPM practice exam.zip`",
+   "path": "datasets/tpm-practice-exam.md"
+  },
+  {
+   "title": "US power plants (EIA) - `Power_Plants.csv`",
+   "path": "datasets/us-power-plants.md"
+  },
+  {
+   "title": "Vessel traffic routes - `Practice sets/Vessel_Traffic_Routes.zip`",
+   "path": "datasets/vessel-traffic-routes.md"
+  }
+ ],
+ "course_docs": [
+  {
+   "title": "Assessments - what is asked and what an agent needs",
+   "path": "course/assessments.md"
+  },
+  {
+   "title": "Class 1 slides - transcription",
+   "path": "course/class-1-slides.md"
+  },
+  {
+   "title": "Classes 1-8 (Unit 1: Core Technical Skills)",
+   "path": "course/classes.md"
+  },
+  {
+   "title": "ENVRSUST 9014 - course overview (Fall 2026)",
+   "path": "course/course-overview.md"
+  },
+  {
+   "title": "External resources linked from the course",
+   "path": "course/external-resources.md"
+  },
+  {
+   "title": "Glossary (ENVRSUST 9014)",
+   "path": "course/glossary.md"
+  },
+  {
+   "title": "The National Pollutant Release Inventory (NPRI) in ENVRSUST 9014",
+   "path": "course/npri.md"
+  },
+  {
+   "title": "Topic 2 slides (\"02 - Topic 2\") - transcription",
+   "path": "course/topic-2-slides.md"
+  }
+ ],
+ "course_pages": [
+  {
+   "topicId": 3870910,
+   "title": "ENVRSUST 9014 COURSE OUTLINE 2026",
+   "modulePath": "Course information and overview",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3870910/View",
+   "kind": "file",
+   "target": "sources/files/ENVRSUST 9014 COURSE OUTLINE 2026.pdf"
+  },
+  {
+   "topicId": 3841306,
+   "title": "Zoom",
+   "modulePath": "Course information and overview",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841306/View",
+   "kind": "link",
+   "target": "/d2l/common/dialogs/quickLink/quickLink.d2l?ou=198357&type=lti&rcode=C82AC29D-7A23-40FB-8DD0-9B05C3A6D177-2143534&srcou=198357"
+  },
+  {
+   "topicId": 3841321,
+   "title": "Office hours booking",
+   "modulePath": "Course information and overview",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841321/View",
+   "kind": "link",
+   "target": "https://outlook.office.com/book/PaulMensinkOfficeHours@uwoca.onmicrosoft.com/?ismsaljsauthenabled"
+  },
+  {
+   "topicId": 3985673,
+   "title": "Videos organized by software",
+   "modulePath": "Unit 1: Developing Skills in Data Analysis",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3985673/View",
+   "kind": "page",
+   "path": "course-pages/videos-organized-by-software.md"
+  },
+  {
+   "topicId": 3985674,
+   "title": "Technical skills checklist",
+   "modulePath": "Unit 1: Developing Skills in Data Analysis",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3985674/View",
+   "kind": "page",
+   "path": "course-pages/technical-skills-checklist.md"
+  },
+  {
+   "topicId": 3852173,
+   "title": "Getting Started with Course Software",
+   "modulePath": "Unit 1: Developing Skills in Data Analysis > Course topics and training",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3852173/View",
+   "kind": "page",
+   "path": "course-pages/getting-started-with-course-software.md"
+  },
+  {
+   "topicId": 3856507,
+   "title": "The NPRI Dataset",
+   "modulePath": "Unit 1: Developing Skills in Data Analysis > Course topics and training",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3856507/View",
+   "kind": "page",
+   "path": "course-pages/the-npri-dataset.md"
+  },
+  {
+   "topicId": 3852242,
+   "title": "Topic 1: Loading, Cleaning and Exploring Data",
+   "modulePath": "Unit 1: Developing Skills in Data Analysis > Course topics and training",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3852242/View",
+   "kind": "page",
+   "path": "course-pages/topic-1-loading-cleaning-and-exploring-data.md"
+  },
+  {
+   "topicId": 3852243,
+   "title": "Topic 2: Transforming and wrangling data",
+   "modulePath": "Unit 1: Developing Skills in Data Analysis > Course topics and training",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3852243/View",
+   "kind": "page",
+   "path": "course-pages/topic-2-transforming-and-wrangling-data.md"
+  },
+  {
+   "topicId": 3852247,
+   "title": "Topic 3: Conditional logic, conditional calculations, and deterministic modelling",
+   "modulePath": "Unit 1: Developing Skills in Data Analysis > Course topics and training",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3852247/View",
+   "kind": "page",
+   "path": "course-pages/topic-3-conditional-logic-conditional-calculations-and-deterministic-m.md"
+  },
+  {
+   "topicId": 3852264,
+   "title": "Topic 5: Connecting Data - Joins, merges, and spatial relationships",
+   "modulePath": "Unit 1: Developing Skills in Data Analysis > Course topics and training",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3852264/View",
+   "kind": "page",
+   "path": "course-pages/topic-5-connecting-data-joins-merges-and-spatial-relationships.md"
+  },
+  {
+   "topicId": 3852683,
+   "title": "Topic 6: Exploratory Data Analysis and Visualization",
+   "modulePath": "Unit 1: Developing Skills in Data Analysis > Course topics and training",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3852683/View",
+   "kind": "page",
+   "path": "course-pages/topic-6-exploratory-data-analysis-and-visualization.md"
+  },
+  {
+   "topicId": 3841330,
+   "title": "Topic 7",
+   "modulePath": "Unit 1: Developing Skills in Data Analysis > Course topics and training",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841330/View",
+   "kind": "page",
+   "path": "course-pages/topic-7.md"
+  },
+  {
+   "topicId": 3841325,
+   "title": "Class 1 Overview",
+   "modulePath": "Unit 1 Classes: Core Technical Skills > Class 1 - Beneath the Surface: Measuring Animal Abundance in the Ocean",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841325/View",
+   "kind": "page",
+   "path": "course-pages/class-1-overview.md"
+  },
+  {
+   "topicId": 3841335,
+   "title": "Lesson 2 Overview",
+   "modulePath": "Unit 1 Classes: Core Technical Skills > Class 2 - Animals on the Move: Tracking Animal Movement Across Seascapes",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841335/View",
+   "kind": "page",
+   "path": "course-pages/lesson-2-overview.md"
+  },
+  {
+   "topicId": 3962804,
+   "title": "02 - Topic 2",
+   "modulePath": "Unit 1 Classes: Core Technical Skills > Class 2 - Animals on the Move: Tracking Animal Movement Across Seascapes",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3962804/View",
+   "kind": "file",
+   "target": "sources/files/02 - Topic 2.pdf"
+  },
+  {
+   "topicId": 3841361,
+   "title": "Lesson 3 Overview",
+   "modulePath": "Unit 1 Classes: Core Technical Skills > Class 3 - Food for Thought: Ocean Habitat, Fisheries, and Ecosystem Change",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841361/View",
+   "kind": "page",
+   "path": "course-pages/lesson-3-overview.md"
+  },
+  {
+   "topicId": 3841329,
+   "title": "Marine Sportfish Tagging Programme",
+   "modulePath": "Unit 1 Classes: Core Technical Skills > Class 3 - Food for Thought: Ocean Habitat, Fisheries, and Ecosystem Change",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841329/View",
+   "kind": "page",
+   "path": "course-pages/marine-sportfish-tagging-programme.md"
+  },
+  {
+   "topicId": 3841328,
+   "title": "Lesson overview",
+   "modulePath": "Unit 1 Classes: Core Technical Skills > Class 4 - Biodiversity and Invasive Species Assessment",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841328/View",
+   "kind": "page",
+   "path": "course-pages/lesson-overview.md"
+  },
+  {
+   "topicId": 3841324,
+   "title": "Pre-class readings",
+   "modulePath": "Unit 1 Classes: Core Technical Skills > Class 4 - Biodiversity and Invasive Species Assessment",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841324/View",
+   "kind": "page",
+   "path": "course-pages/pre-class-readings.md"
+  },
+  {
+   "topicId": 3841347,
+   "title": "Lesson 5 overview",
+   "modulePath": "Unit 1 Classes: Core Technical Skills > Class 5 - Troubled Waters: A History of Pollution in Canadian Waterways",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841347/View",
+   "kind": "page",
+   "path": "course-pages/lesson-5-overview.md"
+  },
+  {
+   "topicId": 3978308,
+   "title": "Case study #5",
+   "modulePath": "Unit 1 Classes: Core Technical Skills > Class 5 - Troubled Waters: A History of Pollution in Canadian Waterways",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3978308/View",
+   "kind": "page",
+   "path": "course-pages/case-study-5.md"
+  },
+  {
+   "topicId": 3841343,
+   "title": "Lesson 6 Overview",
+   "modulePath": "Unit 1 Classes: Core Technical Skills > Class 6 - Pollution Pathways: Tracking Canada’s Environmental Releases",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841343/View",
+   "kind": "page",
+   "path": "course-pages/lesson-6-overview.md"
+  },
+  {
+   "topicId": 3841344,
+   "title": "Lesson 7 Overview",
+   "modulePath": "Unit 1 Classes: Core Technical Skills > 7 - Forecasting Footprints: Canada’s GHG Emissions and Climate Action",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841344/View",
+   "kind": "page",
+   "path": "course-pages/lesson-7-overview.md"
+  },
+  {
+   "topicId": 3841362,
+   "title": "Case study #8",
+   "modulePath": "Unit 1 Classes: Core Technical Skills > 8 - Landscapes in Motion: Measuring the Cost of Land Use Changes and Habitat Degradation",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841362/View",
+   "kind": "page",
+   "path": "course-pages/case-study-8.md"
+  },
+  {
+   "topicId": 3988369,
+   "title": "Exam Practice",
+   "modulePath": "Assessments > Exams",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3988369/View",
+   "kind": "page",
+   "path": "course-pages/exam-practice.md"
+  },
+  {
+   "topicId": 3988372,
+   "title": "Practice 1 - North Atlantic Right Whale",
+   "modulePath": "Assessments > Exams",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3988372/View",
+   "kind": "page",
+   "path": "course-pages/practice-1-north-atlantic-right-whale.md"
+  },
+  {
+   "topicId": 3841375,
+   "title": "Selecting a project topic and collecting data",
+   "modulePath": "Assessments > Independent Project ",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841375/View",
+   "kind": "page",
+   "path": "course-pages/selecting-a-project-topic-and-collecting-data.md"
+  },
+  {
+   "topicId": 3841378,
+   "title": "Final Submission - ArcGIS Story Map",
+   "modulePath": "Assessments > Independent Project ",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841378/View",
+   "kind": "page",
+   "path": "course-pages/final-submission-arcgis-story-map.md"
+  },
+  {
+   "topicId": 3841340,
+   "title": "NPRI Group Assignment (updated)",
+   "modulePath": "Assessments > NPRI - Academic Challenge",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3841340/View",
+   "kind": "page",
+   "path": "course-pages/npri-group-assignment-updated.md"
+  },
+  {
+   "topicId": 3985686,
+   "title": "Western Presentation - EN NPRI 101-201_2024 AP_2",
+   "modulePath": "Assessments > NPRI - Academic Challenge",
+   "brightspaceUrl": "https://westernu.brightspace.com/d2l/le/content/198357/viewContent/3985686/View",
+   "kind": "file",
+   "target": "sources/files/Western Presentation - EN NPRI 101-201_2024 AP_2 - Copy.pdf"
+  }
+ ],
+ "externalLinks": [
+  {
+   "url": "https://publications.gc.ca/collections/collection_2020/statcan/892-00005/CS892-00005-2020-1-eng.mp4",
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ]
+  },
+  {
+   "url": "https://publications.gc.ca/collections/collection_2020/statcan/892-00005/CS892-00005-2020-3-eng.mp4",
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ]
+  },
+  {
+   "url": "https://publications.gc.ca/collections/collection_2020/statcan/892-00005/CS892-00005-2020-4-eng.mp4",
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ]
+  },
+  {
+   "url": "https://publications.gc.ca/collections/collection_2020/statcan/892-00005/CS892-00005-2020-5-eng.mp4",
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ]
+  },
+  {
+   "url": "https://publications.gc.ca/collections/collection_2020/statcan/892-00005/CS892-00005-2020-9-eng.mp4",
+   "linkedFrom": [
+    "Videos organized by software",
+    "Topic 1: Loading, Cleaning and Exploring Data"
+   ]
+  },
+  {
+   "url": "https://m365.cloud.microsoft/apps",
+   "linkedFrom": [
+    "Getting Started with Course Software"
+   ]
+  },
+  {
+   "url": "https://youtu.be/Ai0MV7twEBE?si=eqUe3eA4z3LR2SPx",
+   "linkedFrom": [
+    "Getting Started with Course Software"
+   ]
+  },
+  {
+   "url": "https://qgis.org/",
+   "linkedFrom": [
+    "Getting Started with Course Software"
+   ]
+  },
+  {
+   "url": "https://qgis.org/download/",
+   "linkedFrom": [
+    "Getting Started with Course Software"
+   ]
+  },
+  {
+   "url": "https://publications.gc.ca/collections/collection_2020/statcan/892-00005/CS892-00005-2019-1-eng.mp4",
+   "linkedFrom": [
+    "Getting Started with Course Software"
+   ]
+  },
+  {
+   "url": "https://positron.posit.co/download.html",
+   "linkedFrom": [
+    "Getting Started with Course Software"
+   ]
+  },
+  {
+   "url": "https://youtu.be/4Ir_HX4riHw?si=0fuNr--GY0eupLZe",
+   "linkedFrom": [
+    "Getting Started with Course Software"
+   ]
+  },
+  {
+   "url": "https://cran.r-project.org/)",
+   "linkedFrom": [
+    "Getting Started with Course Software"
+   ]
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=eR-XRSKsuR4",
+   "linkedFrom": [
+    "Getting Started with Course Software"
+   ]
+  },
+  {
+   "url": "https://youtu.be/FY8BISK5DpM?si=f6d2Px5dVHvkRjI7",
+   "linkedFrom": [
+    "Getting Started with Course Software"
+   ]
+  },
+  {
+   "url": "https://www.canada.ca/en/services/environment/pollution-waste-management/national-pollutant-release-inventory.html",
+   "linkedFrom": [
+    "The NPRI Dataset"
+   ]
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=xP4Td5olNvs",
+   "linkedFrom": [
+    "The NPRI Dataset"
+   ]
+  },
+  {
+   "url": "https://www.canada.ca/en/environment-climate-change/services/national-pollutant-release-inventory/instructional-videos.html#excel",
+   "linkedFrom": [
+    "The NPRI Dataset"
+   ]
+  },
+  {
+   "url": "https://www.canada.ca/en/environment-climate-change/services/national-pollutant-release-inventory/tools-resources-data/npri-map.html",
+   "linkedFrom": [
+    "The NPRI Dataset"
+   ]
+  },
+  {
+   "url": "https://open.canada.ca/data/en/dataset/1439dcb3-82a6-40fd-a9a4-8f045b20ff5b",
+   "linkedFrom": [
+    "Topic 2: Transforming and wrangling data"
+   ]
+  },
+  {
+   "url": "https://data.ontario.ca/dataset/provincial-stream-water-quality-monitoring-network",
+   "linkedFrom": [
+    "Topic 5: Connecting Data - Joins, merges, and spatial relationships",
+    "Case study #5"
+   ]
+  },
+  {
+   "url": "https://open.canada.ca/data/en/dataset/1f2ad87e-6103-4ead-bdd5-147c33fa11e6",
+   "linkedFrom": [
+    "Topic 5: Connecting Data - Joins, merges, and spatial relationships"
+   ]
+  },
+  {
+   "url": "https://www.canada.ca/en/environment-climate-change/services/national-pollutant-release-inventory/using-interpreting-data.html#evolution",
+   "linkedFrom": [
+    "Topic 6: Exploratory Data Analysis and Visualization"
+   ]
+  },
+  {
+   "url": "https://www.canada.ca/en/environment-climate-change/services/national-pollutant-release-inventory/tools-resources-data/all-year-dashboard.html",
+   "linkedFrom": [
+    "Topic 6: Exploratory Data Analysis and Visualization"
+   ]
+  },
+  {
+   "url": "https://www.canada.ca/en/environment-climate-change/services/national-pollutant-release-inventory/tools-resources-data/fact-sheet.html",
+   "linkedFrom": [
+    "Topic 6: Exploratory Data Analysis and Visualization"
+   ]
+  },
+  {
+   "url": "https://www.canada.ca/en/environment-climate-change/services/national-pollutant-release-inventory/tools-resources-data/fact-sheet.html#toc0",
+   "linkedFrom": [
+    "Topic 6: Exploratory Data Analysis and Visualization"
+   ]
+  },
+  {
+   "url": "https://www.canada.ca/en/environment-climate-change/services/national-pollutant-release-inventory/tools-resources-data/fact-sheet.html#toc1",
+   "linkedFrom": [
+    "Topic 6: Exploratory Data Analysis and Visualization"
+   ]
+  },
+  {
+   "url": "https://ebird.org/home",
+   "linkedFrom": [
+    "Marine Sportfish Tagging Programme",
+    "Selecting a project topic and collecting data"
+   ]
+  },
+  {
+   "url": "https://www.inaturalist.org/",
+   "linkedFrom": [
+    "Marine Sportfish Tagging Programme",
+    "Selecting a project topic and collecting data"
+   ]
+  },
+  {
+   "url": "https://www.fisheriesireland.ie/research/marine-sportfish-tagging-programme",
+   "linkedFrom": [
+    "Marine Sportfish Tagging Programme"
+   ]
+  },
+  {
+   "url": "https://maps.app.goo.gl/kpmmaSUSXDkv5HV57",
+   "linkedFrom": [
+    "Lesson overview"
+   ]
+  },
+  {
+   "url": "https://https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease/lyme-disease-may-2018/Lyme-Disease-Spring-Brochure-3Fold-EN-WEB.PDF",
+   "linkedFrom": [
+    "Pre-class readings"
+   ]
+  },
+  {
+   "url": "https://ouvert.canada.ca/data/dataset/14384cc5-5f57-4878-ad9e-79a965bb49a2",
+   "linkedFrom": [
+    "Case study #5"
+   ]
+  },
+  {
+   "url": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/DMS/depot_xSO4_5YA_deposition/MapServer",
+   "linkedFrom": [
+    "Case study #5"
+   ]
+  },
+  {
+   "url": "https://geo.scholarsportal.info/#r/details/_uri@=3872254028&_add:true_nozoom:true",
+   "linkedFrom": [
+    "Case study #5"
+   ]
+  },
+  {
+   "url": "https://geohub.lio.gov.on.ca/maps/mnrf::ontario-watershed-boundaries-owb/about",
+   "linkedFrom": [
+    "Case study #5"
+   ]
+  },
+  {
+   "url": "https://open.canada.ca/en/open-data",
+   "linkedFrom": [
+    "Selecting a project topic and collecting data"
+   ]
+  },
+  {
+   "url": "https://data.ontario.ca/",
+   "linkedFrom": [
+    "Selecting a project topic and collecting data"
+   ]
+  },
+  {
+   "url": "https://opendata.london.ca/",
+   "linkedFrom": [
+    "Selecting a project topic and collecting data"
+   ]
+  },
+  {
+   "url": "https://data.worldbank.org/",
+   "linkedFrom": [
+    "Selecting a project topic and collecting data"
+   ]
+  },
+  {
+   "url": "https://obis.org/",
+   "linkedFrom": [
+    "Selecting a project topic and collecting data"
+   ]
+  },
+  {
+   "url": "https://datadryad.org/stash",
+   "linkedFrom": [
+    "Selecting a project topic and collecting data"
+   ]
+  },
+  {
+   "url": "https://data.un.org/",
+   "linkedFrom": [
+    "Selecting a project topic and collecting data"
+   ]
+  },
+  {
+   "url": "https://geo2.scholarsportal.info/",
+   "linkedFrom": [
+    "Selecting a project topic and collecting data"
+   ]
+  },
+  {
+   "url": "https://storymaps.arcgis.com/collections/42768ab5c8004da6ba62eaf2b9523a0f?item=1",
+   "linkedFrom": [
+    "Final Submission - ArcGIS Story Map"
+   ]
+  },
+  {
+   "url": "https://doc.arcgis.com/en/arcgis-storymaps/gallery/?rsource=https%3A%2F%2Fwww.esri.com%2Fen-us%2Farcgis%2Fproducts%2Farcgis-storymaps%2Fstories",
+   "linkedFrom": [
+    "Final Submission - ArcGIS Story Map"
+   ]
+  },
+  {
+   "url": "https://www.canada.ca/en/environment-climate-change/services/national-pollutant-release-inventory/substances-list/threshold.html",
+   "linkedFrom": [
+    "NPRI Group Assignment (updated)"
+   ]
+  },
+  {
+   "url": "https://thru.de/faq/",
+   "linkedFrom": [
+    "NPRI Group Assignment (updated)"
+   ]
+  },
+  {
+   "url": "https://www.canada.ca/content/dam/eccc/documents/pdf/npri-/NPRI%20Project%20Final%20Report%20-%20Diego%2c%20Reema%2c%20Jean.pdf",
+   "linkedFrom": [
+    "NPRI Group Assignment (updated)"
+   ]
+  },
+  {
+   "url": "https://www.canada.ca/content/dam/eccc/documents/pdf/npri-/Analysis%20of%20Biphenyl%20and%20Bis(2-ethylhexyl)%20phthalate%20releases%20and%20exposure%20in%20diverse%20water%20bodies%20in%20Canada.pdf",
+   "linkedFrom": [
+    "NPRI Group Assignment (updated)"
+   ]
+  }
+ ]
+}

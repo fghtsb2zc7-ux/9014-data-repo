@@ -1,0 +1,41 @@
+                 Practice exam: Particulate matter in Canada
+
+
+
+
+Datasets to work with (in data folder):
+                      Dataset                              Description
+ particulate_matter_ON.csv                  Particulate matter releases from
+                                            Ontario facilities (2020-2024)
+ ELC shapefile                              The Ecological Land Classification
+                                            (ELC) layers divide the landscape into
+                                            ecological regions (ecoregions) based
+                                            on features such as climate, geology,
+                                            soils and vegetation.
+ can_ppp_2020_1km_Aggregated                This raster shows the estimated
+                                            population of Canada in 2020,
+                                            aggregated to a grid at approximately
+                                            1 km resolution. Each cell contains
+                                            the estimated number of people living
+                                            within that cell, rather than population
+                                            density.
+1. Please recreate the figure below. As part of the question, please add the slope and
+   indicate whether or not the slope is significantly different from zero in the subtitle.
+              2. Please recreate the figure below. Red rings represent 5 km distance from facilities that are located in areas with over 500
+                 people. Grid cells with over 5000 1000 people are also shown on the map.
+
+
+
+
+These range values                     1000
+on the raster
+symbology may not
+be aligned with the
+full range of the
+dataset, but by
+default when you
+change symbology it
+should show up like
+this
+3. Recreate the figure below. Pay careful attention to the details in the figure title and subtitle.
+

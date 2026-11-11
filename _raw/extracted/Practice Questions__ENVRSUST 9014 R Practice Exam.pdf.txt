@@ -1,0 +1,46 @@
+               ENVRSUST 9014 Practice R Exam
+
+Human and wildlife conflict
+Description: National parks provide both protection for biodiversity and recreational ecosystem
+services for society. However, this can sometimes lead to conflict between humans and wildlife.
+As a park manager, you want to identify major issues with wildlife and human conflict using
+reporting data. The datasets we will be using contain the incident type, incident date, the
+species involved, and whether or not a deterrent was used.
+
+
+
+
+Datasets to work with (in data folder):
+
+                       Dataset                                        Description
+ pca-human-wildlife-coexistence-animals-involved-       Each row in the dataset is a recorded
+ detailed-records-2010-2023.csv                         incident with a different species
+
+ pca-human-wildlife-coexistence-incidents-detailed-     This dataset has staff hours across
+ records-2010-2023.csv                                  years according to incident type
+1. In order to better plan and prepare for interventions, we need to examine how incidents
+   are occurring over time. This might allow us to put more resources in place to respond,
+   or limit, negative interactions. Use the pca-human-wildlife-coexistence-animals-involved-
+   detailed-records-2010-2023.csv to recreate the following figure. Species can be found in
+   the Species Common Name column. Remove species listings that are classified as
+   “Unknown”. Note, there are some species that have “unknown” in front of their common
+   name (e.g., “unknown duck”, “unknown mollusk”, etc), please keep those in the dataset.
+
+   Include code in your script to save your figure as a PNG.
+2. Occasionally, a deterrent may have to be used when there is a human wildlife interaction
+   to protect humans. Filter the pca-human-wildlife-conflict-animals-involved-detailed-
+   records-data dataset for only ‘Human Wildlife Interaction’ (found in the Incident Type
+   column). Once you have determined the top five species, go back and filter the
+   deterrent_records dataset to only include those top 5 species and then recreate the
+   figure below.
+3. We want to learn more about how the number of animals involved in different incident
+   types has changed over time. From the pca-human-wildlife-coexistence-animals-
+   involved-detailed-records-2010-2023.csv, create a new dataset that only has the
+   following columns:
+   - Year
+   - Incident Type
+   - Sum of number of animals
+   Recreate the following figure which explores how the mean number of animals per
+   incident type has changed from 2013 to 2023 (hint: use back-ticks around the year
+   headers when doing your calculations, `2013`).
+

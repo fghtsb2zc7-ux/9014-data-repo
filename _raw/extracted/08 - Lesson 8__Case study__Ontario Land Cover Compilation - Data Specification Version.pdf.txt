@@ -1,0 +1,559 @@
+Ontario Land Cover Compilation
+Data Specifications Version 2.0
+
+         November 2014
+Contact :
+Forest Resources Inventory Unit Coordinator, Science and Research Branch, Ontario Ministry of Natural
+Resources and Forestry. (705) 946-7450
+
+
+
+Disclaimer
+This instructional documentation has been prepared by Her Majesty the Queen in right of Ontario as
+represented by the Minister of Natural Resources and Forestry (the “Ministry”). No warranties or
+representations, express or implied, statutory or otherwise shall apply or are being made by the Ministry
+with respect to the documentation, its accuracy or its completeness. In no event will the Ministry be liable
+or responsible for any lost profits, loss of revenue or earnings, claims by third parties or for any economic,
+indirect, special, incidental, consequential or exemplary damage resulting from any errors, inaccuracies or
+omissions in this documentation; and in no event will the Ministry’s liability for any such errors,
+inaccuracies or omissions on any particular claim, proceeding or action, exceed the actual consideration
+paid by the claimant involved to the Ministry for the materials to which this instructional documentation
+relates. Save and except for the liability expressly provided for above, the Ministry shall have no obligation,
+duty or liability whatsoever in contract, tort or otherwise, including any liability or negligence. The
+limitations, exclusions and disclaimers expressed above shall apply irrespective of the nature of any cause
+of action, demand or action, including but not limited to breach of contract, negligence, strict liability, tort
+or any other legal theory, and shall survive any fundamental breach or breaches.
+
+
+
+
+                                                                                                             2
+Table of Contents
+1.0 Data Specifications Sheet .............................................................................................................4
+2.0 Ontario Land Cover Classification.......................................................................................................5
+            2.1 Overview ..........................................................................................................................5
+            2.2 Source Land Cover Databases ...........................................................................................6
+2.3 Data Dictionary.............................................................................................................................6
+3.0 References .....................................................................................................................................19
+
+
+
+
+                                                                                                                                                         3
+1.0 Data Specifications Sheet
+Date: November, 2014
+Section 1: Data Standard Information
+This section identifies the name, abbreviation, and extent of the 2014 Ontario Land Cover Compilation,
+and provides contact information for the producer and custodian of this data layer.
+
+
+Layer Name:              Ontario Land Cover Compilation V.2
+Layer                    OLCC
+Abbreviation:
+Layer                    Regional, ecologically based, land cover and change inventory.
+Description:             Represents the landscape current to between 1999-2011.
+References:              Far North Land Cover Methodology
+Production:              Science and Research Branch, Ministry of Natural Resources and Forestry
+                         (MNRF)
+Product Contact:         Forest Resources Inventory Unit Coordinator, Science and Research Branch,
+                         Ontario Ministry of Natural Resources and Forestry. (705) 946-7450
+
+Extent:                  Province of Ontario
+Custodian:               Science and Research Branch, MNRF
+
+
+
+Section 2: GIS Data Layer Specifications
+This section identifies the geospatial criteria for this data layer.
+
+1. File Information
+File Type:                               GRID
+Projection File Name:
+Geometry Type              Grid       X Point           Line           Polygon       Raster
+2. Coordinate System
+                              Geographic              UTM              Lambert   X
+Horizontal Coordinate System: GCS North American 1983
+
+
+
+
+                                                                                                         4
+2.0 Ontario Land Cover Classification V.2
+
+2.1 Overview
+The Ontario Land Cover Compilation serves as a consistent land cover map for the entire province to meet
+regional - to - landscape level analysis (1:50,000 – 1:100,000). This product is comprised of three separate
+land cover databases, each with separate class structures and which have been rationalized into a single
+classification.
+
+
+
+
+Figure 1: (a) Ontario Land Cover Compilation and (b) Source Land Cover Databases
+
+
+The Ontario Land Cover Compilation consists of 29 land cover classes derived by combining the Provincial
+Land Cover Database (2000 Edition), Far North Land Cover Version 1.4 and the Southern Ontario Land
+Resource Information System (Version 1.2). Each of these separate land cover databases was resampled to
+a common pixel spacing (15 metres), re-projected to a common projection (NAD83 Lambert Conformal
+Conic) and reclassified into a common class structure. The reclassification scheme is described in section
+2.3 of this data specification document.
+
+
+
+
+                                                                                                          5
+2.2 Source Land Cover Databases
+
+The Provincial Land Cover Database (2000 Edition)
+(PLC2000)
+This database consists of 27 broad land cover types and was produced in 2004 from an
+unsupervised classification of approximately 55 Landsat-7 ETM satellite images acquired between
+1999 and 2002. The PLC2000 was produced as 4 overlapping rasters, one for each UTM zone
+within the province, with a pixel resolution of 25 metres.
+
+
+Southern Ontario Land Resource Information System (SOLRIS) Version 1.2 (SOLRISv1.2)
+The SOLRIS database consists of 25 land cover classes which follow the Ministry of Natural
+Resources’ Ecological Land Classification (ELC) for southern Ontario. This database was produced
+in 2008 from an object oriented classification of 11 Landsat-7 ETM satellite images acquired
+between 1999 and 2002.       SOLRIS was produced as 2 overlapping rasters, one for each UTM
+zone in southern Ontario, with a pixel resolution of 15 metres.
+
+Far North Land Cover Version 1.4
+(FNLCv1.4)
+
+The Far North Land Cover consists of 26 land cover types and was updated in 2014 from an object
+oriented classification of Landsat-5 TM satellite images acquired between 2005 and 2011. The
+FNLC was produced as 3 overlapping rasters, one for each UTM zone in northern Ontario, with a
+pixel resolution of 30 metres.
+
+
+
+
+ 2.3 Data Dictionary
+
+ The following table is provided as a data dictionary for the Ontario Land Cover Compilation.
+ For each class, the class name, code number and the source land cover class and class
+ description are included. For more details on the source land cover products, including
+ potential class confusions, please refer to the corresponding data dictionaries of these
+ products.
+
+
+
+
+                                                                                                6
+Table 1: Ontario Land Cover Compilation Classification As Related to the Source Land Cover Classifications
+ Unit Name          Code Source Unit Name                   Source Unit Description
+                    #
+ Clear Open         1       PLC2000: Water – deep clear Water – deep clear: Deep or clear waterbodies.
+ Water                      SOLRIS v1.2: Open Water         Open Water: No macrophyte vegetation, trees or shrub cover
+                            FNLC v1.4: Clear Open           Clear Open Water: This class is characterized by water with minimal or no evidence of
+                            Water                           turbidity or sediment. There is also an absence of macrophyte vegetation, tree or shrub
+                                                            cover.
+ Turbid Water       2       PLC2000: Water – shallow /      Water – shallow / sedimented: Shallow waterbodies and waterbodies with a high
+                            sedimented                      concentration of suspended sediment.
+                            SOLRIS v1.2: -
+                            FNLC v1.4: Turbid Water         Turbid Water: This class is characterized by water with varying degrees of turbidity,
+                                                            sediment and marl. Sparse floating and submerged vegetation is also included in this class
+                                                            as tones are similar to water with turbidity and sediment. Little to no tree or shrub cover
+                                                            is present. The mixture of sparse emergent and floating vegetation, suspended sediment,
+                                                            turbid water and clear water create a unique and identifiable image tone.
+ Shoreline          3       PLC2000: -
+                            SOLRIS v1.2: Shoreline; Open Shoreline; Open Shoreline: Substrate consists of unconsolidated parent or mineral
+                            Shoreline                       material. Subject to active processes / < 25% vegetative cover
+                            FNLC v1.4: -
+ Mudflats           4       PLC2000: Mudflats               Mudflats: Unvegetated coastal areas of the Hudson Bay-James Bay Lowlands, partly
+                                                            submerged at high tide.
+                            SOLRIS v1.2: -
+                            FNLC v1.4: Intertidal           Intertidal Mudflat: Completely unvegetated coastal areas of Hudson and James Bays.
+                            Mudflat                         These features are covered by varying depths of water depending on distance from the
+                                                            coast, as well as the point in the tidal cycle when the imagery was acquired. These
+                                                            features have a unique and identifiable image tone due to the combination of wet and
+                                                            exposed soil. Proximity to James and Hudson Bays also aids detection.
+
+
+
+
+                                                                                                                                                 7
+Unit Name   Code   Source Unit Name               Source Unit Description
+            #
+Marsh       5      PLC2000: Marsh – intertidal;   Marsh – intertidal: Coastal marshes of the Hudson Bay-James Bay Lowlands lying
+                   Marsh – supertidal             between the coastal mudflats and the supertidal zone.
+
+                                                  Marsh – supertidal: Coastal marshes of the Hudson Bay-James Bay Lowlands lying inland
+                                                  of both the coastal mudflats and intertidal marshes, and subject to only exceptionally high
+                                                  tides.
+
+                   SOLRIS v1.2: Marsh             Marsh: Open, shrub and treed communities - water table seasonally or permanently at,
+                                                  near, or above substrate surface - tree and shrub cover ≤ 25% - dominated by
+                                                  emergent hydrophytic macrophytes
+
+                   FNLC v1.4: Intertidal Marsh;   Intertidal Marsh: Primarily open communities containing living and senesced grasses,
+                   Supertidal Marsh; Fresh        sedges and emergents. These marshes are directly adjacent to the Hudson and James Bay
+                   Water Marsh                    coasts between mudflats and the supertidal zone, and are constantly influenced by
+                                                  brackish and freshwater. They are flooded at high tide and slowly drain as the tide falls; a
+                                                  process that leaves a mosaic of pools of standing water. Estuarine intertidal marshes are
+                                                  found at the outflows of freshwater rivers and are also included in this class. Last year’s
+                                                  dead vegetation is sometimes present while fluctuating water levels and other natural
+                                                  disturbance (e.g. overgrazing by abnormally high geese populations) can also stress
+                                                  vegetation in this zone causing it to senesce early. A combination of higher amounts of
+                                                  dead and senesced grasses and heterogeneous conditions provide a unique mosaic of
+                                                  image tones that allows for mapping. Proximity to James and Hudson Bays also aids
+                                                  detection.
+
+                                                  Supertidal Marsh: Primarily open communities containing some shrubs and trees. Tree
+                                                  and shrub cover ≤ 25% and dominated by emergent hydrophytic macrophytes. Water
+                                                  table is seasonally or permanently at, near, or above substrate surface. This class includes
+                                                  coastal marshes beyond the intertidal zone and as such, subjected to salt water via
+                                                  exceptional tides and storm surges. Lower amounts of visible sensed vegetation and water
+                                                  along with proximity to James and Hudson Bays allows for image detection.
+
+
+
+
+                                                                                                                                        8
+Unit Name   Code   Source Unit Name               Source Unit Description
+            #
+                   FNLC v1.4: Intertidal Marsh;   Fresh Water Marsh: Fresh water marshes occur in close proximity to Hudson and
+                   Supertidal Marsh; Fresh        James Bays. They are often adjacent to supertidal marshes but not subjected to any salt
+                   Water Marsh (Cont’d)           water influences. Otherwise, freshwater marsh features are relatively rare in the Far
+                                                  North but do occur. When they occur these features are located on inland lakes and rivers
+                                                  in the southern portion of the Ontario Shield and in river oxbows in the Hudson Bay
+                                                  lowlands. These are generally open communities where the water table is seasonally or
+                                                  permanently at, near, or above substrate surface. Vegetation is composed
+                                                  primarily of grasses, sedges and emergents while tree and shrub cover ≤25%.
+
+Swamp       6      PLC2000: Swamp –              Swamp – deciduous: Hardwood swamps of Southern Ontario occurring along rivers and
+                   deciduous; Swamp - coniferous in old lakebeds and other low-lying areas.
+
+                                                  Swamp – coniferous: Swamps with dense conifer tree or shrub cover occurring in
+                                                  Southern Ontario.
+
+                   SOLRIS v1.2: Swamp             Swamp: Open, shrub and treed communities - water table seasonally or permanently
+                                                  at, near, or above substrate surface - tree or shrub cover > 25% - dominated by
+                                                  hydrophytic shrub and tree species
+
+                   FNLC v1.4: Thicket Swamp;   Thicket Swamp: Greater than 25% hydrophytic shrub species capable of growing taller
+                   Coniferous Swamp; Deciduous than 2 metres and tree cover less than 10%. These are typically found within or on the
+                   Swamp                       edges of small to large flowing water bodies and in supertidal portions of the Hudson Bay
+                                               Lowlands. Their mineral or organic soil is subject to seasonal flooding or characterized by
+                                               a high water table. In many cases a circulation of water rich in dissolved minerals allows
+                                               for dense vegetation growth. Their association to water and unique image tones due to
+                                               high deciduous leaf densities enables mapping.
+
+                                                  Coniferous Swamp: Greater than 25% hydrophytic shrub and/or coniferous tree species.
+                                                  Their mineral or organic soil is subject to seasonal flooding or characterized by a high
+                                                  water table and a circulation of water rich in dissolved minerals. Hydrologically these
+                                                  features exist in isolated depressions or adjacent to streams, lakes, fens or bogs.
+
+
+
+                                                                                                                                     9
+Unit Name   Code   Source Unit Name             Source Unit Description
+            #
+                   FNLC v1.4: Thicket Swamp;    Deciduous Swamp: Greater than 25% hydrophytic shrub and deciduous tree species.
+                   Coniferous Swamp;            The tree cover mostly deciduous is greater than 10%. Their mineral or peaty phase
+                   Deciduous Swamp (Cont’d)     substrate is subject to seasonal flooding or characterized by a high water table and a
+                                                circulation of water rich in dissolved minerals. Hydrologically these features exist in
+                                                depressions or level slope, adjacent to lakes, streams and rivers, or open peatlands.
+
+Fen         7      PLC2000: Fen – open; Fen -   Fen – open: Fens generally lacking tree cover that may support some shrub cover and
+                   treed                        tamarack. Open fens include fens with an open water surface, graminoid fens, pattern
+                                                fens, and shrub-rich fens.
+
+                                                Fen – treed: Fens supporting a sparse to dense cover of trees or shrubs.
+
+                   SOLRIS v1.2: Fen             Fen: Open, shrub and treed communities - water table seasonally or permanently at,
+                                                near, or above substrate surface. - tree cover (trees > 2m high) ≤ 25% - sedges, grasses
+                                                and low (< 2 m) shrubs dominate, sedge and brown moss peat substrate
+
+                   FNLC v1.4: Open Fen; Treed   Open Fen: Fens develop in areas of generally slow flowing water and often have
+                   Fen                          saturated or flooded surfaces. These features are fed by water from precipitation,
+                                                ground and/or surface water, with the latter two sources enriched by contact with
+                                                surrounding mineral soils. These conditions enable slightly more vegetative diversity
+                                                and density than bogs. Mosses (generally not sphagnum), graminoids and low
+                                                ericaceous shrubs are all common. Tall shrubs may also be present but at densities of
+                                                less than 25%. Conditions such as open water surfaces and saturation, dense
+                                                graminoids, string patterns and textured ericaceous shrub-rich communities all aid their
+                                                remote detection. Additionally, low tree cover, approximately zero to 10%, also aids
+                                                identification.
+
+                                                Treed Fen: As described above fens receive ground and surface water. These conditions
+                                                allow for slightly higher vegetation density than bogs. Tamarack is usually associated
+                                                with fens due to its adaptation to the telluric conditions common in this wetland type.
+                                                At densities predominately over 10%, trees display a unique image tone that, when
+                                                combined with the other observable conditions noted for open fen, allow for their
+                                                detection on imagery. Black spruce is also present in these features, but not typically
+                                                used as an image identifier as these trees are also evident in several other land cover
+                                                classes.                                                                              10
+Unit Name   Code   Source Unit Name             Source Unit Description
+            #
+Bog         8      PLC2000: Bog – open; Bog -   Bog – open: Bogs generally lacking tree cover.
+                   treed
+                                                Bog – treed: Bogs supporting a sparse to dense cover of trees.
+                   SOLRIS v1.2: Bog             Bog: Open, shrub and treed communities - water table seasonally or permanently at,
+                                                near, or above substrate surface - tree cover (trees > 2m high) ≤ 25% sphagnum peat
+                                                substrate
+                   FNLC v1.4: Open Bog; Treed   Open Bog: Bogs have a thick accumulation of peat often forming dome, plateau and
+                   Bog                          hummock-like landforms that are level or slightly higher than surrounding surfaces.
+                                                These thick layers of organic peat material are virtually unaffected by surface runoff or
+                                                groundwater from surrounding mineral soils; the primary water source is precipitation.
+                                                Open bogs have water tables seasonally or permanently at, near, or above substrate
+                                                surface. Substrates are sphagnum peat. Hydrologic and substrate properties
+                                                significantly limit vegetation growth and diversity. In open bogs tree cover is sparse at
+                                                less than 10% while tall shrubs can occur at densities less than 25%. Dense and pure
+                                                sphagnum and lichen ground cover are the primary contributors to image
+                                                identification. Various densities of ericaceous shrubs can also occur; higher densities
+                                                also produce a unique image tone that can be used for mapping.
+
+                                                Treed Bog: The ecological characteristics of treed bog are similar to those described for
+                                                open bog. Treed bogs have either tree cover greater than 10% and tall shrub cover less
+                                                than 25%. A combination of low ericaceous shrub, lichen, sphagnum moss and black
+                                                spruce all aid detection.
+
+
+
+
+                                                                                                                                    11
+Unit Name      Code   Source Unit Name           Source Unit Description
+               #
+Heath          10     PLC2000: Tundra Heath      Tundra Heath: Low tundra vegetation growing on slightly raised beach deposits and
+                                                 strand lines along the Hudson Bay coast.
+                      SOLRIS v1.2: -
+
+                      FNLC v1.4: Heath           Heath: Heath commonly occurs on the raised mineral soils deposited as beach ridges
+                                                 and strandlines. The slightly higher elevations and close proximity to the coast ensures
+                                                 these features are constantly exposed to all intensities of prevailing and coastal winds.
+                                                 The relative high elevation and coarse soil ensures these areas are well drained
+                                                 therefore water table is typically well below the substrate surface creating upland
+                                                 conditions. Although vegetation cover is greater than 25%, extreme conditions limit
+                                                 vegetation primarily to lichen, artic herb and various ericaceous shrub species. The
+                                                 combination of lichen and ericaceous shrub image tones, proximity to the coast and
+                                                 spatial coincidence with beach ridges allow for identification and mapping.
+
+Sparse Treed   11     PLC2000: Forest - sparse   Forest – sparse: A patchy or sparse forest canopy composed of coniferous or
+                                                 deciduous species or a combination of the two.
+
+
+                      SOLRIS v1.2: -
+                      FNLC v1.4: Sparse Treed    Sparse Treed: Treed (> two metres in height) area containing coniferous or deciduous
+                                                 species or a combination of the two. Treed sites with tall and/or low treed canopy
+                                                 closure between 10 and 25%. These communities are often situated on bedrock
+                                                 knobs, rapidly draining soils, or on raised mineral soils, deposited as beach ridges
+                                                 and strandlines in close proximity to Hudson/James Bay. They often exhibit a dry
+                                                 and very shallow substrate. Dense communities of ground lichens, graminoids
+                                                 and/or mosses are also common. The combination of ground cover, dry conditions
+                                                 and sparse canopy offer unique image tones aiding identification. Elevation
+                                                 information extracted from an elevation model and quaternary geology parent
+                                                 material also aids mapping.
+
+
+
+
+                                                                                                                                      12
+Unit Name         Code   Source Unit Name             Source Unit Description
+                  #
+Treed Upland      12     PLC2000: -
+                         SOLRIS v1.2: Forest          Forest: Tree cover > 60%. Upland tree species > 75% canopy cover > 2 m in height.
+                                                      Perimeters visually extracted from high resolution ortho or satellite imagery. Attribute
+                                                      for forest type could not be derived spectrally from Landsat automated analysis due to
+                                                      size of feature.
+                         FNLC v1.4: -
+Deciduous Treed   13     PLC2000: Forest – dense      Forest – dense deciduous: Largely continuous forest canopy composed primarily of
+                         deciduous                    deciduous species.
+                         SOLRIS v1.2: Deciduous       Deciduous Forest: Tree cover > 60%. Upland deciduous tree species > 75% of canopy
+                         Forest                       cover > 2 m in height
+                         FNLC v1.4: Deciduous Treed   Deciduous Treed: Predominately deciduous tree cover situated on varying soil depths
+                                                      having dry, fresh and sometimes moist conditions. Vegetation cover is typically closed
+                                                      and tall (greater than 10 metres in height and 60% closure). May also include open tall
+                                                      (greater than 10 metres in height and between 25 and 60% closure) and low (less than
+                                                      10 metres in height and greater than 25% closure) communities. Upland deciduous tree
+                                                      species make up greater than 75% of canopy closure. Species are primarily poplar and
+                                                      birch.
+Mixed Treed       14     PLC2000: Forest – dense      Forest – dense mixed: Largely continuous forest canopy composed of both deciduous
+                         mixed                        and coniferous species. In more northerly areas, a greater component of coniferous
+                                                      species can be expected; in more southerly areas, a greater component of deciduous
+                                                      species can be expected.
+                         SOLRIS v1.2: Mixed Forest    Mixed Forest: Tree cover > 60%. Upland conifer tree species > 25% and deciduous tree
+                                                      species > 25% of canopy cover > 2m in height
+                         FNLC v1.4: Mixed Treed       Mixed Treed: A mixture of deciduous and coniferous tree cover situated on varying soil
+                                                      depths that can have dry, fresh and sometimes moist conditions. Vegetation cover is
+                                                      typically closed and tall (greater than 10 metres in height and 60% closure). May also
+                                                      include open tall (greater than 10 metres in height and between 25 and 60% closure)
+                                                      and low (less than 10 metres in height and greater than 25% closure) communities.
+                                                      Upland deciduous and coniferous tree species are present and make up less than 75%
+                                                      of canopy closure. Species are primarily jack pine, black spruce, white spruce, poplar
+                                                      and birch.
+                                                                                                                                           13
+Unit Name          Code   Source Unit Name              Source Unit Description
+                   #
+Coniferous Treed   15     PLC2000: Forest – dense       Forest – dense coniferous: Largely continuous forest canopy composed primarily of
+                          coniferous                    coniferous species
+                          SOLRIS v1.2: Coniferous       Coniferous Forest: Tree cover > 60%. Upland conifer tree species > 75% canopy cover >
+                          Forest                        2 m in height
+                          FNLC v1.4: Coniferous Treed   Coniferous Treed: Predominately coniferous tree cover situated on varying soil depths
+                                                        that can have dry, fresh and sometimes moist conditions. Vegetation cover is typically
+                                                        closed and tall (greater than 10 metres in height and 60% closure). May also include
+                                                        open tall (greater than 10 metres in height and between 25 and 60% closure) and low
+                                                        (less than 10 metres in height and greater than 25% closure) communities. Upland
+                                                        coniferous tree species make up greater than 75% of canopy closure. Species are
+                                                        primarily jack pine, black spruce, white spruce.
+Plantations –      16     PLC2000: -
+Treed Cultivated          SOLRIS v1.2: Plantations –    Plantations – Treed Cultivated: Tree cover > 60%, minimum 2 m in height, linear
+                          Treed Cultivated              organization, uniform tree type.
+                          FNLC v1.4: -
+Hedge Rows         17     PLC2000: -
+                          SOLRIS v1.2: Hedge Rows       Hedge Rows: Tree cover > 60%, minimum 2 m in height, linear arrangement, minimum
+                                                        10 m width, maximum 30m width.
+                          FNLC v1.4: -
+
+
+
+
+                                                                                                                                          14
+Unit Name     Code   Source Unit Name               Source Unit Description
+              #
+Disturbance   18     PLC2000: Forest Depletion –    Forest Depletion – cuts: Forest clearcuts estimated to be less than 10 years of age (in the
+                     cuts; Forest Depletion –       year 2000).
+                     burns; Forest – regenerating
+                     depletion                      Forest Depletion – burns: Forest burns estimated to be less than 10 years of age (in the
+                                                    year 2000).
+                     SOLRIS v1.2: -
+                     FNLC v1.4: Disturbance –       Disturbance – Non and Sparse Woody: The result of natural and/or anthropogenic
+                     Non and Sparse Woody;          disturbance occurring some time over the last 20 years. Vegetation cover includes
+                     Disturbance – Treed and/or     herbaceous (forbs and graminoids greater than 25%), sparse herbaceous (between two
+                     Shrub                          and 25%) and non vascular (lichen and or moss greater than 10%). Sparse tall and low
+                                                    trees along with tall and low shrub may also be present at canopy closures of less than
+                                                    25%. Dead trees can exist at greater than 25% cover and can be either up rooted and
+                                                    horizontal on the ground or standing. Sites are most often drier upland sites with
+                                                    varying soil depths. This class is mapped by taking advantage of the spatial context
+                                                    provided by disturbance mapping and the unique image tones associated with largely
+                                                    dead and/or senesced vegetation.
+
+                                                    Disturbance – Treed and/or Shrub: The result of natural and/or anthropogenic
+                                                    disturbance occurring some time over the last 20 years. Vegetation cover is
+                                                    predominately low treed (less than 10 metres in height and greater than 60% cover)
+                                                    and tall shrub (greater than two metres in height and 60% closure). Patches of closed
+                                                    tall tree cover (greater than 10 metres height and 60% cover) may also be present.
+                                                    Dead or dying trees can exist at less than 20% cover and can be either up rooted and
+                                                    horizontal on the ground or standing. Sites are most often drier upland sites with
+                                                    varying soil depths. This class is mapped by taking advantage of the spatial context
+                                                    provided by disturbance mapping and the unique image tones associated with living,
+                                                    dead and/or senesced vegetation.
+
+
+
+                                                                                                                                        15
+Unit Name         Code   Source Unit Name              Source Unit Description
+                  #
+Open Cliff and    19     PLC2000: -
+Talus                    SOLRIS v1.2: Open Cliff and   Open Cliff and Talus: Vertical or near-vertical exposed bedrock > 3 m in height / slopes
+                         Talus                         of rock rubble at the base of cliffs. Subject to active processes / < 25% vegetative cover
+                         FNLC v1.4: -
+Alvar             20     PLC2000: -
+                         SOLRIS v1.2: Alvar            Alvar: Level, unfractured limestone (carbonate) bedrock/ patchy mosaic of bare rock
+                                                       pavement and shallow substrates (<15cm) over bedrock / tree cover < 60%
+                         FNLC v1.4: -
+Sand Barren and   21     PLC2000: -
+Dune
+                         SOLRIS v1.2: Open Sand        Open Sand Barren and Dune: Exposed sands formed by extant or historical shoreline or
+                         Barren and Dune; Treed Sand   aeolian processes. Subject to active processes / < 25% vegetative cover
+                         Barren and Dune
+                                                       Treed Sand Barren and Dune: Exposed sands formed by extant or historical shoreline or
+                                                       aeolian processes. Subject to active processes / 25% < vegetative cover < 60%
+                         FNLC v1.4: -
+Open Tallgrass    22     PLC2000: -
+Prairie                  SOLRIS v1.2: Open Tallgrass   Open Tallgrass Prairie: Ground layer dominated by prairie gramminoids; variable cover
+                         Prairie                       of open-grown trees. Tree cover < 25%; shrub cover < 25%
+                         FNLC v1.4: -
+Tallgrass         23     PLC2000: -
+Savannah                 SOLRIS v1.2: Tallgrass        Tallgrass Savannah: Ground layer dominated by prairie gramminoids; variable cover of
+                         Savannah                      open-grown trees, 25% < tree cover < 35%
+                         FNLC v1.4: -
+Tallgrass         24     PLC2000: -
+Woodland                 SOLRIS v1.2: Tallgrass        Tallgrass Woodland: Ground layer dominated by prairie gramminoids; variable cover of
+                         Woodland                      open-grown trees, 35% < tree cover < 60%
+                         FNLC v1.4: -
+
+
+
+
+                                                                                                                                             16
+Unit Name          Code   Source Unit Name                 Source Unit Description
+                   #
+Sand / Gravel /    25     PLC2000: Sand / Gravel /         Sand / Gravel / Mine Tailings: Beach deposits, aggregate quarries and sand dunes;
+Mine Tailings /           Mine Tailings                    mines and mine tailings.
+Extraction                SOLRIS v1.2: Extraction          Pits, quarries
+
+                          FNLC v1.4:                       Sand/Gravel/Mine Tailings/Extraction: These areas are dominated by exposed soil
+                          Sand/Gravel/Mine                 having less than 25% vegetation cover. Beach deposits, sand dunes, aggregate quarries,
+                          Tailings/Extraction              mines and mine tailings are all included. Also included are sand islands in larger rivers,
+                                                           unvegetated beach ridges, drier coastal mudflats and very shallow or dry marl lakes.
+Bedrock            26     PLC2000: Bedrock                 Bedrock: Exposed bedrock, lacking vegetation cover.
+                          SOLRIS v1.2: -
+                          FNLC v1.4: Bedrock               Bedrock: Exposed bedrock with less than 25% vegetation cover.
+Community /        27     PLC2000: Settlement /            Settlement / Infrastructure: Clearings for human settlement and economic activity;
+Infrastructure            Infrastructure                   major transportation routes.
+                          SOLRIS v1.2: Transportation;     Transportation: Highways, roads
+                          Built-up Area Pervious; Built-
+                          up Area Impervious               Built-up Area Pervious: Urban recreation areas, e.g. golf courses playing fields.
+
+                                                           Built-up Area Impervious: Residential, industrial, commercial and civic areas.
+                          FNLC v1.4:                       Community/Infrastructure: Clearings for human settlement and economic activity;
+                          Community/Infrastructure         major transportation routes.
+Agriculture and    28     PLC2000: Agriculture –           Agriculture – Pasture / abandoned fields: Open grassland with sparse shrubs in rural
+Undifferentiated          Pasture / abandoned fields;      land.
+Rural Land Use            Agriculture - cropland
+                                                           Agriculture – cropland: Areas of row crops and fallow fields.
+                          SOLRIS v1.2:                     Undifferentiated: Includes all agricultural features (e.g. field and forage crops and rural
+                          Undifferentiated                 properties) as well as urban brown fields, and openings within forests.
+                          FNLC v1.4: Agriculture           Agriculture: Land cleared for agricultural use that may or may not be currently active.
+
+
+
+
+                                                                                                                                                 17
+Unit Name        Code   Source Unit Name           Source Unit Description
+                 #
+Other            -99    PLC2000: Other - unknown   Other – unknown: Landcover conditions not accurately defined by any other landcover
+                                                   class. This class includes the following: undefined clearings in disturbed areas; small,
+                                                   unburned areas within recent burns; and undefined transitional areas between classes,
+                                                   such as some wetland boundaries.
+                        SOLRIS v1.2: -
+                        FNLC v1.4: Other           Other: Land cover features that were not classified for a variety of reasons.
+Cloud / Shadow   -9     PLC2000: Other – cloud /   Other – cloud / shadow: Areas of cloud or shadow on the satellite images.
+                        shadow
+                        SOLRIS v1.2: -
+                        FNLC v1.4: Cloud/Shadow    Cloud/Shadow: Areas of cloud or shadow on the satellite image.
+
+
+
+
+                                                                                                                                      18
+3.0 References
+Ontario Ministry of Natural Resources and Forestry. 2014. Far North Land Cover Data Specifications
+Version 1.4. Natural Resources Information Section. Technical Report. 30p.
+Ontario Ministry of Natural Resources and Forestry. 2014. Far North Land Cover Version 1.4. Natural
+Resources Information Section.
+Ontario Ministry of Natural Resources. 2009. Accuracy Assessment Report: Far North Land Cover 2000
+(Version 1.0). Inventory, Monitoring and Assessment Section Technical Report (Unpubl.)
+Ontario Ministry of Natural Resources. 2008. Accuracy Assessment Report 2: SOLRIS Version 1.2 (April 2008
+release). Inventory, Monitoring and Assessment Section.
+Ontario Ministry of Natural Resources. 2008. Southern Ontario Land Resource Information System
+(SOLRIS): Phase 2 – Data Specifications Version 1.2. Inventory, Monitoring and Assessment Section
+Technical Report (Unpubl.)
+Ontario Ministry of Natural Resources. Provincial Land Cover Database (2000 Edition). Inventory,
+Monitoring and Assessment Section. Retrieved July 1, 2013 from the Land Information Ontario
+Warehouse. http://www.ontario.ca/lio
+Ontario Ministry of Natural Resources. Southern Ontario Land Resource Information System (2000-2002)
+Version 1.2. Inventory, Monitoring and Assessment Section. Retrieved July 1, 2013 from the Land
+Information Ontario Warehouse. http://www.ontario.ca/lio
+Spectranalysis, Inc. 2004. Introduction to the Ontario Land Cover Database, Second Edition (2000): Outline
+of Production Methodology and Description of 27 Land Cover Classes.
+
+
+
+
+                                                                                                       19
+

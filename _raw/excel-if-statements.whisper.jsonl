@@ -1,0 +1,66 @@
+{"start": 6.09, "end": 9.26, "text": "All right, so in this video, we're gonna take a look at using..."}
+{"start": 9.86, "end": 15.15, "text": "conditional logic to create new columns within our dataset."}
+{"start": 15.56, "end": 36.27, "text": "based on values that are there. So we're gonna use if statements. These are very famous formulas that you would use in R and in Excel to basically search for a value or a condition and then return one thing if it's true and return another thing if it's false so that condition is not met."}
+{"start": 36.68, "end": 39.89, "text": "So let's quickly load up our data as we do."}
+{"start": 40.9, "end": 44.05, "text": "We're gonna do the air industry releases again."}
+{"start": 48.39, "end": 51.31, "text": "to do any transformations. So we'll just load that"}
+{"start": 54.76, "end": 60.4, "text": "Great, okay, so we've got our industry name, of course, our year. (static)"}
+{"start": 60.87, "end": 64.53, "text": "our industry code and our releases and number of facilities."}
+{"start": 65.13, "end": 70.86, "text": "So we're gonna create a new column in our table here. We're gonna call this mining column."}
+{"start": 71.65, "end": 92.37, "text": "and we are gonna use an if statement to group all values that are from coal mining and then also group all values that are from anything other than coal mining. So an if statement classically works like this, you put an if in front and then we complete some sort of test. So we say that if,"}
+{"start": 92.97, "end": 94.7, "text": "the industry over here."}
+{"start": 95.33, "end": 97.78, "text": "Okay, until you match it to the same row."}
+{"start": 98.31, "end": 105.23, "text": "So it's going G2, A2. So if the industry over here, and we're gonna say is equal to."}
+{"start": 108.84, "end": 109.71, "text": "for the whole mining."}
+{"start": 112.42, "end": 115.54, "text": "then what happens if it's true?"}
+{"start": 116.01, "end": 118.13, "text": "Well, we'll keep it as coal mining."}
+{"start": 119.08, "end": 120.62, "text": "And what happens if it's false?"}
+{"start": 121.0, "end": 122.54, "text": "We'll call it non-mining."}
+{"start": 123.14, "end": 124.11, "text": "industries"}
+{"start": 125.86, "end": 132.62, "text": "And then we close off that bracket. So the way this is read is if the industry title is equal to coal mining."}
+{"start": 133.0, "end": 135.34, "text": "then the value in this column will be coal mining."}
+{"start": 135.91, "end": 140.14, "text": "If it is not equal to coal mining, then it will be non-mining industries."}
+{"start": 140.93, "end": 157.52, "text": "Okay, we see that it automatically flash fills in a table, which is very nice. So we'll fill down all the different columns. And we can see here now we've got two categories, coal mining and non-mining industries. So this is really helpful if we wanted to, let's say, compare"}
+{"start": 157.93, "end": 178.96, "text": "different sets of industries. So if we wanted to compare coal mining and non-mining industries, let's say we wanted to do that in some sort of a pivot table, then we can actually do that now quite easily because our if statement allows us to do that. So very simple, straightforward way of recategorizing data in a way that allows us to make some further comparisons."}
+{"start": 180.58, "end": 199.86, "text": "Okay, so that's very straightforward. What if we wanted to include multiple search terms? So we're not just looking for just coal mining. Maybe there's some other aspects or industries in the data set that we wanna kind of include, but we can actually use nested functions. So this is kind of a, maybe an introduction to..."}
+{"start": 200.26, "end": 202.38, "text": "nested function. So let's do..."}
+{"start": 203.37, "end": 205.84, "text": "So let's change this to coal."}
+{"start": 206.89, "end": 233.28, "text": "pool mining here, for example. And now we're gonna slide over and we're gonna create another if statement over here. And this is gonna be maybe more broadly mining. So we're gonna go equals if, and we're gonna use something called an or function here. So this or function, as it says, checks whether any of the arguments are true. So we can put multiple things in there if one of them is true."}
+{"start": 233.45, "end": 248.94, "text": "it will say that it's true. If both of them are true, it will say that it's true. Only if both of them are missing, we'll say that it's false. Okay, so let's take a look at how this works. So now we're going to group our kind of logical tests into this or function."}
+{"start": 249.38, "end": 250.16, "text": "will say."}
+{"start": 250.66, "end": 251.73, "text": "If this"}
+{"start": 252.42, "end": 253.62, "text": "equal to..."}
+{"start": 254.37, "end": 255.44, "text": "Full mining."}
+{"start": 259.21, "end": 259.79, "text": "Um..."}
+{"start": 260.71, "end": 262.22, "text": "Okay, or..."}
+{"start": 262.66, "end": 265.39, "text": "if this is equal to"}
+{"start": 265.96, "end": 275.92, "text": "foundries that would be potentially involved in smelting and things like that. So still maybe part of the mining industry. We're gonna close that in brackets."}
+{"start": 276.29, "end": 278.67, "text": "It will now search through that first column."}
+{"start": 279.05, "end": 286.99, "text": "If it's coal mining, if it's found trees, it will say this is true. And what do we wanna say when it's true? Well, let's call it mining."}
+{"start": 288.58, "end": 291.54, "text": "And afterwards we'll say \"non-mining\" again."}
+{"start": 293.41, "end": 295.41, "text": "Okay, so this allows us to..."}
+{"start": 295.94, "end": 302.16, "text": "create another column that's putting multiple industries into the same basket, and then we're comparing those sorts of baskets."}
+{"start": 302.57, "end": 305.39, "text": "So let's go look at what we've grabbed for mining."}
+{"start": 305.83, "end": 325.78, "text": "And we can see that we've got coal mining and foundries, both of them there, and we've grouped them under mining. So we can use that kind of nested OR function to be able to search for multiple things at once, kind of like that in the set of when we were looking at in R or in QGIS."}
+{"start": 326.98, "end": 352.6, "text": "All right, so next we're gonna use an if statement. So this allows us to have multiple conditions that can break up a continuous variable. So let's say we're looking at total error releases here, total facility counts. We can actually create kind of cutoffs and breaks in that continuous variable to categorize that data. So let's say we're gonna look at facility thresholds here."}
+{"start": 353.8, "end": 354.16, "text": "and"}
+{"start": 355.3, "end": 360.53, "text": "We're gonna use an if statement. It's ifs with an S on the end."}
+{"start": 360.97, "end": 364.43, "text": "and we're gonna do multiple logical tests."}
+{"start": 364.97, "end": 372.46, "text": "So, we're gonna say that if this is, if the facility counts are less than 10,"}
+{"start": 372.87, "end": 376.91, "text": "Then the true value, when that's true, we're gonna say that it's low."}
+{"start": 377.48, "end": 382.42, "text": "If it is, oops sorry, if the facility counts..."}
+{"start": 382.95, "end": 385.78, "text": "are less than 20."}
+{"start": 386.25, "end": 389.81, "text": "We're gonna say that that's sort of medium number of facilities."}
+{"start": 390.44, "end": 392.11, "text": "If the facility counts,"}
+{"start": 392.58, "end": 393.14, "text": "R"}
+{"start": 393.86, "end": 394.58, "text": "Rager"}
+{"start": 395.33, "end": 397.17, "text": "then 20."}
+{"start": 398.34, "end": 401.55, "text": "greater than or equal to 20, so be include 20."}
+{"start": 402.21, "end": 406.86, "text": "then our facilities are going to be considered a high number of facilities."}
+{"start": 408.2, "end": 413.01, "text": "So let me close that off so we can kind of build this sequentially. So it will first check."}
+{"start": 413.54, "end": 422.61, "text": "Is it low? Okay, if it's less than 10, it's low. Good. If that fails and it's greater than..."}
+{"start": 423.05, "end": 423.66, "text": "Um..."}
+{"start": 424.36, "end": 434.26, "text": "or sorry, it's less than 20, then it'll be medium. If then if it's more than 20, it will kick over to the third one and save at a time."}
+{"start": 435.24, "end": 460.41, "text": "So you can see now that that has looked across and said, okay, these ones are high, these ones are low, these ones are medium, high, okay? So that has broken that up now into something that we could maybe compare across, compare emissions across. You could look at maybe, are the number of facilities indicative of high emissions? Or even we could go back and look at the original dataset and look at what the kind of variability is amongst."}
+{"start": 460.68, "end": 477.1, "text": "different facilities. So this is something that allows us to kind of break that up into categories. We could do the same thing for the total releases to air and break this up into high, medium, and low categories as well. Okay. So we've got an if statement with a simple kind of"}
+{"start": 477.67, "end": 498.96, "text": "true false on a first search. We've got one that has multiple conditions that could be met for a true value. And then we've got one that kind of sequentially has different levels so you can break that variable up into continuous variables as well. Or sorry, break the continuous variables up in the categorical ones. Okay."}

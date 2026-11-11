@@ -1,0 +1,706 @@
+Introduction to the
+National Pollutant Release
+Inventory (NPRI)
+
+
+
+
+October 6, 2026
+Agenda of the presentation
+Chapter 1- Introduction
+
+•   Overview of the NPRI Program
+•   History of the NPRI
+•   What information is reported to the NPRI?
+•   Which substances are reported?
+•   Who needs to report to the NPRI?
+
+Chapter 2 - Annual activities and mapping
+
+•   NPRI reporting cycle
+•   Quality control of data
+•   Mapping data
+
+Chapter 3 - Using NPRI and data products
+
+•   Interpretation and use of data
+•   Analyzing data
+•   Tools for Accessing NPRI Data
+•   NPRI data application
+
+
+
+
+2
+Chapter 1 - overview of the NPRI program
+
+•   The NPRI is Canada’s Pollutant Release
+    and Transfer Register.
+
+•   It falls under the Canadian
+    Environmental Protection Act, 1999
+    (CEPA), and is implemented by
+    Environment and Climate Change
+    Canada (ECCC).
+
+•   The NPRI covers releases,
+    disposals and transfers
+    for recycling of over
+    491 pollutants from over 7,000 facilities.
+
+•   The NPRI provides tools and guidance to
+    assist facilities with reporting.
+
+
+
+
+3
+    History of the NPRI
+•    Reporting requirements were established in 1992 by a multi-
+     stakeholder advisory committee, with representatives from federal,
+     provincial and territorial governments, industry and environmental
+     organization.
+
+•    Original NPRI list of substances was derived through stakeholder
+     consultation.
+      •   A large measure of consensus was achieved, with several items to be
+          discussed as the program develops.
+
+•    In 1993, the first reporting year, 178 substances were listed.
+
+
+
+
+4
+Starting point: Toxics Release
+Inventory substance list
+•   The United States’ Toxics Release Inventory (TRI) substance list from 1990 was
+    used as a starting point.
+
+•   In 1990, the Toxics Release Inventory listed about 320 substances/groups of
+    substances that cause:
+
+     •   Cancer or other chronic human health effects
+     •   Significant adverse acute human health effects
+     •   Significant adverse environmental effects
+
+•   Substances included persistent organic pollutants, metals, ozone-depleting
+    substances, pesticides, etc.
+
+•   A number of substances were removed from consideration – those that were
+    not used in Canada, determined using Canada’s Domestic Substances List.
+
+
+
+5
+    Initial NPRI candidate list
+•       Substances on both the Toxic Release Inventory list and the
+        Domestic Substances List.
+
+•       Substances that were used in quantities smaller than 1 metric
+        tonne per year were removed from consideration.
+
+         • Considered a reasonable cut-off, since the original threshold
+           was 10 metric tonnes.
+                                                                      178 Substances
+
+•       Substances also removed
+        from consideration:                          Canada’s              US Toxics
+          • Pesticides                               Domestic              Release
+                                                    Substances            Inventory
+          • Ozone-depleting substances                  List                  list
+          • Certain regulated or banned
+            substances
+    6
+What information is reported to the NPRI?
+                            •   Pollutant Quantities
+                            Releases: air, surface water, land
+                            and <1 tonne in total
+                            Disposals (on- or off-site): landfill,
+                            land application, underground
+                            injection, tailings and waste rock.
+                            Transfers (off-site): treatment,
+                            recycling or energy recovery
+                            (including the destination of the
+                            transfer)
+
+                            •   Other information
+                            Facility information: location,
+                            industry type, contacts
+                            Pollution Prevention activities
+                            Reasons for changes compared
+                            to quantities reported from
+                            previous years
+                            And more…
+
+
+7
+Which substances are reported?
+    Part      Reporting criteria
+    Part 1A   Core Substances that must be reported if they are manufacture, processed or
+              otherwise used, referred to as MPO for short, in amounts exceeding the reporting
+              thresholds ( ≥10 tonnes at 1% concentration).
+
+    Part 1B   Substances with alternate reporting threshold that must be reported when they are
+              MPO at lower reporting concentration or in smaller quantities.
+
+    Part 1C   These substances are per- and polyfluoroalkyl substances (PFAS). PFAS are used in
+              many commercial applications and industrial sectors and are found in a wide range
+              of products.
+    Part 2    Polycyclic Aromatic Hydrocarbons (PAHs) with a higher threshold for grouped PAHs
+              and a smaller threshold for individual PAHs.
+
+
+    Part 3    Dioxins, furans and hexachlorobenzene produced by specific activities, mainly as by-
+              producsts of industrial and combustion processes.
+
+
+    Part 4    Criteria Air Contaminants (CACs). These substances are produced primarily by
+              processes such as combustion, incineration and other industrial processes and
+              contribute to air pollution issues such as acid rains and smog.
+
+
+    Part 5    These are individual or speciated volatile organic compounds (VOCs) that must be
+8             reported when releases to the air in a quantity ≥ 1 tonne.
+    Who needs to report to the NPRI?
+Reporting to the NPRI is mandatory under the Canadian Environmental
+Protection Act, 1999 (CEPA). Reports are due as indicated in the
+Canada Gazette. Owners and operators of facilities that meet the NPRI
+reporting requirements published in the Canada Gazette, Part I, must
+report to the NPRI.
+In general, facilities are required to report to the NPRI if:
+
+•       the total number of hours worked at the facility exceeded the 20,000-hour
+        threshold (approximately 10 full-time employees)
+
+•       they are engaged in certain activities (for example: wood preservation,
+        incineration or burning fuels in stationary combustion equipment)
+
+•       they manufacture, process, use or release NPRI substances in quantities
+        above the reporting thresholds
+
+
+
+
+    9
+What information is not reported to the NPRI?
+The NPRI does not provide a comprehensive picture of all sources of pollution in
+Canada. However, it does paint a general portrait of pollutant releases over time.
+
+• The NPRI does not collect data on nonpoint source emissions. The Air Pollutant
+  Emissions Inventory (APEI) produces reports that include additional sources
+  such as transportation and agriculture.
+
+• Not all Canadian facilities are required to report to the NPRI (e.g., they don't
+  meet the thresholds).
+
+• Not all substances are listed on the NPRI. Some substances not found on the
+  NPRI may be regulated by other ECCC programs, including the:
+
+       • Greenhouse Gas Reporting Program (GHGRP);
+       • Air Pollutant Emissions Inventory (APEI);
+       • Black Carbon Emissions Inventory.
+
+
+
+  10
+  Types of facilities
+Some industrial sectors:
+
+       • Oil and gas extraction, chemical pulp mills, petroleum refineries,
+         mining, metal manufacturing, chemical manufacturing
+
+Treatment facilities:
+
+       • Waste treatment and disposal, sewage treatment facilities
+
+Some services facilities:
+
+       • Electric power generation, airports, cargo handling, research and
+         development facilities, hospitals
+
+Government facilities:
+
+       • National Defence, Correctional Services
+
+  11
+ Estimation methods
+• Facilities are able to choose the best available method to prepare
+  their release estimates.
+      • If the facility is required by law to measure or monitor releases, disposals or
+        transfers for recycling, the facility must use those data to report to the NPRI
+                                                RQ - Remote Quantification   SP - Speciation profile   C - Mass Balance
+• Bases of estimate:                                       0%                          1%                    10%
+                                                                                                                 E1 - Site Specific
+                                            O - Engineering                                                      Emission Factors
+                                               Estimates                                                                 3%
+      •   continuous emission                     22%
+
+          monitoring systems
+      •   predictive emission
+          monitoring
+                                        M3 - Source
+      •   source testing                  Testing
+      •   remote quantification             14%
+
+      •   mass balance
+                                         M2 - Predictive
+      •   site-specific emission factor      Emission
+      •   published emission factor        Monitoring
+                                                1%
+                                                                                                              E2 - Published
+                                                                                                             Emission Factors
+      •   speciation profile                                                                                        46%
+      •   engineering estimates          M1 - Continuous
+                                        Emission Monitoring
+                                                     3%              Estimation method breakdown in 2023
+
+
+ 12
+Other inventories
+     Program                      Overview                      For more information…
+ECCC                 • 27 listed GHGs                       https://www.canada.ca/en/envir
+Greenhouse Gas       • 10 kt CO2 eq. annual threshold       onment-climate-
+Reporting              and facilities engaged in specific   change/services/climate-
+Program (GHGRP)        activities                           change/greenhouse-gas-
+                     • 1732 facilities reported in 2021     emissions/facility-reporting.html
+ECCC Air             • 17 listed substances and groups of   https://www.canada.ca/en/envir
+Pollutant Emission     substances                           onment-climate-
+Inventory (APEI)     • NPRI data is used for various        change/services/pollutants/air-
+                       industrial sectors including ore     emissions-inventory-overview.html
+                       and mineral industries, as well as
+                       manufacturing
+                     • NPRI data is not used for sectors
+                       such as transportation and
+                       agriculture
+Black Carbon         • Black carbon emitted in PM2.5        https://www.canada.ca/en/envir
+Inventory              resulting from combustion            onment-climate-
+                     • APEI/NPRI data used for various      change/services/pollutants/black-
+                       sectors                              carbon-emissions-inventory.html
+
+
+
+13
+ Pollutant inventories around the world
+Canada participates in international partnerships to advance
+global PRTRs development and help countries establish their own
+programs
+• UNECE - (Kyiv Protocol)
+• OECD
+• UNITAR
+• CEC
+
+
+
+
+ International PRTR Data and Tools
+
+ 14
+Chapter 2 - The NPRI annual reporting cycle
+
+
+
+
+15
+Consultations
+•    A consultative process was
+     used to design the NPRI and is
+     used for the consideration of
+     changes.
+
+•    Key components:
+      • Established a standing
+        multi-stakeholder group;
+      • Clear expectations
+        provided at the outset;
+      • Criteria for evaluating
+        changes; and
+      • Final decision on changes
+        remains with ECCC.
+
+
+
+
+16
+  Making changes to NPRI reporting
+  requirements
+The NPRI substance list, reporting requirements, and supplementary
+information are reviewed regularly. Anyone can submit a request to review
+NPRI reporting requirements.
+
+1. For a substance:
+     • Is it manufactured, processed or otherwise used in Canada?
+     • Is it of health and/or environmental concern?
+     • Do facilities contribute significant releases of the substance?
+     • Does its inclusion support one or more of the objectives of the NPRI?
+
+2. For modification of reporting thresholds:
+     • Science-based justification;
+     • Capability of facilities to provide the required information;
+     • Evidence of the significance of releases.
+
+
+  17
+Compliance promotion
+•    The NPRI sends reminder emails
+     to facilities at the launch of
+     reporting, and near the
+     reporting deadline;
+
+•    Targets sectoral activities
+     based on identified priorities to
+     promote compliance and
+     inform potentially non-reporting
+     facilities of the reporting
+     requirements, completeness
+     and accuracy of submitted
+     reports;
+
+•    Enforcement action is
+     sometimes necessary.
+
+
+18
+Advice and support: Guidelines for reporting
+to the NPRI
+
+NPRI Report Types      •   If a facility reported the previous
+                           year, but no longer meets the
+                           reporting requirements, they must
+• Inventory Report         submit a DNMC
+
+• Does Not Meet        •   Facilities are required to submit a
+  Criteria (DNMC)          report if the facility has been sold,
+                           closed or purchased
+  Report
+• Sale, Closure or     •   Both these types of reports help
+                           with QC and compliance
+  Purchase Report          promotion since it helps us track
+                           which facilities belong to who and
+                           whether we need to follow up
+
+
+
+
+19
+Guidance and support: tools to help
+facilities calculate emissions
+
+• The NPRI provides different tools to help facilities estimate their
+  releases, disposals and transfers
+
+• Sector specific tools include:
+    • e.g. aluminium production, asphalt plants, beer brewing, grain
+      handling, wood preservation
+
+• General tools include:
+    • Fuel combustion calculators
+        • Diesel, natural gas, gasoline, fuel oil
+    • Fugitive emissions calculators
+        • Dust from unpaved roads
+        • Abrasive blasting
+        • Wet cooling towers
+
+
+
+20
+  Data collection: how to report to the NPRI?
+Facilities that meet the NPRI’s reporting requirements must complete a
+comprehensive report on their pollutant releases, disposals and transfers
+using the online reporting system which is part of Environment and Climate
+Change Canada's Single Window (SW).
+• National Pollutant Release Inventory
+• Greenhouse Gas Reporting
+• Mine Effluent Reporting System
+• Effluent Regulatory Reporting Information System
+• Canadian Notification and Movement Tracking System
+• Pollution Prevention Planning Notices
+• Environmental Emergency Regulations Reporting System
+
+
+  21
+ Quality control of data
+• Data assurance and quality control are performed by:
+
+      • NPRI employees;
+      • Environnement and Climate Change Canada sector experts;
+      • Industry associations
+
+• Facilities are regularly encouraged to verify their own data.
+
+• Examples of common reporting errors observed during quality control
+  activities:
+
+      •   Using inappropriate reporting units and decimal errors:
+      •   Omitting a substance or the source of a release;
+      •   Using incorrect reference data or assumptions for calculations;
+      •   Forgetting the (-) sign in the facility’s geographical coordinates.
+
+
+
+ 22
+ Quality control of data
+• Incorrect latitude and longitude coordinates can lead to interesting
+  facility locations
+
+
+
+
+ 23
+Data publication: online data search
+
+
+
+
+24
+Data publication: mapping data
+
+
+
+
+25
+  Chapter 3 : Using NPRI data
+Since the program
+was created, many
+substances have
+been modified,
+added or deleted.
+
+It is important to
+always consult the
+history of reporting
+requirements before
+analyzing or
+interpreting NPRI
+data over time, to
+avoid false
+conclusions.
+
+
+  26
+Interpretation and use of data
+The guide for using and interpreting NPRI Data is a resource available
+on the NPRI website. You can use it to identify potential sources of error
+and factors to consider before interpreting datasets.
+
+Avoiding double-counting (an example using TRS):
+
+
+
+
+27
+Interpretation and use of data: PM
+•    Reporting thresholds for particulate matter: • Can meet the
+                                                    threshold(s) for one or
+         Size fraction        Threshold             two of the smaller
+                                                    fractions without
+       PM 2.5             0.3 tonnes                necessarily meeting the
+       PM10               0.5 tonnes                threshold(s) for larger
+       Total PM (TPM)     20 tonnes                 fraction(s)
+
+
+                                                              PM2.5
+
+
+
+
+28
+ Interpretation and use of data: VOCs
+The NPRI has over 100 VOCs listed under different reporting criteria.
+Facilities may have to report them as:
+    • a total of all volatile organic compounds, under Part 4
+    • individual compounds (under Parts 1 and 2, and speciated
+        compounds under Part 5)
+
+
+
+
+ 29
+Analyzing data
+•    Various dimensions of analysis possible: geolocation, industry,
+     substance, facility, company, environmental compartment, pollution
+     prevention data, timeline, etc.
+•    Contextual data available: reasons for change, comments, facility
+     activities, etc.
+
+NPRI Information products
+•    Data Highlights: A high-level annual summary of the most recently
+     reported data
+•    Overview Series: Interactive maps on targeted sectors and
+     substances of interest
+•    Data Integration Series: Interactive maps designed to demonstrate
+     linkages with other environmental datasets
+
+
+
+30
+Tools for accessing NPRI data
+NPRI Online Query Site
+Quick, easy to find information on a
+particular facility.
+
+NPRI Map Layers for Use in Google
+Earth
+Explore NPRI data in an intuitive and
+visual way.
+
+MS Excel or CSV Files – Tabular Data
+Most common fields in a simplified
+spreadsheet format.
+
+
+
+
+31
+Tools for accessing NPRI data
+ MS Excel or CSV files – Bulk Data       NPRI Database
+ Analyze grouped data by sets for        All data for all years. Useful for custom
+ releases, disposals and transfers for   analysis for “technical” users.
+ all reporting years since 1993.
+
+
+
+
+32
+Tools for accessing NPRI data
+ Power BI Dashboard
+
+ The NPRI Dashboard allows you to
+ search data from 2013 to 2023 in
+ visual representations such as
+ interactive maps, graphs and
+ tables. The search is by pollutant,
+ facility, location or industrial sector,
+ and provides information on
+ pollution prevention activities.
+
+
+
+
+33
+    Uses of NPRI data
+•    To identify pollution prevention priorities;
+•    To support the assessment and management of risks from chemicals,
+     e.g. under the Chemicals Management Plan (CMP), and air quality
+     modelling;
+•    To complement monitoring data from other programs, e.g. water and
+     air quality monitoring.
+•    To encourage actions to reduce releases of pollutants into the
+     environment;
+•    To improve public understanding and support research on pollutants;
+•    To support annual international reporting.
+
+Public “right-to-know” is a fundamental underlying principle of the NPRI.
+
+
+
+
+    34
+NPRI reports
+•    Each overview provides an
+     overview of a specific
+     industry, while promoting
+     NPRI data and innovation in
+     environmental
+     improvements:
+      •   Sectors
+      •   Substances
+      •   Regional overviews
+      •   Data integration
+
+•    Analyzes trends in emissions
+     over time
+
+
+
+35
+ NPRI Academic Challenge
+ •    Conduct innovative research projects using National Pollutant Release
+      Inventory (NPRI) data
+ •    Learn how to use the NPRI database and select a research topic of common interest to
+      ECCC and the students
+ •    Gain hands-on experience using and analyzing real-world pollution data, gain practical
+      experience researching a science project from start to finish and contribute to the
+      communication of science in Canada.
+
+
+Examples of past projects
+      -Dalhousie University (2021): Human Health Implications of Mercury Exposure in Nova Scotia
+
+      -Université de Sherbrooke (2020): Case study on the pulp and paper industry in Canada, and
+      trends in NPRI data over time
+
+      -Université du Québec en Abitibi-Témiscamingue (2021): Analysis of critical and strategic
+      metals releases in Quebec and Canada: opportunities for the enhancement of metals in
+      industrial discharges.
+
+
+ 36
+Academic Challenge
+Group                     Sector
+                                                     Project leads:
+  1      Natural Resource Extraction (except coal)   • How have pollutant releases changed
+                                                       over the years across different countries
+  2               Coal and lignite mining
+                                                       in each industry?
+  3               Electricity Generation             • How do facilities compare in terms of
+  4     Automotive & Transportation Manufacturing
+                                                       pollutants across various release
+                                                       mediums, disposals and transfers?
+  5               Paper manufacturing                • Are there statistically significant
+  6           Wood product manufacturing               differences between Canadian and
+                                                       German industrial releases between
+  7               Petroleum processing
+                                                       facilities? Over time?
+  8              Chemical manufacturing
+                                                     • What might explain these differences?
+  9           Metal Production & Processing          • Which locations consistently show high
+ 10                Waste Management                    pollution levels, and what interventions
+ 11              Waste Water Treatment
+                                                       might be effective?
+
+
+
+
+37
+                         Thank you!
+                         Questions?
+
+NPRI and Substance Information Division
+Science Reporting and Assessment Directorate
+Science and Technology Branch
+Environment and Climate Change Canada
+
+https://canada.ca/NPRI
+
+
+
+
+ 38
+Academic Challenge
+Project leads:                                         •   Summary
+                                                       •   Introduction
+• How have pollutant releases changed over the
+                                                            •   Environmental and health
+  years across different countries in each industry?            impacts
+• How do facilities compare in terms of pollutants          •   Processes that produce
+                                                                dioxins
+  across various release mediums and transfers?
+                                                       •   Methods
+• Are there statistically significant differences
+                                                            •   Data Collection
+  between Canadian and German industrial releases           •   Data Analysis
+  between facilities? Over time?                            •   Limitations
+• What might explain these differences?                •   Results
+• Which locations consistently show high pollution          •   Dashboard
+  levels, and what interventions might be effective?              • Power BI
+                                                                  • Tableau
+                                                            •   Maps
+                                                       •   Discussion
+                                                       •   Conclusion
+
+
+
+
+39
+
